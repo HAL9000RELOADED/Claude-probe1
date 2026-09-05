@@ -108,7 +108,15 @@ try {
         Write-Host "Preparo una copia filtrata di $($relPaths.Count) file in $stagingDir ..." -ForegroundColor DarkGray
         foreach ($rel in $relPaths) {
             $src = Join-Path $LocalPath $rel
-            if (-not (Test-Path $src -PathType Leaf)) { continue }  # submodule/symlink strani: salta
+            # Test-Path -PathType Leaf throws "Caratteri non validi nel
+            # percorso" on some emoji filenames (e.g. astral-plane glyphs like
+            # the U+1F4CA in "2_📊_Grafici.py") - a PowerShell 5.1 path-
+            # validation quirk, confirmed 2026-09-05 (nas-dashboard-gui: it
+            # silently `continue`d past EVERY emoji-named file in pages/,
+            # so scp never sent them and a real code change sat un-deployed
+            # through two "successful" redeploys). [System.IO.File]::Exists
+            # is a direct .NET call that doesn't hit the same validation path.
+            if (-not [System.IO.File]::Exists($src)) { continue }  # submodule/symlink strani: salta
             $dst = Join-Path $stagingDir $rel
             $dstDir = Split-Path $dst -Parent
             if ($dstDir -and -not (Test-Path $dstDir)) {
