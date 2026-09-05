@@ -42,12 +42,22 @@ Write-Host "Creo la cartella remota $remoteDir (se non esiste)..." -ForegroundCo
 & ssh -p $SshPort -i $SshKey "$SshUser@$SshHost" "mkdir -p '$remoteDir'"
 if ($LASTEXITCODE -ne 0) { Write-Host "SSH mkdir fallito" -ForegroundColor Red; exit 1 }
 
-$items = Get-ChildItem -Path $LocalPath -Force
+## Esclusioni: .git non serve mai per far girare un container (e sul SECONDO
+## deploy di un repo gia' tracciato, scp fallisce con "Permission denied" sui
+## suoi .git/objects/* gia' caricati, che git scrive read-only) - .env va
+## escluso perche' per convenzione vive SOLO sul NAS (mai committato, spesso
+## nemmeno presente in locale) e un deploy non deve mai rischiare di
+## sovrascrivere credenziali reali gia' presenti li' con un file locale
+## stantio/di esempio. Le altre voci sono cache locali che non servono al NAS.
+$ExcludeNames = @(".git", ".claude", ".env", "__pycache__", ".pytest_cache", ".DS_Store", "Thumbs.db")
+
+$items = Get-ChildItem -Path $LocalPath -Force | Where-Object { $ExcludeNames -notcontains $_.Name }
 if (-not $items) {
-    Write-Host "LocalPath e' vuoto: $LocalPath" -ForegroundColor Red
+    Write-Host "LocalPath e' vuoto (o contiene solo elementi esclusi): $LocalPath" -ForegroundColor Red
     exit 1
 }
 $paths = $items | ForEach-Object { $_.FullName }
+Write-Host "Esclusi dalla sincronizzazione (se presenti): $($ExcludeNames -join ', ')" -ForegroundColor DarkGray
 
 Write-Host "Copio $($paths.Count) elementi da $LocalPath verso ${SshUser}@${SshHost}:$remoteDir/ ..." -ForegroundColor Cyan
 & scp -P $SshPort -i $SshKey -r @paths "${SshUser}@${SshHost}:${remoteDir}/"
