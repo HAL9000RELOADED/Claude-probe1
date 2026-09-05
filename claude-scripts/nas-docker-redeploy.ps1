@@ -75,7 +75,16 @@ if ($isGitRepo) {
     Write-Host "LocalPath e' un repo git - sincronizzo solo i file tracciati/non ignorati (git ls-files)..." -ForegroundColor DarkGray
     Push-Location $LocalPath
     try {
-        $relPaths = git ls-files -c -o --exclude-standard 2>$null
+        # -c core.quotepath=false: senza questo, git ls-files restituisce i nomi
+        # file non-ASCII (es. emoji) come stringhe con escape ottali tra
+        # virgolette (es. "pages/2_\360\237..._Grafici.py") invece del nome UTF-8
+        # reale - Join-Path/[System.IO.File]::Exists costruiscono poi un path
+        # inesistente e il file viene silenziosamente saltato dallo scp (bug
+        # reale, 2026-09-05: la tab "2_📊_Grafici.py" di nas-dashboard-gui non
+        # veniva mai deployata nonostante redeploy "riusciti"). Passare
+        # core.quotepath=false qui, invece di richiedere una config repo-locale
+        # permanente, disattiva l'escaping per questa sola invocazione.
+        $relPaths = git -c core.quotepath=false ls-files -c -o --exclude-standard 2>$null
         $gitOk = ($LASTEXITCODE -eq 0)
     } finally {
         Pop-Location
@@ -108,7 +117,15 @@ try {
         Write-Host "Preparo una copia filtrata di $($relPaths.Count) file in $stagingDir ..." -ForegroundColor DarkGray
         foreach ($rel in $relPaths) {
             $src = Join-Path $LocalPath $rel
-            if (-not (Test-Path $src -PathType Leaf)) { continue }  # submodule/symlink strani: salta
+            # Test-Path -PathType Leaf throws "Caratteri non validi nel
+            # percorso" on some emoji filenames (e.g. astral-plane glyphs like
+            # the U+1F4CA in "2_📊_Grafici.py") - a PowerShell 5.1 path-
+            # validation quirk, confirmed 2026-09-05 (nas-dashboard-gui: it
+            # silently `continue`d past EVERY emoji-named file in pages/,
+            # so scp never sent them and a real code change sat un-deployed
+            # through two "successful" redeploys). [System.IO.File]::Exists
+            # is a direct .NET call that doesn't hit the same validation path.
+            if (-not [System.IO.File]::Exists($src)) { continue }  # submodule/symlink strani: salta
             $dst = Join-Path $stagingDir $rel
             $dstDir = Split-Path $dst -Parent
             if ($dstDir -and -not (Test-Path $dstDir)) {
