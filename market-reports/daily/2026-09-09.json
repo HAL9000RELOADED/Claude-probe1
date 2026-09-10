@@ -1,0 +1,48 @@
+{
+  "lastRunDate": "2026-09-09",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "priceRef": 104.41,
+    "changePctOnPickDay": 8.99,
+    "group": "SP500",
+    "thesis": "Rialzo dell'8,99% in una seduta in cui il mercato generale ha chiuso in calo (Dow -1,16%, S&P500 proxy -0,58%) sul risk-off petrolio/healthcare. Catalizzatori concreti: upgrade Northland Securities, report di filiera su rialzo ~10% dei prezzi processori PC da ottobre, partecipazione Nvidia in Intel da ~30 miliardi $ resa nota, aumento di capitale da 20 miliardi $ (azioni a 95$) per capex/foundry. P/E aggiornato non reperito con fonte affidabile, non stimato.",
+    "invalidation": "Sotto 100,35 USD (minimo di seduta di martedi' 08/09). Size contenuta: balzo del 9% in una sola seduta gia' compresso nel prezzo, aumento di capitale comunque diluitivo, gap di processo vs TSMC ancora irrisolto.",
+    "date": "2026-09-09",
+    "dataDay": "Chiusura 08/09/2026 da dataset bulk"
+  },
+  "valuePick": {
+    "symbol": "INTU",
+    "name": "Intuit Inc.",
+    "priceRef": 318.85,
+    "changePctOnPickDay": -4.16,
+    "group": "SP500",
+    "thesis": "-54,78% dai massimi 52w (fonti esterne citano fino a -67% dal massimo storico assoluto) per paura di disruption da AI agentica su TurboTax/QuickBooks, narrativa condivisa con altri nomi software (Adobe, ServiceNow). Fondamentali pero' ancora solidi: ricavi FY26 +14%, guidance FY27 9-10% (23,28-23,51 mld$), Global Business Solutions/QuickBooks guidato 13-14%. Rallentamento TurboTax (2-3%) descritto come scelta strategica di pricing per acquisire clienti, non collasso della domanda. Management ha ampliato il buyback e sospeso le vendite di azioni dei dirigenti. Forward P/E citato dalle fonti attorno a 15,9x.",
+    "invalidation": "Sotto 313,05 USD (minimo di seduta di martedi' 08/09). Size contenuta: tesi di medio periodo contro una narrativa AI-disruption ancora aperta e non priva di fondamento, non un catalizzatore a breve termine.",
+    "verdict": "NON SEMBRA UN VALUE TRAP AL MOMENTO: crescita ricavi/guidance ancora a doppia cifra su gran parte del business, segnali di fiducia del management (buyback, stop vendite insider); ma il rischio strutturale AI-disruption e' reale e non va liquidato, da monitorare trimestre per trimestre.",
+    "rejected": [],
+    "date": "2026-09-09"
+  },
+  "etfSpotlight": {
+    "symbol": "XLV",
+    "name": "State Street Health Care Select Sector SPDR Fund",
+    "changePct": -2.57,
+    "tema": "Calo piu' marcato tra i 49 ETF monitorati martedi' 08/09, ben distaccato da XLF (-1,41%). Driver: concatenazione di notizie cliniche/operative negative in un solo giorno nel paniere farma/biotech/medtech - fallimento Fase 3 di Novartis (del-desiran, distrofia miotonica) e mancato obiettivo del farmaco pelacarsen (Novartis) in uno studio seguito da vicino, che raffredda anche le attese sul concorrente di Amgen (olpasiran, dati 2027-2028); Stryker in calo per vincoli di fornitura nella divisione vascolare periferica. Non un problema macro di settore ma tre notizie idiosincratiche concentrate lo stesso giorno.",
+    "date": "2026-09-09"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-05",
+    "updatedOn": "2026-09-06",
+    "stance": "Cauta e selettiva in attesa dei dati macro chiave della settimana. Nota di correzione emersa nel run del 09/09: la weekly ipotizzava BCE e CPI USA lo stesso giorno (giovedi' 11/9); una verifica mirata odierna chiarisce che la BCE decide giovedi' 10/9 (ore 14:15 CET, mercato che prezza ~88% di probabilita' di rialzo 25pb dopo inflazione area euro al 3,3% ad agosto) mentre il CPI USA di agosto arriva venerdi' 11/9 (8:30 ET) - due giornate distinte e consecutive, non un'unica seduta a doppio catalizzatore. Nessun aggiornamento della weekly in questo run (feriale): la correzione e' riportata solo nel daily, la weekly sara' aggiornata regolarmente sabato 12/9.",
+    "favor": ["Mega-cap USA/EU di qualita' rispetto a small/mid-cap growth fragili", "Azionario europeo come diversificazione, con BCE giovedi' 10/9 e CPI USA venerdi' 11/9 come catalizzatori distinti da monitorare in sequenza", "BTC/ETH come core crypto (mantenere, non aggiungere)", "Attesa attiva su BCE (10/9) e CPI USA (11/9) prima di aumentare l'esposizione direzionale"],
+    "avoid": ["Posizioni aggressive di duration lunga con i rendimenti in tensione", "Letture affrettate dei pullback di mercato come inizio di un'inversione di tendenza", "Sottovalutare il fronte Iran/Medio Oriente, ora esteso ad attacchi diretti su impianti sauditi (vedi daily 09/09)", "Aprire nuove posizioni su nomi colpiti duramente da notizie societarie specifiche senza approfondire caso per caso"],
+    "keyDrivers": ["BCE: decisione tassi giovedi' 10/9 ore 14:15 CET, probabilita' di rialzo 25pb ~88% dopo inflazione area euro al 3,3% ad agosto (da 2,9% a luglio)", "CPI USA di agosto: venerdi' 11/9 ore 8:30 ET, cinque giorni prima del FOMC del 16/9", "Escalation Medio Oriente: attacco Houthi su impianti energetici sauditi (08/09), Brent verso 99$, dopo il precedente scontro USA-Iran nello Stretto di Hormuz nel weekend del 6-7/9", "Labor Day USA lunedi' 7/9 (mercati chiusi)"],
+    "note": "Aggiornata l'ultima volta il 06/09/2026. Il run del 09/09 (feriale) ha rilevato e segnalato solo nel daily una correzione sul calendario BCE/CPI; nessuna modifica strutturale alla stance. Prossimo aggiornamento weekly: sabato 12/09."
+  },
+  "watchHistory": [
+    { "date": "2026-09-04", "note": "Dell IN LINEA, Oracle IN LINEA. Svolta dovish di Waller, rally corale su azionario/oro/crypto. Nuovi pick: Robinhood (momentum) e AeroVironment (value/contrarian). Scartato come trap: Fiserv. ETF in evidenza: SGLD.MI oro (+2,76%). NFP di agosto atteso quel pomeriggio.", "momentum": "HOOD", "value": "AVAV" },
+    { "date": "2026-09-07", "note": "Robinhood IN LINEA (chiusura 04/09 a 122,11$, -2,09% ma sopra invalidazione 113,13$). AeroVironment IN LINEA (chiusura 04/09 a 144,65$, -1,74% ma sopra invalidazione 140,62$). Entrambi i cali coerenti con il risk-off generale post-NFP di venerdi', nessuna notizia negativa specifica. Oggi Labor Day USA: dati fermi alla chiusura di venerdi' 04/09. Nuovi pick basati sull'ultimo dato disponibile: Sandisk (momentum, ciclo NAND/SSD in controtendenza al mercato) e Flutter Entertainment (value/contrarian, tasse gaming note ma fondamentali ancora in crescita). Scartato come trap: The Trade Desk (crescita ricavi crollata per concorrenza Amazon DSP). ETF in evidenza: EEM mercati emergenti (+1,82%, dollaro debole/scommesse su rialzo Fed ridotte). Escalation Iran/Hormuz nel weekend (attacco USA a tre petroliere iraniane).", "momentum": "SNDK", "value": "FLUT" },
+    { "date": "2026-09-09", "note": "Sandisk IN LINEA (chiusura 08/09 a 1.739,05$, -0,05%, ben sopra invalidazione 1.581$). Flutter Entertainment tecnicamente in linea in chiusura (100,53$, +0,41%, sopra invalidazione 99,85$) ma minimo intraday di oggi (97,02$) ha bucato l'invalidazione prima di recuperare - da monitorare con attenzione. Nuova escalation Houthi-Saudi Aramco (Brent verso 99$, Dow -628 punti). Rout settore salute (Novartis -10,89%, Amgen -10,03%, Stryker -8,87%) su fallimenti clinici concatenati, non su fattori macro. Corretta la data BCE (giovedi' 10/9, non 11/9 come nella weekly) vs CPI USA (venerdi' 11/9). Nuovi pick: Intel (momentum, upgrade+stake Nvidia+aumento capitale+rialzo prezzi PC, controtendenza al mercato generale) e Intuit (value/contrarian, paura AI-disruption su TurboTax/QuickBooks ma crescita ricavi/guidance ancora a doppia cifra). ETF in evidenza: XLV salute (-2,57%, fallimenti clinici Novartis + supply Stryker). Spike intraday: Computacenter (range 19,1%, chiusura -14,6% sotto il massimo).", "momentum": "INTC", "value": "INTU" }
+  ]
+}
