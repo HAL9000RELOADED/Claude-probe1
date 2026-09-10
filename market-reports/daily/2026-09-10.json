@@ -1,0 +1,49 @@
+{
+  "lastRunDate": "2026-09-10",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "META",
+    "name": "Meta Platforms, Inc.",
+    "priceRef": 653.36,
+    "changePctOnPickDay": 6.50,
+    "group": "SP500",
+    "thesis": "Rialzo del 6,50% in una seduta di terzo ribasso consecutivo per il mercato generale (S&P500 -0,48%, Dow -0,77%) sul risk-off petrolio/tassi. Catalizzatore concreto: lancio dell'agente AI personale Muse (collegato a Facebook/Instagram/WhatsApp e servizi terzi come OpenTable/Ticketmaster/Spotify/Shopify), con Morgan Stanley che stima un mercato potenziale degli agenti AI da 30.000 miliardi $. P/E aggiornato non reperito con fonte affidabile, non stimato.",
+    "invalidation": "Sotto 638,56 USD (minimo di seduta di mercoledi' 09/09). Size contenuta: balzo del 6,5% gia' ampio in giornata, Muse e' un lancio di prodotto nuovo non ancora testato su adozione reale/monetizzazione, possibile attenzione regolatoria su privacy per un agente che accede a dati Meta e compie acquisti per conto dell'utente.",
+    "date": "2026-09-10",
+    "dataDay": "Chiusura 09/09/2026 da dataset bulk"
+  },
+  "valuePick": {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "priceRef": 161.61,
+    "changePctOnPickDay": -0.56,
+    "group": "SP500",
+    "thesis": "-53,25% dai massimi 52w, +41,14% sopra i minimi (non in caduta libera continua). Causa del calo: rischio di leva finanziaria reale legato al capex AI - FY2026 capex ~55,66 mld$ vs FCF operativo 31,98 mld$ (FCF negativo ~23,69 mld$), guidance FY2027 capex netto ~70 mld$, piano di raccolta ~40 mld$ tra debito ed equity (incluso ATM equity da 20 mld$), downgrade S&P da BBB a BBB- il 9/7 (un gradino sopra junk). Elementi a favore: backlog contrattato (RPO) ~523 mld$, OCI +68% a/a, sell-side prevalentemente Buy nonostante tagli ai target (Citi 330$, Jefferies 290$, TD Cowen 240$, media citata ~247-248$ contro prezzo attuale 161,61$). Rischio principale: forte concentrazione dei ricavi su un singolo grande cliente AI (riconducibile a OpenAI secondo le fonti).",
+    "invalidation": "Sotto 160,38 USD (minimo di seduta di mercoledi' 09/09). Size molto contenuta: tesi che dipende da un singolo grande cliente AI e da un piano di finanziamento da 40 mld$ ancora da eseguire, rischio piu' elevato della media rispetto a un tipico pick value.",
+    "verdict": "NON UN VALUE TRAP CONCLAMATO ma rischio reale e non solo percepito: backlog enorme e rating sell-side ancora favorevole depongono per un'opportunita', ma leva in aumento, downgrade di rating e concentrazione su un singolo cliente sono fragilita' strutturali concrete da monitorare, non un semplice eccesso di pessimismo del mercato.",
+    "rejected": [],
+    "date": "2026-09-10"
+  },
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": 2.26,
+    "tema": "Variazione % piu' marcata (valore assoluto) tra i 49 ETF monitorati mercoledi' 09/09, davanti a XLI industriali (-1,51%). Driver: dollaro piu' debole (rende il metallo piu' economico per acquirenti in altre valute) + domanda da bene rifugio sull'incertezza in Medio Oriente + attese di tassi USA piu' bassi nel medio periodo, dinamica simile all'oro (GLD +0,91% lo stesso giorno) ma piu' accentuata sull'argento. Sia oro sia argento restano ben sotto i massimi di inizio 2026 (argento aveva superato 120$/oncia a gennaio): rimbalzo interno a un trend gia' molto ridimensionato dai picchi, non nuovo massimo storico.",
+    "date": "2026-09-10"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-05",
+    "updatedOn": "2026-09-06",
+    "stance": "Cauta e selettiva in attesa dei dati macro chiave della settimana. Nota di correzione emersa nel run del 09/09: la weekly ipotizzava BCE e CPI USA lo stesso giorno (giovedi' 11/9); una verifica mirata ha chiarito che la BCE decide giovedi' 10/9 (ore 14:15 CET, mercato che prezza ~88% di probabilita' di rialzo 25pb dopo inflazione area euro al 3,3% ad agosto) mentre il CPI USA di agosto arriva venerdi' 11/9 (8:30 ET) - due giornate distinte e consecutive, non un'unica seduta a doppio catalizzatore. Il run del 10/09 conferma: oggi la BCE ha (quasi certamente, consensus Reuters 65/65 economisti) alzato i tassi di 25pb al 2,50%, domani il CPI USA. Nessun aggiornamento strutturale della weekly in questo run (feriale): la weekly sara' aggiornata regolarmente sabato 12/9.",
+    "favor": ["Mega-cap USA/EU di qualita' rispetto a small/mid-cap growth fragili", "Azionario europeo come diversificazione, con BCE giovedi' 10/9 e CPI USA venerdi' 11/9 come catalizzatori distinti da monitorare in sequenza", "BTC/ETH come core crypto (mantenere, non aggiungere)", "Attesa attiva su BCE (10/9) e CPI USA (11/9) prima di aumentare l'esposizione direzionale"],
+    "avoid": ["Posizioni aggressive di duration lunga con i rendimenti in tensione", "Letture affrettate dei pullback di mercato come inizio di un'inversione di tendenza", "Sottovalutare il fronte Iran/Medio Oriente, esteso ad attacchi diretti su impianti sauditi e a un'escalation petrolio sopra i 100$/barile", "Aprire nuove posizioni su nomi colpiti duramente da notizie societarie specifiche senza approfondire caso per caso"],
+    "keyDrivers": ["BCE: decisione tassi giovedi' 10/9 ore 14:15 CET, rialzo 25pb a 2,50% considerato quasi certo (consensus Reuters 65/65 economisti) dopo inflazione area euro al 3,3% ad agosto", "CPI USA di agosto: venerdi' 11/9 ore 8:30 ET, cinque giorni prima del FOMC del 16/9", "Escalation Medio Oriente/petrolio: Brent sopra 101$ (+3,4% il 9/9), WTI ~96$ (massimo da maggio), rendimenti Treasury a nuovi massimi 52 settimane", "Labor Day USA lunedi' 7/9 (mercati chiusi)"],
+    "note": "Aggiornata l'ultima volta il 06/09/2026. I run feriali del 09/09 e 10/09 hanno confermato la stance senza modifiche strutturali, aggiornando solo il quadro macro (calendario BCE/CPI, escalation petrolio). Prossimo aggiornamento weekly: sabato 12/09."
+  },
+  "watchHistory": [
+    { "date": "2026-09-04", "note": "Dell IN LINEA, Oracle IN LINEA. Svolta dovish di Waller, rally corale su azionario/oro/crypto. Nuovi pick: Robinhood (momentum) e AeroVironment (value/contrarian). Scartato come trap: Fiserv. ETF in evidenza: SGLD.MI oro (+2,76%). NFP di agosto atteso quel pomeriggio.", "momentum": "HOOD", "value": "AVAV" },
+    { "date": "2026-09-07", "note": "Robinhood IN LINEA (chiusura 04/09 a 122,11$, -2,09% ma sopra invalidazione 113,13$). AeroVironment IN LINEA (chiusura 04/09 a 144,65$, -1,74% ma sopra invalidazione 140,62$). Entrambi i cali coerenti con il risk-off generale post-NFP di venerdi', nessuna notizia negativa specifica. Oggi Labor Day USA: dati fermi alla chiusura di venerdi' 04/09. Nuovi pick basati sull'ultimo dato disponibile: Sandisk (momentum, ciclo NAND/SSD in controtendenza al mercato) e Flutter Entertainment (value/contrarian, tasse gaming note ma fondamentali ancora in crescita). Scartato come trap: The Trade Desk (crescita ricavi crollata per concorrenza Amazon DSP). ETF in evidenza: EEM mercati emergenti (+1,82%, dollaro debole/scommesse su rialzo Fed ridotte). Escalation Iran/Hormuz nel weekend (attacco USA a tre petroliere iraniane).", "momentum": "SNDK", "value": "FLUT" },
+    { "date": "2026-09-09", "note": "Sandisk IN LINEA (chiusura 08/09 a 1.739,05$, -0,05%, ben sopra invalidazione 1.581$). Flutter Entertainment tecnicamente in linea in chiusura (100,53$, +0,41%, sopra invalidazione 99,85$) ma minimo intraday di oggi (97,02$) ha bucato l'invalidazione prima di recuperare - da monitorare con attenzione. Nuova escalation Houthi-Saudi Aramco (Brent verso 99$, Dow -628 punti). Rout settore salute (Novartis -10,89%, Amgen -10,03%, Stryker -8,87%) su fallimenti clinici concatenati, non su fattori macro. Corretta la data BCE (giovedi' 10/9, non 11/9 come nella weekly) vs CPI USA (venerdi' 11/9). Nuovi pick: Intel (momentum, upgrade+stake Nvidia+aumento capitale+rialzo prezzi PC, controtendenza al mercato generale) e Intuit (value/contrarian, paura AI-disruption su TurboTax/QuickBooks ma crescita ricavi/guidance ancora a doppia cifra). ETF in evidenza: XLV salute (-2,57%, fallimenti clinici Novartis + supply Stryker). Spike intraday: Computacenter (range 19,1%, chiusura -14,6% sotto il massimo).", "momentum": "INTC", "value": "INTU" },
+    { "date": "2026-09-10", "note": "Intel IN LINEA (chiusura 09/09 a 106,21$, +1,67%, estende il rally di martedi', ben sopra invalidazione 100,35$). Intuit tecnicamente in linea in chiusura (313,94$, -1,56%, sopra invalidazione 313,05$) ma per il secondo giorno consecutivo il minimo intraday (312,81$) ha bucato l'invalidazione prima di recuperare - pattern di debolezza crescente da monitorare con priorita'. Terza seduta di ribasso a Wall Street su escalation petrolio/Medio Oriente (Brent oltre 101$, WTI ~96$, massimo da maggio) e rendimenti Treasury a nuovi massimi 52w; S&P500 -0,48% (7.636,36), Nasdaq -0,64% (26.253,34), Dow -405pt (-0,77%, 52.380,66). Oggi BCE (14:15 CET, rialzo 25pb a 2,50% quasi certo), domani CPI USA. Rout broadband/cable: Comcast (-6,63% dataset, CFO parla di pricing 'irrazionale') e Charter (-8,10%, YTD oltre -30%) su perdite abbonati strutturali. Nuovi pick: Meta (momentum, lancio agente AI Muse, controtendenza al mercato generale) e Oracle (value/contrarian, -53% dai massimi su capex AI/debito/downgrade S&P a BBB-, ma backlog contrattato 523 mld$ e rating Buy prevalente sul sell-side - rischio piu' elevato della media per concentrazione su un singolo cliente). ETF in evidenza: SLV argento (+2,26%, dollaro debole + rifugio + attese tassi).", "momentum": "META", "value": "ORCL" }
+  ]
+}
