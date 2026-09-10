@@ -63,20 +63,38 @@ convention — see news section). GitHub: `HAL9000RELOADED/ibkr-forecastex-bot` 
 ## Crypto / Binance cluster
 
 ### `crypto-trading-bot` + `crypto-futures-bot`
-Same image (`crypto-trading-bot:latest`), two differently-configured instances. Observed config on
-the spot instance (before it went down mid-scan, see below): cross-sectional momentum
-(`CRYPTO_STRATEGIES=xs_momentum`) on 4h bars, a 120-period regime filter, top-10 of an 84-bar
-lookback ranking held at rank ≤25, up to 15 open positions, 5% position sizing, 20%/10% take-
-profit/stop-loss, synthetic fee 0.1%. `crypto-futures-bot` is presumably the same strategy family
-applied to futures rather than spot (per its container name and per a prior session's memory of
-"xs_momentum guardrails" work), but this could not be independently confirmed tonight — see below.
+Same image (`crypto-trading-bot:latest`), two containers, one spot book and one futures book,
+`crypto-futures-bot` `depends_on` the spot container but runs as an independent second paper book
+(`CRYPTO_MARKET=futures`, its own state dir) — not a dependency in the trading-logic sense.
 
-**Not independently verifiable tonight**: neither a local repo clone (only `binance-trading-bot`
-exists locally, and that one is explicitly a *different*, early-stage, testnet-only scaffold with no
-risk management yet — it does not match this deployment's much more mature config) nor a
-`HAL9000RELOADED` GitHub repo for `crypto-trading-bot`/`crypto-futures-bot` could be found. Whatever
-builds/maintains this deployment isn't visible from this machine's local clones or this GitHub
-account's repo list.
+- **Spot (`crypto-trading-bot`)**: cross-sectional momentum (`xs_momentum`) on 4h bars, ranks a
+  filtered universe (no tokenized stocks/stablecoins/wrapped, 24h quote volume ≥ $1M, ~150 symbols)
+  by 84-bar (14-day) risk-adjusted return, enters the top 10, holds while inside the top 25, longs
+  only while BTC is above its 120-bar (20-day) SMA. Sizing: 5% of equity per position, ≤15 open
+  (≤75% deployed). 20%/10% take-profit/stop-loss. Binance **Spot Testnet only** — real read-only
+  mainnet keys are optional (only used to look up real fee tiers), trading keys are testnet-only by
+  design.
+- **Futures (`crypto-futures-bot`)**: same `xs_momentum` family, USDⓈ-M perpetuals (~90 symbols,
+  24h quote volume ≥ $20M), long the top 10 **and short the bottom 10** — but only while BTC is
+  *below* its 200-bar (33-day) SMA ("always two-sided" books lost money on the short leg in every
+  backtest, per its own TODO.md). 1x leverage, same 5%/≤15-position sizing. **Fully simulated paper
+  book** — no exchange orders are placed at all for this one (mark-price fills + real funding-rate
+  history + published taker fee, no API key used).
+- Both: a kill-switch risk guard (flatten + halt at −20% from equity peak or −5% in a UTC day,
+  manually cleared via `docker exec ... python -m portfolio.risk_guard resume`), and an optional
+  macro-feature input sourced from `nas-market-scraper` (used only as a *predictive feature*, never
+  as trading price data).
+
+**Source — corrected after a follow-up check** (this scan's first pass wrongly concluded the source
+was untraceable): it lives locally at `C:\Users\murgoz\claude\binance-trading-bot` (folder name not
+yet updated, but its own `README.md`/`TODO.md` already open with "# crypto-trading-bot" — the
+project was renamed/evolved in place on 2026-09-06, not a separate project). It has **no GitHub
+remote configured** (`git remote -v` is empty) — it has never been pushed anywhere; it exists only as
+a local git checkout plus its NAS-deployed copy, kept in sync manually (the latest local commit is
+literally titled "Sync local checkout with NAS deployment"). A checksum check of
+`docker/docker-compose.yml` confirms the local checkout and the NAS deployment are currently
+identical. Not lost, just never published — worth pushing to GitHub if this project is meant to have
+the same durability/backup guarantee as everything else in this ecosystem.
 
 ---
 
@@ -145,7 +163,7 @@ flowchart TB
 
     subgraph CRYPTO["Binance (separate account/keys, unverified source)"]
         CTB["crypto-trading-bot<br/>xs_momentum, spot"]
-        CFB["crypto-futures-bot<br/>presumed futures variant"]
+        CFB["crypto-futures-bot<br/>xs_momentum, perps, long/short paper"]
     end
 
     subgraph POLY["Polymarket (all paper/dry-run)"]
@@ -194,11 +212,12 @@ flowchart TB
    Nothing indicates either bot currently *reacts* to the other's positions, but the coupling
    itself is structural, not accidental, and worth remembering before adding a third bot to this
    gateway.
-2. **`crypto-trading-bot`/`crypto-futures-bot` have no traceable source.** No local repo clone
-   matches their deployed config (the only local crypto repo, `binance-trading-bot`, is an
-   unrelated, much earlier-stage project), and no matching repo exists under the `HAL9000RELOADED`
-   GitHub account. Whatever built and maintains this deployment isn't reachable from this machine.
-   Worth finding out where its source actually lives before trusting it unattended.
+2. ~~`crypto-trading-bot`/`crypto-futures-bot` have no traceable source.~~ **Corrected on
+   follow-up**: it does have a source, `C:\Users\murgoz\claude\binance-trading-bot` locally
+   (renamed in place to "crypto-trading-bot" on 2026-09-06 — the first scan pass wrongly read the
+   stale folder name as "a different, unrelated project"). It simply has **no GitHub remote at
+   all** — never pushed, local-checkout-plus-NAS-copy only, currently confirmed in sync via
+   checksum. Not a mystery, just not backed up the way everything else in this document is.
 3. **Both crypto containers vanished mid-scan.** `crypto-futures-bot` was already gone and
    `crypto-trading-bot` went down between two consecutive `docker inspect` calls a few seconds
    apart — almost certainly another session actively redeploying it right now (there's a peer
