@@ -1,0 +1,51 @@
+{
+  "lastRunDate": "2026-09-14",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "CPRI",
+    "name": "Capri Holdings Limited",
+    "priceRef": 13.89,
+    "changePctOnPickDay": 7.84,
+    "group": "SP400_MIDCAP",
+    "thesis": "Rialzo del 7,84% dopo risultati 3Q fiscale 2026: EPS 0,48$ (da perdita di 4,61$ l'anno precedente), ricavi 1,03 mld$ (-19% a/a ma sopra attese), utile netto 57 mln$ (da perdita di 604 mln$). Turnaround guidato dalla cessione di Versace (bilancio stabilizzato) e da un piano di margine EBITDA dal 6,6% verso il 10% (rinnovo punti vendita, pricing, target consumatori piu' giovani). Scelto volutamente fuori dal comparto hardware/AI per l'allarme sullo sviluppo AI del weekend (Amodei/Altman). Analisti divisi: 1 strong buy/5 buy/9 hold/1 sell, target consensus 21,93$. P/E aggiornato non reperito con fonte affidabile, non stimato.",
+    "invalidation": "Sotto 13,035 USD (minimo di seduta di venerdi' 11/09). Size contenuta: nome mid-cap volatile (range di seduta quasi 8%), turnaround in fase iniziale con ricavi ancora in calo anno su anno, esposto alla ciclicita' dei consumi discrezionali/lusso.",
+    "date": "2026-09-14",
+    "dataDay": "Chiusura 11/09/2026 da dataset bulk (invariata nel weekend)"
+  },
+  "valuePick": {
+    "symbol": "COIN",
+    "name": "Coinbase Global, Inc.",
+    "priceRef": 175.26,
+    "changePctOnPickDay": 1.73,
+    "group": "SP500",
+    "thesis": "-56,42% dai massimi 52w, +25,99% sopra i minimi (non in caduta libera, oggi in rialzo). Causa del calo: due trimestri consecutivi di calo ricavi/perdita per contrazione dei volumi di trading su tutto il mercato crypto (ricavi trimestrali 1,4 mld$, -21% trim/-31% a/a; ricavi da transazioni 756 mln$), non un problema aziendale specifico individuato (nessuna perdita di quote di mercato o guaio normativo specifico riscontrato). Pattern a ondate (drawdown piu' profondo ~-45% a febbraio) che segue il ciclo del sentiment crypto. Elementi a favore: BTC ancora solo -38,7% dall'ATH (sentiment 'Greed' secondo la weekly), rating medio analisti 'Buy' (51 analisti: 21 buy/10 hold/3 sell, target mediano 227$, altre fonti 241-368$ medio) ben sopra il prezzo attuale, pur con dispersione ampia (120-510$).",
+    "invalidation": "Sotto 172,80 USD (minimo di seduta di venerdi' 11/09). Size contenuta: ricavi altamente ciclici e sensibili a volumi/volatilita' del mercato crypto, esposizione indiretta amplificata proprio in una settimana con FOMC potenzialmente di impatto (16/9).",
+    "verdict": "NON UN VALUE TRAP: il calo riflette il ciclo di mercato crypto (volumi/volatilita' in contrazione), non un deterioramento competitivo o strutturale specifico di Coinbase; consensus sell-side ancora favorevole con target ben sopra il prezzo attuale.",
+    "rejected": [],
+    "date": "2026-09-14"
+  },
+  "etfSpotlight": {
+    "symbol": "XLK",
+    "name": "Technology Select Sector SPDR Fund",
+    "changePct": 1.32,
+    "tema": "Variazione % piu' marcata tra i 49 ETF monitorati venerdi' 11/09, davanti a EEM mercati emergenti (+1,25%) e SLV argento (+1,08%). Driver: prosecuzione del rally hardware server/infrastruttura AI innescato dalla guidance capex/cloud di Oracle di mercoledi' 10/9 (RPO 664 mld$, cloud infrastructure +121%): HPE +12,44%, Dell +11,98%, NetApp +8,54%, HP Inc. +8,40%, ON Semiconductor +8,51%. Nota di rischio: l'allarme weekend di Amodei (Anthropic)/Altman (OpenAI) sullo sviluppo AI ha gia' fatto scendere i future Nasdaq 100 dell'1,2% nella notte tra domenica e lunedi', proprio per questo comparto.",
+    "date": "2026-09-14"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-12",
+    "updatedOn": "2026-09-13",
+    "stance": "Cauta ma selettivamente risk-on (vedi artefatto weekly per il dettaglio completo). Il run tattico odierno (14/9) segnala uno sviluppo nuovo rispetto alla formulazione della weekly: allarme weekend di Amodei (Anthropic)/Altman (OpenAI) sullo sviluppo AI, che ha fatto scendere i future Nasdaq 100 dell'1,2% nella notte, un rischio diretto per il tema hardware/AI favorito dalla weekly. Nessuna modifica strutturale alla weekly in questo run (feriale): da monitorare nella seduta odierna e da integrare nel prossimo aggiornamento weekly di sabato 19/09 se l'impatto si confermasse rilevante.",
+    "favor": ["Filiera hardware server/infrastruttura AI - tema confermato ma ora con un rischio weekend nuovo (allarme Amodei/Altman), size ancora piu' contenuta del solito", "Mega-cap USA/EU di qualita'", "Azionario europeo come diversificazione", "BTC/ETH come core crypto (mantenere, non aggiungere aggressivamente)"],
+    "avoid": ["Duration lunga prima del cluster FOMC (16/9)/BoE (17/9)/BoJ (17-18/9)", "Inseguire oro/argento dopo scossoni", "Sottovalutare il fronte Iran/Hormuz", "Da oggi: inseguire il rally hardware/AI dopo l'allarme weekend sullo sviluppo AI (Amodei/Altman)"],
+    "keyDrivers": ["Allarme AI del weekend (13-14/9): saggio di Amodei (Anthropic) per rallentare lo sviluppo dei modelli, Altman (OpenAI) esclude IPO 2026 per motivi di sicurezza - future Nasdaq100 -1,2%, S&P500 -0,6%, Dow -0,4% nella notte", "FOMC 15-16/9: probabilita' di rialzo salita a ~85,5% secondo CME FedWatch (12/9), in aumento rispetto al 70-90% di sabato", "Oracle: spike intraday venerdi' (max 165,99$, chiusura 150,28$ -1,74%), volatilita' post-trimestrale (RPO 664 mld$ ma guidance EPS FY27 solo in linea)", "Rimbalzo di Wall Street di venerdi' 11/9 (S&P500 +0,9%, Dow +1%, Nasdaq +1%) trainato da hardware/AI (HPE, Dell, NetApp, HP Inc, ON Semi tutti +8/+12%)", "Petrolio in rialzo su tensione Iran/Hormuz senza de-escalation nel weekend"],
+    "note": "Vedi artefatto weekly per il quadro macro completo della settimana (14-18/9). Prossimo aggiornamento weekly: sabato 19/09."
+  },
+  "watchHistory": [
+    { "date": "2026-09-04", "note": "Dell IN LINEA, Oracle IN LINEA. Svolta dovish di Waller, rally corale su azionario/oro/crypto. Nuovi pick: Robinhood (momentum) e AeroVironment (value/contrarian). Scartato come trap: Fiserv. ETF in evidenza: SGLD.MI oro (+2,76%). NFP di agosto atteso quel pomeriggio.", "momentum": "HOOD", "value": "AVAV" },
+    { "date": "2026-09-07", "note": "Robinhood IN LINEA, AeroVironment IN LINEA. Nuovi pick: Sandisk (momentum) e Flutter Entertainment (value/contrarian). Scartato come trap: The Trade Desk. ETF in evidenza: EEM (+1,82%). Escalation Iran/Hormuz nel weekend.", "momentum": "SNDK", "value": "FLUT" },
+    { "date": "2026-09-09", "note": "Sandisk IN LINEA. Flutter tecnicamente in linea ma minimo intraday ha bucato l'invalidazione. Rout settore salute (Novartis, Amgen, Stryker). Nuovi pick: Intel (momentum) e Intuit (value/contrarian). ETF in evidenza: XLV salute (-2,57%).", "momentum": "INTC", "value": "INTU" },
+    { "date": "2026-09-10", "note": "Intel IN LINEA. Intuit tecnicamente in linea ma minimo intraday ha bucato l'invalidazione per il secondo giorno. Terza seduta di ribasso su escalation petrolio. BCE rialzo 25pb atteso. Nuovi pick: Meta (momentum) e Oracle (value/contrarian). ETF in evidenza: SLV (+2,26%).", "momentum": "META", "value": "ORCL" },
+    { "date": "2026-09-11", "note": "Meta IN LINEA. Oracle INVALIDATO (chiusura 153,17$ -5,23%, minimo di seduta gia' sotto invalidazione). Quarta seduta di ribasso, poi PPI USA hawkish (5,4% a/a). Nuovi pick: Skyworks Solutions (momentum) e Sterling Infrastructure (value/contrarian). Scartato come trap: CoStar Group. ETF in evidenza: SLV (-5,30%).", "momentum": "SWKS", "value": "STRL" },
+    { "date": "2026-09-14", "note": "Skyworks IN LINEA e rafforzato (chiusura 11/09 a 88,35$, +5,14%). Sterling Infrastructure IN LINEA e rafforzato (chiusura 11/09 a 511,04$, +5,40%). Weekend: allarme Amodei (Anthropic)/Altman (OpenAI) su rallentamento sviluppo AI, future Nasdaq100 -1,2%. Oracle spike intraday venerdi' (max 165,99$, chiusura -1,74%). FOMC 16/9: probabilita' rialzo salita a ~85,5%. Nuovi pick, scelti fuori dal comparto AI per il rischio weekend: Capri Holdings (momentum, turnaround post-cessione Versace) e Coinbase (value/contrarian, calo legato al ciclo crypto non a problemi aziendali specifici). ETF in evidenza: XLK tecnologia (+1,32%, rally hardware/AI di venerdi', ora a rischio per l'allarme weekend).", "momentum": "CPRI", "value": "COIN" }
+  ]
+}
