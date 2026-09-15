@@ -1,0 +1,50 @@
+{
+  "lastRunDate": "2026-09-15",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings, Inc.",
+    "priceRef": 235.38,
+    "changePctOnPickDay": 13.85,
+    "group": "SP500",
+    "thesis": "Rialzo del 13,85% (quasi ai massimi 52 settimane) alla guida di un rally corale della cybersecurity (Zscaler +12%, Palo Alto +13%, Fortinet +9%, Qualys +15%, Okta +12%), in netta controtendenza rispetto a S&P500 (-0,48%) e Nasdaq (-0,56%). Catalizzatori: appello weekend di Amodei (Anthropic)/Altman (OpenAI)/Musk (SpaceX)/Hassabis (Google DeepMind) a rallentare lo sviluppo AI, e violazione dati Revolut confermata nel weekend. Consensus Buy (53 analisti S&P Global), target medio pre-rally 210,54-221,13$ - il prezzo attuale (235,38$) e' gia' sopra questi target, rischio concreto di ritracciamento/presa di profitto.",
+    "invalidation": "Sotto 216,17 USD (minimo di seduta di lunedi' 14/09). Size contenuta: titolo vicino ai massimi 52 settimane con balzo a doppia cifra e prezzo sopra i target medi analisti pre-rally.",
+    "date": "2026-09-15",
+    "dataDay": "Chiusura Wall Street lunedi' 14/09/2026 da dataset bulk"
+  },
+  "valuePick": {
+    "symbol": "PODD",
+    "name": "Insulet Corporation",
+    "priceRef": 137.80,
+    "changePctOnPickDay": 4.43,
+    "group": "SP500",
+    "thesis": "-61,17% dai massimi 52w, +9,02% sopra i minimi (non in caduta libera, oggi in forte rialzo). Causa del calo: taglio della guidance 2026 sui ricavi per ritenzione piu' debole del previsto tra pazienti diabete tipo 2 e concorrenza crescente (Medtronic, Dexcom), nonostante crescita ricavi Q2 2026 del 23,5% e buona redditivita'. Artisan Partners ha citato la concorrenza tra i motivi di vendita della propria quota. Due dimissioni dal CdA a inizio settembre per motivi personali/non aziendali (rumore di governance). Elementi a favore: consensus Buy (21 analisti), Citi target 250$ (da 260$), forchetta consensus piu' ampia 172-300$ (medie 193-227$ secondo fonti diverse), tutte ben sopra il prezzo attuale.",
+    "invalidation": "Sotto 131,61 USD (minimo di seduta di lunedi' 14/09). Size contenuta: guidance appena rivista al ribasso, esecuzione da dimostrare nei prossimi trimestri, rischio concorrenziale reale.",
+    "verdict": "NON UN VALUE TRAP: il taglio di guidance e' un problema reale ma circoscritto (ritenzione pazienti tipo 2, concorrenza), non un deterioramento strutturale del business; crescita ricavi ancora a doppia cifra e consensus sell-side ancora ampiamente favorevole con target ben sopra il prezzo attuale anche nello scenario piu' prudente.",
+    "rejected": [],
+    "date": "2026-09-15"
+  },
+  "etfSpotlight": {
+    "symbol": "EEM",
+    "name": "iShares MSCI Emerging Markets ETF",
+    "changePct": -2.76,
+    "tema": "Variazione % piu' marcata (in valore assoluto) tra i 49 ETF monitorati lunedi' 14/09, davanti a SLV argento (-2,18%) ed EIMI.MI UCITS (-2,07%). Driver: risk-off globale da selloff sui semiconduttori/hardware AI (Philadelphia Semiconductor Index -5,9%, Nvidia -3,4%, Intel -5,6%) e balzo del rendimento Treasury USA 10 anni sopra il 5% per la prima volta dal 2023, alla vigilia della decisione Fed di mercoledi' 16/9 - rendimenti/dollaro USA piu' forti pesano in modo sproporzionato sugli asset emergenti.",
+    "date": "2026-09-15"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-12",
+    "updatedOn": "2026-09-13",
+    "stance": "Cauta ma selettivamente risk-on (vedi artefatto weekly per il dettaglio completo). Il run tattico odierno (15/9) segnala sviluppi nuovi rispetto alla formulazione della weekly: rally della cybersecurity in controtendenza (CrowdStrike, Palo Alto, Zscaler, Fortinet, Qualys, Okta) innescato dall'appello weekend di Amodei/Altman/Musk/Hassabis a rallentare lo sviluppo AI e dalla violazione dei dati Revolut; selloff sui semiconduttori (Philadelphia Semiconductor Index -5,9%) e rendimento Treasury 10 anni sopra il 5% per la prima volta dal 2023, alla vigilia del FOMC di mercoledi' 16/9. Nessuna modifica strutturale alla weekly in questo run (feriale): da integrare nel prossimo aggiornamento weekly di sabato 19/09, dopo l'esito del FOMC.",
+    "favor": ["Filiera hardware server/infrastruttura AI - tema sotto pressione dal selloff sui semiconduttori di lunedi', size ancora piu' contenuta del solito", "Mega-cap USA/EU di qualita'", "Azionario europeo come diversificazione", "BTC/ETH come core crypto (mantenere, non aggiungere aggressivamente) - paniere crypto in controtendenza positiva lunedi'"],
+    "avoid": ["Duration lunga prima del cluster FOMC (16/9)/BoE (17/9)/BoJ (17-18/9), ora con un rendimento decennale sopra il 5%", "Inseguire oro/argento dopo scossoni", "Sottovalutare il fronte Iran/Hormuz", "Da oggi: inseguire il rally cybersecurity dopo balzi a doppia cifra in una seduta", "Aprire size piena sui semiconduttori dopo il selloff di lunedi' senza una tesi precisa"],
+    "keyDrivers": ["Rally cybersecurity in controtendenza (15/9): CrowdStrike +13,85%, Palo Alto +13,09%, Zscaler +12%, Fortinet +9,04%, Qualys +15,06%, Okta +11,98%, innescato da appello Amodei/Altman/Musk/Hassabis a rallentare sviluppo AI + violazione dati Revolut", "Violazione dati Revolut confermata 12/9: dati anagrafici, documenti identita', selfie e cronologie transazioni esposti per un numero limitato di clienti, minacce di ulteriori pubblicazioni", "Selloff semiconduttori/AI hardware: Philadelphia Semiconductor Index -5,9%, Nvidia -3,4%, Intel -5,6%", "Rendimento Treasury USA 10 anni sopra il 5% per la prima volta dal 2023, alla vigilia del FOMC 15-16/9", "S&P500 -0,48% a 7.621,54, Nasdaq -0,56%, Dow -0,29% lunedi' 14/9", "Paniere crypto principale in controtendenza positiva lunedi' (BTC +2,27%, XRP +8,31%)", "FOMC 15-16/9: decisione mercoledi' 16/9"],
+    "note": "Vedi artefatto weekly per il quadro macro completo della settimana (14-18/9). Prossimo aggiornamento weekly: sabato 19/09."
+  },
+  "watchHistory": [
+    { "date": "2026-09-09", "note": "Sandisk IN LINEA. Flutter tecnicamente in linea ma minimo intraday ha bucato l'invalidazione. Rout settore salute (Novartis, Amgen, Stryker). Nuovi pick: Intel (momentum) e Intuit (value/contrarian). ETF in evidenza: XLV salute (-2,57%).", "momentum": "INTC", "value": "INTU" },
+    { "date": "2026-09-10", "note": "Intel IN LINEA. Intuit tecnicamente in linea ma minimo intraday ha bucato l'invalidazione per il secondo giorno. Terza seduta di ribasso su escalation petrolio. BCE rialzo 25pb atteso. Nuovi pick: Meta (momentum) e Oracle (value/contrarian). ETF in evidenza: SLV (+2,26%).", "momentum": "META", "value": "ORCL" },
+    { "date": "2026-09-11", "note": "Meta IN LINEA. Oracle INVALIDATO (chiusura 153,17$ -5,23%, minimo di seduta gia' sotto invalidazione). Quarta seduta di ribasso, poi PPI USA hawkish (5,4% a/a). Nuovi pick: Skyworks Solutions (momentum) e Sterling Infrastructure (value/contrarian). Scartato come trap: CoStar Group. ETF in evidenza: SLV (-5,30%).", "momentum": "SWKS", "value": "STRL" },
+    { "date": "2026-09-14", "note": "Skyworks IN LINEA e rafforzato (chiusura 11/09 a 88,35$, +5,14%). Sterling Infrastructure IN LINEA e rafforzato (chiusura 11/09 a 511,04$, +5,40%). Weekend: allarme Amodei (Anthropic)/Altman (OpenAI) su rallentamento sviluppo AI, future Nasdaq100 -1,2%. Oracle spike intraday venerdi' (max 165,99$, chiusura -1,74%). FOMC 16/9: probabilita' rialzo salita a ~85,5%. Nuovi pick, scelti fuori dal comparto AI per il rischio weekend: Capri Holdings (momentum, turnaround post-cessione Versace) e Coinbase (value/contrarian, calo legato al ciclo crypto non a problemi aziendali specifici). ETF in evidenza: XLK tecnologia (+1,32%, rally hardware/AI di venerdi', ora a rischio per l'allarme weekend).", "momentum": "CPRI", "value": "COIN" },
+    { "date": "2026-09-15", "note": "Capri Holdings IN LINEA e rafforzato (chiusura 14/09 a 14,16$, +1,94%). Coinbase IN LINEA e molto rafforzato (chiusura 14/09 a 191,45$, +9,24%, trainato dal rialzo crypto). Rally cybersecurity in controtendenza (CrowdStrike +13,85%, Palo Alto +13,09%, Zscaler +12%, Fortinet +9%, Qualys +15%, Okta +12%) su appello Amodei/Altman/Musk/Hassabis a rallentare sviluppo AI + violazione dati Revolut. Selloff semiconduttori (Philadelphia SOX -5,9%), rendimento 10 anni USA sopra il 5% per la prima volta dal 2023. Nuovi pick: CrowdStrike (momentum, ma gia' sopra target medi analisti pre-rally) e Insulet (value/contrarian, taglio guidance su ritenzione pazienti tipo 2/concorrenza ma crescita ricavi 23,5% e consensus Buy). ETF in evidenza: EEM mercati emergenti (-2,76%, risk-off da selloff semiconduttori e rendimenti in rialzo).", "momentum": "CRWD", "value": "PODD" }
+  ]
+}
