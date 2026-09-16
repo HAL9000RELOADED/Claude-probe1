@@ -1,0 +1,50 @@
+{
+  "lastRunDate": "2026-09-16",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "SWKS",
+    "name": "Skyworks Solutions, Inc.",
+    "priceRef": 90.00,
+    "changePctOnPickDay": 13.55,
+    "group": "SP500",
+    "thesis": "Rialzo del 13,55% (quasi ai massimi 52 settimane, +28% nell'ultima settimana) su due catalizzatori concreti: il CEO Phil Brace ha confermato che il merger da 22 miliardi $ con Qorvo e' entrato nella fase finale (revisione antitrust cinese SAMR a Fase III, chiusura attesa entro fine anno, USA gia' superata ad agosto); Apple ha presentato 'Duo', il primo iPhone pieghevole, al prezzo piu' alto della gamma, con effetto indotto sui fornitori RF come Skyworks. Rischio: secondo 24/7 Wall St. il titolo tratta circa il 18% sopra il proprio target medio degli analisti (valore esatto non reperito), segnale di ipercomprato/merger-arbitrage con rischio di ritracciamento in caso di intoppi regolatori sul deal.",
+    "invalidation": "Sotto 79,43 USD (minimo di seduta di martedi' 15/09). Size molto contenuta: titolo quasi ai massimi 52 settimane dopo +28% in una settimana e gia' sopra i target medi analisti, con decisione Fed nel pomeriggio di oggi.",
+    "date": "2026-09-16",
+    "dataDay": "Chiusura Wall Street martedi' 15/09/2026 da dataset bulk"
+  },
+  "valuePick": {
+    "symbol": "AXON",
+    "name": "Axon Enterprise, Inc.",
+    "priceRef": 442.31,
+    "changePctOnPickDay": -9.77,
+    "group": "SP500",
+    "thesis": "-44,16% dai massimi 52w, +30,47% sopra i minimi (non in caduta libera). Causa del calo di martedi': annuncio di un'emissione da 1,0 miliardi $ in obbligazioni convertibili senior a cedola zero scadenza 2031 (timore di diluizione futura), in un contesto di rendimenti USA gia' in rialzo da inizio settembre che comprime le valutazioni growth; vendita di 10.000 azioni del CEO il 10/9 (importo modesto). Fondamentali solidi: Q2 2026 ricavi 904 milioni $ (+35% a/a), guidance 2026 alzata dal 30-32% al 32-34%, backlog contrattuale 15,1 miliardi $, margine lordo stabile al 60,4%.",
+    "invalidation": "Sotto 434,46 USD (minimo di seduta di martedi' 15/09). Size contenuta: calo legato a un evento finanziario specifico (convertibile) piu' che a un deterioramento del business, ma rischio di diluizione futura reale e alta sensibilita' ai tassi.",
+    "verdict": "NON UN VALUE TRAP: il calo e' guidato da un'operazione finanziaria (emissione convertibile) e dalla sensibilita' ai tassi, non da un deterioramento della domanda; ricavi ancora in forte crescita (+35% a/a) e guidance appena alzata, non tagliata.",
+    "rejected": [],
+    "date": "2026-09-16"
+  },
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
+    "changePct": 2.19,
+    "tema": "Variazione % piu' marcata tra i 49 ETF monitorati martedi' 15/09. Driver: petrolio sopra i 105,5 $/barile (massimo da 4 mesi) dopo cancellazioni di consegne saudite e sospensione carichi da Yanbu per attacchi con droni a un oleodotto chiave, ed escalation Iran/Hormuz (USA colpiscono per la prima volta tre petroliere iraniane in rappresaglia, dottrina 'tanker for tanker'; IRGC rivendica attacchi su petroliere/naviglio USA). Energia unico settore S&P500 in netto rialzo martedi' (+1,9%).",
+    "date": "2026-09-16"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-12",
+    "updatedOn": "2026-09-13",
+    "stance": "Cauta ma selettivamente risk-on (vedi artefatto weekly per il dettaglio completo). Il run tattico odierno (16/9) segnala sviluppi coerenti con i rischi gia' identificati nella weekly: petrolio ai massimi da 4 mesi su escalation Iran/Hormuz (attacchi USA su petroliere iraniane, dottrina 'tanker for tanker'), rendimento Treasury 10 anni ai massimi dal 2007 alla vigilia della decisione Fed (rialzo 25pb atteso con probabilita' ~87%), selloff diffuso sulle crypto principali guidato da XRP (-11,46%) su incertezza regolatoria USA (CLARITY Act). Nessuna modifica strutturale alla weekly in questo run (feriale): da integrare nel prossimo aggiornamento weekly di sabato 19/09, dopo l'esito di FOMC/BoE/BoJ.",
+    "favor": ["Mega-cap USA/EU di qualita'", "Azionario europeo come diversificazione", "BTC/ETH come core crypto (mantenere, non aggiungere aggressivamente) - selloff diffuso di oggi guidato da fattori regolatori (XRP/CLARITY Act) e avversione al rischio pre-FOMC, non un deterioramento strutturale", "Energia con size contenuta se il tema Iran/Hormuz dovesse persistere - unico settore in rialzo netto martedi'"],
+    "avoid": ["Duration lunga prima del cluster FOMC (16/9)/BoE (17/9)/BoJ (17-18/9), rendimenti ora ai massimi dal 2007", "Inseguire rally a doppia cifra in una singola seduta (es. Skyworks +28% in una settimana, gia' sopra i target medi analisti)", "Sottovalutare il fronte Iran/Hormuz: escalation in corso con impatto diretto su petrolio/inflazione", "Altcoin/token esposti all'incertezza regolatoria USA (XRP e simili) prima di un chiarimento sul CLARITY Act", "Aprire size piena su nuove posizioni nel pomeriggio della decisione Fed"],
+    "keyDrivers": ["Petrolio sopra 105,5$/barile (massimo da 4 mesi): cancellazioni consegne saudite, sospensione carichi Yanbu per attacchi droni a oleodotto chiave", "Escalation Iran/Hormuz: USA colpiscono per la prima volta tre petroliere iraniane in rappresaglia (dottrina 'tanker for tanker'), IRGC rivendica attacchi su petroliere/naviglio USA", "FOMC 16/9 ore 14:00 ET: probabilita' ~87% di rialzo 25pb (da 3,50-3,75% a 3,75-4,00%), non un taglio", "Rendimento Treasury USA 10 anni ai massimi dal 2007 alla vigilia della Fed", "S&P500 -0,45% a 7.585,73, Dow -0,63% a 52.093,11, Nasdaq -0,78% a 25.981,57 martedi' 15/9", "Selloff crypto diffuso: BTC -3,62%, ETH -5,06%, SOL -5,30%, TAO -6,56%, HYPE -5,02%, XRP -11,46% su incertezza regolatoria CLARITY Act", "Rally Skyworks Solutions (+13,55%, +28% in una settimana) su merger Qorvo in fase finale e iPhone pieghevole Apple"],
+    "note": "Vedi artefatto weekly per il quadro macro completo della settimana (14-18/9). Prossimo aggiornamento weekly: sabato 19/09."
+  },
+  "watchHistory": [
+    { "date": "2026-09-10", "note": "Intel IN LINEA. Intuit tecnicamente in linea ma minimo intraday ha bucato l'invalidazione per il secondo giorno. Terza seduta di ribasso su escalation petrolio. BCE rialzo 25pb atteso. Nuovi pick: Meta (momentum) e Oracle (value/contrarian). ETF in evidenza: SLV (+2,26%).", "momentum": "META", "value": "ORCL" },
+    { "date": "2026-09-11", "note": "Meta IN LINEA. Oracle INVALIDATO (chiusura 153,17$ -5,23%, minimo di seduta gia' sotto invalidazione). Quarta seduta di ribasso, poi PPI USA hawkish (5,4% a/a). Nuovi pick: Skyworks Solutions (momentum) e Sterling Infrastructure (value/contrarian). Scartato come trap: CoStar Group. ETF in evidenza: SLV (-5,30%).", "momentum": "SWKS", "value": "STRL" },
+    { "date": "2026-09-14", "note": "Skyworks IN LINEA e rafforzato (chiusura 11/09 a 88,35$, +5,14%). Sterling Infrastructure IN LINEA e rafforzato (chiusura 11/09 a 511,04$, +5,40%). Weekend: allarme Amodei (Anthropic)/Altman (OpenAI) su rallentamento sviluppo AI, future Nasdaq100 -1,2%. Oracle spike intraday venerdi' (max 165,99$, chiusura -1,74%). FOMC 16/9: probabilita' rialzo salita a ~85,5%. Nuovi pick, scelti fuori dal comparto AI per il rischio weekend: Capri Holdings (momentum, turnaround post-cessione Versace) e Coinbase (value/contrarian, calo legato al ciclo crypto non a problemi aziendali specifici). ETF in evidenza: XLK tecnologia (+1,32%, rally hardware/AI di venerdi', ora a rischio per l'allarme weekend).", "momentum": "CPRI", "value": "COIN" },
+    { "date": "2026-09-15", "note": "Capri Holdings IN LINEA e rafforzato (chiusura 14/09 a 14,16$, +1,94%). Coinbase IN LINEA e molto rafforzato (chiusura 14/09 a 191,45$, +9,24%, trainato dal rialzo crypto). Rally cybersecurity in controtendenza (CrowdStrike +13,85%, Palo Alto +13,09%, Zscaler +12%, Fortinet +9%, Qualys +15%, Okta +12%) su appello Amodei/Altman/Musk/Hassabis a rallentare sviluppo AI + violazione dati Revolut. Selloff semiconduttori (Philadelphia SOX -5,9%), rendimento 10 anni USA sopra il 5% per la prima volta dal 2023. Nuovi pick: CrowdStrike (momentum, ma gia' sopra target medi analisti pre-rally) e Insulet (value/contrarian, taglio guidance su ritenzione pazienti tipo 2/concorrenza ma crescita ricavi 23,5% e consensus Buy). ETF in evidenza: EEM mercati emergenti (-2,76%, risk-off da selloff semiconduttori e rendimenti in rialzo).", "momentum": "CRWD", "value": "PODD" },
+    { "date": "2026-09-16", "note": "CrowdStrike IN LINEA e rafforzato (chiusura 15/09 a 242,51$, +3,03%, quasi ai massimi 52w). Insulet IN LINEA (chiusura 15/09 a 139,24$, +1,04%). Petrolio ai massimi da 4 mesi (>105,5$/barile) su escalation Iran/Hormuz (USA colpiscono per la prima volta petroliere iraniane, dottrina 'tanker for tanker'). Rendimento Treasury 10 anni ai massimi dal 2007 alla vigilia del FOMC (rialzo 25pb atteso, probabilita' ~87%). Selloff crypto diffuso guidato da XRP (-11,46%, incertezza CLARITY Act). Nuovi pick: Skyworks Solutions (momentum, merger Qorvo in fase finale + iPhone pieghevole Apple, ma gia' 18% sopra target medi analisti) e Axon Enterprise (value/contrarian, calo da emissione convertibile non da deterioramento business, ricavi +35% a/a e guidance alzata). ETF in evidenza: XLE energia (+2,19%, petrolio ai massimi da 4 mesi su escalation Hormuz).", "momentum": "SWKS", "value": "AXON" }
+  ]
+}
