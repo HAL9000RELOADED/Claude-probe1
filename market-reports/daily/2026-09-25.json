@@ -1,0 +1,53 @@
+{
+  "lastRunDate": "2026-09-25",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "ILMN",
+    "name": "Illumina, Inc.",
+    "priceRef": 273.90,
+    "changePctOnPickDay": 7.25,
+    "group": "SP400_MIDCAP",
+    "thesis": "Rally sincronizzato dell'intero comparto diagnostica/life-science (BRKR +7,3%, CRL +6,1%, RVTY +6,1%, A +4,6%, AVTR +4,2%, RGEN +3,3%), non solo notizia isolata. Su ILMN in particolare: rientro nell'indice S&P 500 (acquisti tecnici forzati dai fondi indicizzati) e risoluzione avanzata del dossier GRAIL (fair value residuo 88 mln$ a fine giugno 2026, passivita' potenziale residua solo 35 mln$, overhang legale/finanziario che si sta sgonfiando). Fondamentali: guidance FY2026 alzata a EPS rettificato 5,30-5,40$ e ricavi 4,52-4,62 mld$, Q2 sopra attese (EPS 1,31$ vs 1,23$ attesi, ricavi 1,16 mld$ +9,5% a/a). Rischio/onesta': titolo gia' +133% nell'ultimo anno, acquisto da inclusione indicizzata e' un effetto tecnico temporaneo; fonti discordanti su P/E (34,8x vs 12,2x contro media settore 32,5x), incertezza reale sulla valutazione dopo il rally.",
+    "invalidation": "Sotto 250,92 USD (minimo di seduta di giovedi' 24/09). Size contenuta: catalizzatore in parte tecnico e non ripetibile (inclusione indicizzata), titolo gia' molto esteso nell'ultimo anno, dati di valutazione disallineati tra le fonti.",
+    "date": "2026-09-25",
+    "dataDay": "Chiusura Wall Street giovedi' 24/09/2026 da dataset bulk"
+  },
+  "valuePick": {
+    "symbol": "CELH",
+    "name": "Celsius Holdings, Inc.",
+    "priceRef": 28.43,
+    "changePctOnPickDay": -2.57,
+    "group": "SP400_MIDCAP",
+    "verdict": "proposto - tesi contrarian regge ma con size ridotta per concentrazione su PepsiCo e ripresa margini non ancora confermata nei numeri",
+    "thesis": "-57,4% dai massimi 52 settimane, +20,7% sopra i minimi (non in caduta libera). Ricavi Q2 2026 817,9 mln$ (+11% a/a) trainati da integrazione Alani Nu/Rockstar; calo vendite brand storico Celsius (-11,7% a/a) riflette scelte deliberate del management (ottimizzazione SKU, investimenti trade), non crollo della domanda. Margine lordo sceso al 48,1% (-340bps a/a), EBITDA rettificato 22,5% di margine (in calo ma non collassato); management guida a espansione margini nel resto del 2026 e ritorno alla crescita del brand core in chiusura d'anno. Rischi onesti: dipendenza da PepsiCo ~59% dei ricavi (concentrazione reale); target medio analisti ~54,92$ (range 38,23-85$) ben sopra il prezzo attuale ma da prendere con cautela; Q3 2026 atteso dal management simile al Q2, ripresa margini non ancora confermata nei numeri. Confronto con Avis Budget Group (CAR), scartato oggi come value trap: svalutazione flotta EV, leva elevata, EPS in calo del 69% su due anni - un deterioramento strutturale, diverso dalla transizione gestita di CELH.",
+    "invalidation": "Sotto 27,92 USD (minimo di seduta di giovedi' 24/09) come primo livello tattico ravvicinato.",
+    "date": "2026-09-25",
+    "dataDay": "Chiusura Wall Street giovedi' 24/09/2026 da dataset bulk"
+  },
+  "etfSpotlight": {
+    "symbol": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
+    "changePct": -1.29,
+    "tema": "Variazione % piu' marcata tra i 49 ETF monitorati giovedi' 24/09, nuovo minimo delle 52 settimane (-13,85% dai massimi dell'anno). Conseguenza diretta dei rendimenti Treasury USA ai massimi dal 2007 (10 anni al 5,225%, 30 anni al 5,502%): i bond a lunghissima duration sono i piu' sensibili ai rialzi dei tassi. Ne' il vertice Trump-Xi (tregua commerciale estesa ma senza svolte) ne' la proposta di tregua iraniana su Hormuz (ancora senza accordo) hanno invertito la dinamica; Core PCE di agosto atteso lo stesso giorno come possibile ulteriore catalizzatore sui rendimenti.",
+    "date": "2026-09-25"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-09-20",
+    "stance": "Cauta, in attesa di conferma (vedi artefatto weekly per il dettaglio completo, non modificato in questo run feriale). Il run tattico odierno (25/9, venerdi') registra rendimenti Treasury USA ai nuovi massimi dal 2007 (10 anni 5,225%, 30 anni 5,502%), l'ETF TLT sui bond a lunga duration sceso a un nuovo minimo delle 52 settimane, un vertice Trump-Xi conclusosi con una proroga della tregua commerciale ma senza svolte su Taiwan/AI, una proposta di tregua iraniana su Hormuz ancora senza accordo concluso, un rally sincronizzato del comparto diagnostica/life-science (ILMN, BRKR, CRL, RVTY e altri) e un recupero diffuso delle crypto principali (BTC +0,06%, TAO +3,71%). Doximity (pick value di ieri) e' stata invalidata tatticamente. Nessun cambio di stance ufficiale in questo run: la revisione formale avverra' domani, sabato 26/9, dopo il Core PCE di oggi.",
+    "favor": ["Mega-cap USA di qualita' e comparto tecnologico/AI", "BTC/ETH come core crypto (mantenere, non aggiungere aggressivamente in attesa di conferma)", "Oro/argento come copertura tattica strutturale", "Liquidita'/pazienza in vista del Core PCE di oggi (25/9) e della revisione weekly di domani"],
+    "avoid": ["Inseguire a freddo titoli/comparti gia' scattati con forza in una singola seduta", "Value trap mascherati da opportunita' contrarian (es. Avis Budget Group, scartato oggi)", "Duration lunga in un contesto di rendimenti ai massimi dal 2007 (TLT a un nuovo minimo delle 52 settimane)", "Esposizione direzionale forte su yen/asset giapponesi", "Sottovalutare il fronte Iran/Hormuz, ancora senza accordo concluso nonostante la proposta iraniana", "Posizioni speculative su M&A non confermate (es. Gen Digital/GoDaddy)"],
+    "keyDrivers": ["Treasury USA 10 anni al 5,225% e 30 anni al 5,502%, nuovi massimi dal 2007; S&P500 ufficiale -0,51%, Dow -0,32%, Nasdaq -0,78%", "TLT (bond 20+ anni) sceso a un nuovo minimo delle 52 settimane, -1,29% nella sola seduta di giovedi'", "Vertice Trump-Xi: tregua commerciale estesa al 10 gennaio 2027, nessuna svolta su Taiwan/AI/Iran, altri due summit pianificati a Shenzhen e Miami", "Iran: proposta di tregua regionale di 60 giorni e riapertura graduale di Hormuz presentata all'ONU il 23/9, nessun accordo concluso", "Rally sincronizzato comparto diagnostica/life-science: ILMN +7,25% (rientro S&P500 + risoluzione GRAIL + guidance alzata), BRKR +7,26%, CRL +6,07%, RVTY +6,05%, A +4,56%", "Gen Digital -12,05% su scetticismo verso indiscrezioni di acquisizione da parte di GoDaddy, nonostante trimestrali forti; First Solar -10,32% su taglio target price GLJ Research e incertezza tariffaria solare", "Crypto in recupero diffuso: BTC +0,06%, ETH +0,83%, SOL +2,67%, TAO +3,71%", "Doximity (pick value di ieri) invalidata tatticamente (chiusura e minimo di seduta sotto il livello di invalidazione)", "Calendario chiave: Core PCE USA oggi 25/9, revisione weekly domani sabato 26/9"],
+    "note": "Vedi artefatto weekly per il quadro macro completo, non modificato in questo run feriale. Prossimo aggiornamento weekly: sabato 26/09, dopo il Core PCE di oggi."
+  },
+  "watchHistory": [
+    { "date": "2026-09-16", "note": "Skyworks IN LINEA. Insulet IN LINEA. Petrolio ai massimi da 4 mesi su escalation Iran/Hormuz. Nuovi pick: Skyworks (momentum) e Axon Enterprise (value/contrarian). ETF in evidenza: XLE (+2,19%).", "momentum": "SWKS", "value": "AXON" },
+    { "date": "2026-09-17", "note": "Skyworks IN LINEA ma indebolito. Axon IN LINEA e molto rafforzato. Fed +25pb al 3,75-4,00%, tono hawkish. Nuovi pick: Lumentum Holdings (momentum) e Intuit (value/contrarian, caso ad alta incertezza). ETF in evidenza: XLE (-2,82%).", "momentum": "LITE", "value": "INTU" },
+    { "date": "2026-09-18", "note": "Lumentum IN LINEA. Intuit INVALIDATA. Wall Street rimbalza post-Fed. Nuovi pick: Generac Holdings (momentum) e Oracle (value/contrarian). ETF in evidenza: SLV (+3,35%).", "momentum": "GNRC", "value": "ORCL" },
+    { "date": "2026-09-21", "note": "Generac e Oracle IN LINEA con avviso. Nuovi pick: Applied Materials (momentum) e Kyndryl (value/contrarian SCARTATO come trap).", "momentum": "AMAT", "value": "KD (scartato - value trap)" },
+    { "date": "2026-09-22", "note": "Applied Materials IN LINEA e rafforzato. Rally ampio lunedi' 21/9. Nuovi pick: Intel (momentum) e AeroVironment (value/contrarian).", "momentum": "INTC", "value": "AVAV" },
+    { "date": "2026-09-23", "note": "Intel IN LINEA e rafforzato. AeroVironment INVALIDATA tatticamente. Nuovi pick: Monolithic Power Systems (momentum) e Duolingo (value/contrarian SCARTATO come trap).", "momentum": "MPWR", "value": "DUOL (scartato - value trap)" },
+    { "date": "2026-09-24", "note": "Monolithic Power Systems IN LINEA. Selloff ampio guidato dai rendimenti (Treasury 10 anni al massimo dal 2007). Vertice Trump-Xi atteso in serata. Nuovi pick: Palo Alto Networks (momentum) e Doximity (value/contrarian).", "momentum": "PANW", "value": "DOCS" },
+    { "date": "2026-09-25", "note": "Palo Alto Networks IN LINEA (-0,86%, raffreddamento fisiologico). Doximity INVALIDATA (chiusura 26,035$ e minimo di seduta 26,03$ entrambi sotto il livello di invalidazione di 26,35$, nessuna notizia negativa nota, debolezza generalizzata dei mid-cap growth). Rendimenti Treasury ai nuovi massimi dal 2007 (10 anni 5,225%, 30 anni 5,502%), TLT a un minimo delle 52 settimane. Vertice Trump-Xi concluso con tregua commerciale estesa ma senza svolte; Iran ha proposto una tregua su Hormuz ma senza accordo concluso. Rally sincronizzato del comparto diagnostica/life-science (ILMN, BRKR, CRL, RVTY). Gen Digital -12,05% su scetticismo verso indiscrezioni di acquisizione GoDaddy nonostante trimestrali forti; First Solar -10,32% su taglio target price e incertezza tariffaria solare. Crypto in recupero diffuso (BTC +0,06%, TAO +3,71%). Nuovi pick: Illumina (momentum, rientro S&P500 + risoluzione GRAIL + guidance alzata, ma titolo gia' +133% nell'ultimo anno e valutazione disallineata tra fonti) e Celsius Holdings (value/contrarian, ricavi in crescita e transizione gestita dal management, ma dipendenza da PepsiCo e ripresa margini non ancora confermata). Scartato come trap: Avis Budget Group (svalutazione flotta EV, leva elevata, EPS -69% su due anni).", "momentum": "ILMN", "value": "CELH" }
+  ]
+}
