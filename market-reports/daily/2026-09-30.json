@@ -1,0 +1,47 @@
+{
+  "lastRunDate": "2026-09-30",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "AMP.MI",
+    "name": "Amplifon S.p.A.",
+    "priceRef": 12.12,
+    "changePctOnPickDay": 6.08,
+    "group": "FTSEMIB",
+    "thesis": "Rialzo di lunedi' 28/9 (+6,08%) in controtendenza, legato secondo le fonti al percorso dell'acquisizione GN Hearing (sinergie nette 60-80 mln EUR) e ai risultati H1 2026 (crescita organica Q2 4,7%). P/E prospettico ~16,3x, consenso Neutral (5 buy/10 hold), target medio ~13,4 EUR. Rischi: integrazione e diluizione, movimento gia' ampio, dato vecchio di due sedute.",
+    "invalidation": "Sotto 11,515 EUR (minimo di seduta di lunedi' 28/9). Size ridotta.",
+    "date": "2026-09-30",
+    "dataDay": "Chiusura lunedi' 28/09/2026 (snapshot del 29/9 02:52 UTC, non fresco)"
+  },
+  "valuePick": {
+    "symbol": "WING",
+    "name": "Wingstop Inc.",
+    "priceRef": 101.8,
+    "changePctOnPickDay": 2.76,
+    "verdict": "scartato - value trap: SSS domestiche -7,5% nel Q2 2026, guidance 2026 -4/-6%, debito cartolarizzato 1,21 mld USD, nuovi minimi ripetuti a settembre; nessun pick value oggi. Nota: Boeing (BA, -7% martedi' su rinvio certificazione 737 MAX 10) osservato come candidato alternativo via ricerca mirata, profilo simile ma con backlog/crescita ricavi reali che lasciano la tesi piu' aperta - non trattato come pick vero e proprio in questo run.",
+    "thesis": null,
+    "invalidation": null,
+    "date": "2026-09-30",
+    "dataDay": "Chiusura lunedi' 28/09/2026"
+  },
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": -5.49,
+    "tema": "Ultimo dato nel dataset (lun. 28/9): crollo oro/argento su petrolio, rendimenti >5,2% e scommesse su rialzo Fed a ottobre. Martedi' 29/9 rimbalzo (~+1,1/1,2% argento) dopo dati deboli su lavoro e fiducia. Nota a margine: XLE (energia) sceso circa -1,6% martedi' nonostante il petrolio restasse elevato su base mensile, divergenza segnalata da una fonte finanziaria.",
+    "date": "2026-09-30"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-09-27",
+    "stance": "'Selettivamente costruttiva, ma vigile sui rendimenti' - nessuna revisione in questo run feriale. Martedi' 29/9 Wall Street chiude in lieve calo (Dow -0,26% a 51.349,92; S&P500 -0,17% a 7.697,91; Nasdaq -0,09% a 26.797,54), 10 anni USA ~5,24-5,28%, 30 anni a un nuovo massimo dal 2002 (~5,61-5,62%); metalli preziosi in rimbalzo parziale dopo il crollo di lunedi'. Boeing -7% su nuovo rinvio certificazione 737 MAX 10 (pattern ricorrente), Carnival +13,4% su trimestrale record con guidance alzata, petrolio in calo (WTI/Brent -2/-3%), Anthropic deposita per IPO (518 mld$ di piano AI, valutazione target 2.000 mld$) spingendo i chip al rialzo. Snapshot dati bulk non fresco (equity ferme a lunedi' 28/9, oltre 24 ore di ritardo): pick di ieri (Persimmon, CoStar) non verificabili. Crypto in recupero nelle 24h successive allo snapshot (SOL +4,5%, XRP +2,1%, ETH +0,9%). Oggi PCE core; Payrolls venerdi' 3/10.",
+    "favor": ["Mega-cap USA di qualita' e comparto tecnologico/AI/semiconduttori", "BTC/ETH come core crypto (mantenere, non aggiungere size aggressiva)", "Oro/argento come copertura tattica", "Liquidita'/pazienza in vista di PCE core 30/9, ISM Manifatturiero 1/10, Payrolls 3/10"],
+    "avoid": ["Duration lunga sui bond (es. TLT) - 30 anni a un nuovo massimo dal 2002", "Scommettere su una rapida distensione Iran/Hormuz", "Posizioni direzionali aggressive prima di PCE core e Payrolls", "Inseguire a freddo titoli gia' scattati in una singola seduta", "Rimbalzi su titoli in deterioramento strutturale (es. Wingstop, Flutter)", "Fornitori/indotto aerospaziale legati al rischio di certificazione ricorrente del 737 MAX senza una tesi propria"],
+    "keyDrivers": ["Dataset bulk DATI fermo alla chiusura di lunedi' 28/9 da oltre 24 ore, manca l'intera seduta di martedi' 29/9 - possibile stallo della pipeline NAS->GitHub->routine ponte, da monitorare", "10 anni USA ~5,24-5,28%, massimi dal 2007; 30 anni a un nuovo massimo dal 2002 (~5,61-5,62%) martedi' 29/9", "Probabilita' rialzo Fed a ottobre stimata 60-70% a seconda della fonte", "Martedi' 29/9: Dow -0,26%, S&P500 -0,17%, Nasdaq -0,09%; fiducia consumatori debole", "Boeing -7% su nuovo rinvio certificazione 737 MAX 10 per guasto software, pattern ricorrente", "Carnival +13,4% su trimestrale record, guidance 2026 alzata a 2,24$ EPS, debito ridotto sotto 24 mld$", "Petrolio in calo martedi' (WTI/Brent -2/-3%) su maggiori esportazioni mediorientali, pur restando elevato su base mensile", "Oro/argento in rimbalzo parziale martedi' dopo crollo di lunedi'", "Anthropic deposita per IPO con piano AI da 518 mld$ e valutazione target 2.000 mld$, chip globali in rialzo; OpenAI avrebbe sospeso il rilascio del prossimo modello per motivi di sicurezza", "Crypto in recupero nelle 24h successive allo snapshot bulk: SOL +4,5%, XRP +2,1%, ETH +0,9%, BTC stabile ~83.500$", "PCE core oggi 30/9, ISM manifatturiero 1/10, Payrolls 3/10"],
+    "note": "Prossimo aggiornamento weekly: sabato 3/10 - da rivedere anche alla luce dell'eventuale persistenza del problema sul dataset DATI."
+  },
+  "watchHistory": [
+    { "date": "2026-09-28", "note": "Illumina IN LINEA. Celsius IN LINEA CON AVVISO. Nuovi pick: Viavi (momentum) e Coinbase (value).", "momentum": "VIAV", "value": "COIN" },
+    { "date": "2026-09-29", "note": "Viavi IN LINEA, Coinbase INVALIDATA. Nuovi pick: Persimmon (momentum) e CoStar (value).", "momentum": "PSN.L", "value": "CSGP" },
+    { "date": "2026-09-30", "note": "Persimmon e CoStar non verificabili (snapshot fermo a lunedi' 28/9, oltre 24 ore di ritardo, nessuna conferma web nemmeno per la seduta di martedi'). Nuovi pick: Amplifon (momentum); Wingstop scartato come value trap. Giornata di mercato reale (29/9) ricostruita via ricerca: Treasury 30 anni a nuovo massimo dal 2002, Boeing -7% (certificazione MAX10), Carnival +13,4% (trimestrale record), Anthropic deposita per IPO.", "momentum": "AMP.MI", "value": "WING (scartato - value trap)" }
+  ]
+}
