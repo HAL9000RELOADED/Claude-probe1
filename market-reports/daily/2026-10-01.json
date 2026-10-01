@@ -1,0 +1,48 @@
+{
+  "lastRunDate": "2026-10-01",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "UTHR",
+    "name": "United Therapeutics Corporation",
+    "priceRef": 541.89,
+    "changePctOnPickDay": 12.55,
+    "group": "SP400_MIDCAP",
+    "thesis": "Doppio catalizzatore: sentenza favorevole su brevetto Yutrepia vs Liquidia, e accettazione FDA della supplemental NDA per Tyvaso nebulizzato in fibrosi polmonare idiopatica (trial TETON positivi); completato buyback accelerato da 477,6 mln USD (ultima tranche di un piano da 2 mld USD). RSI segnalato in ipercomprato da alcune fonti dopo il balzo; movimento ampio (dayRange 17,23%) ma chiusura vicino ai massimi, non uno spike rientrato.",
+    "invalidation": "Sotto 475,46 USD (minimo di seduta odierna). Size ridotta.",
+    "date": "2026-10-01",
+    "dataDay": "Chiusura mercoledi' 30/09/2026 (snapshot 30/9 20:06 UTC, fresco)"
+  },
+  "valuePick": {
+    "symbol": "FCT.MI",
+    "name": "Fincantieri S.p.A.",
+    "priceRef": 12.04,
+    "changePctOnPickDay": -0.99,
+    "verdict": "pick valido, non value trap: utile H1 2026 quasi triplicato (102 mln EUR vs 35 mln), debito netto adjusted sceso a 756 mln EUR da 1.311 mln (leva 1,0x vs 1,9x EBITDA), backlog record 73,9 mld EUR. Calo del -56% dai massimi 52w sembra dovuto a presa di profitto/sell-the-news dopo rally eccessivo 2025 sul tema difesa, non a deterioramento del business. Consenso indicato: 6 buy/4 hold/0 sell, target medio ~21,75 EUR (da verificare con fonti aggiornate).",
+    "thesis": "Fondamentali in miglioramento (utile, margini, debito) nonostante crollo del prezzo dai massimi; backlog pluriennale garantisce visibilita' sui ricavi. Deviazione tattica dalla weekly (mega-cap USA/AI), size ridotta, orizzonte piu' lungo.",
+    "invalidation": "Sotto area 11,50 EUR (sotto i minimi delle ultime sedute).",
+    "date": "2026-10-01",
+    "dataDay": "Chiusura mercoledi' 30/09/2026 (snapshot 30/9 20:06 UTC, fresco)"
+  },
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": -1.76,
+    "tema": "Prosegue il calo iniziato lunedi' (-5,49%): dollaro forte, rendimenti USA elevati e retorica Fed ancora cauta pesano sui metalli preziosi nonostante il PCE core di oggi sia risultato piu' debole del previsto. SLV ora circa -50% dal massimo 52 settimane (109,83 USD).",
+    "date": "2026-10-01"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-09-27",
+    "stance": "'Selettivamente costruttiva, ma vigile sui rendimenti' - nessuna revisione in questo run feriale (la revisione spetta al run weekly di sabato 3/10). Elemento nuovo emerso oggi 1/10: il PCE core di agosto e' risultato molto piu' debole del previsto (+3,0% a/a vs 3,3% atteso; +0,2% m/m vs 0,3% atteso), riducendo le probabilita' di un rialzo Fed a ottobre rispetto al 60-70% indicato quando la stance e' stata scritta - da incorporare nell'aggiornamento di sabato insieme ai Payrolls dello stesso giorno (3/10). Wall Street ha comunque chiuso mista mercoledi' 30/9 (Nasdaq +0,24% a 26.861,06; S&P500 -0,30% a 7.651,54; Dow -0,87% a 50.906,05) per via di dati di crescita USA rivisti al rialzo che mantengono i rendimenti elevati. Europa in calo diffuso (FTSEMIB -0,84%, DAX -0,7%, CAC40 -0,9%, FTSE100 -0,29%). Argento in ulteriore calo (SLV -1,76%) dopo il tonfo di lunedi'. Crypto big cap stabili, HYPE ancora la piu' vicina al proprio ATH (-9,2%).",
+    "favor": ["Mega-cap USA di qualita' e comparto tecnologico/AI/semiconduttori", "BTC/ETH come core crypto (mantenere, non aggiungere size aggressiva)", "Oro/argento come copertura tattica (anche se nel brevissimo il trend resta negativo)", "Liquidita'/pazienza in vista di Payrolls e aggiornamento weekly di sabato 3/10"],
+    "avoid": ["Duration lunga sui bond (es. TLT) - rendimenti ancora alti nonostante il PCE morbido, per via di dati di crescita USA forti", "Comprare il ribasso sull'argento senza segnali di stabilizzazione dei rendimenti reali", "Inseguire titoli growth con earnings beat ma valutazioni gia' tirate (es. Jabil oggi, sell-the-news)", "Posizioni direzionali aggressive prima dei Payrolls di sabato 3/10", "Rimbalzi su titoli in deterioramento strutturale (es. Wingstop)"],
+    "keyDrivers": ["PCE core agosto molto piu' debole del previsto (+3,0% a/a vs 3,3% atteso), riduce probabilita' rialzo Fed a ottobre", "Wall Street mista mercoledi' 30/9: Nasdaq +0,24%, S&P500 -0,30%, Dow -0,87%; settembre chiude con Dow -4,9%, S&P -0,7%, Nasdaq +1,7% nel mese", "Europa in calo diffuso mercoledi' 30/9 su risalita inflazione e rimbalzo petrolio", "United Therapeutics +12,55% su vittoria brevetto Yutrepia e accettazione FDA Tyvaso IPF", "Jabil -10% nonostante trimestrale solida, sell-the-news su valutazione tirata", "Argento (SLV) -1,76% oggi dopo -5,49% lunedi', dollaro forte e rendimenti elevati", "Fincantieri -56% dai massimi 52w nonostante utile H1 2026 quasi triplicato e debito in forte calo - presa di profitto dopo rally 2025, non deterioramento fondamentale", "Nonfarm Payrolls attesi sabato 3/10 (consenso indicativo intorno a 90-100k posti), insieme al prossimo aggiornamento weekly"],
+    "note": "Prossimo aggiornamento weekly: sabato 3/10, con il report occupazione USA dello stesso giorno e la revisione delle probabilita' di rialzo Fed alla luce del PCE piu' debole del previsto."
+  },
+  "watchHistory": [
+    { "date": "2026-09-28", "note": "Illumina IN LINEA. Celsius IN LINEA CON AVVISO. Nuovi pick: Viavi (momentum) e Coinbase (value).", "momentum": "VIAV", "value": "COIN" },
+    { "date": "2026-09-29", "note": "Viavi IN LINEA, Coinbase INVALIDATA. Nuovi pick: Persimmon (momentum) e CoStar (value).", "momentum": "PSN.L", "value": "CSGP" },
+    { "date": "2026-09-30", "note": "Persimmon e CoStar non verificabili (snapshot fermo a lunedi' 28/9). Nuovi pick: Amplifon (momentum); Wingstop scartato come value trap.", "momentum": "AMP.MI", "value": "WING (scartato - value trap)" },
+    { "date": "2026-10-01", "note": "Con dati finalmente freschi: Amplifon IN LINEA (-0,17%). Persimmon TENUTA DEBOLE (minimo di seduta sotto l'invalidazione, chiusura appena sopra). CoStar IN LINEA (+1,37%, margine risicato sul minimo). Scarto di Wingstop confermato giusto. Nuovi pick: United Therapeutics (momentum, su doppio catalizzatore FDA/legale) e Fincantieri (value/contrarian genuino, fondamentali in miglioramento nonostante il crollo dai massimi).", "momentum": "UTHR", "value": "FCT.MI" }
+  ]
+}
