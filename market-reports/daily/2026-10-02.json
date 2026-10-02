@@ -1,0 +1,48 @@
+{
+  "lastRunDate": "2026-10-02",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "ACN",
+    "name": "Accenture plc",
+    "priceRef": 211.95,
+    "changePctOnPickDay": 15.59,
+    "group": "SP500",
+    "thesis": "Trimestrale Q4 FY2026 ben sopra le attese: EPS 3,29 USD (consenso +0,11), ricavi 18,7 mld USD (+6,3% a/a, +660 mln USD sopra stime), record bookings (141 contratti >100 mln USD), dividendo aumentato, 11,5 mld USD restituiti agli azionisti nell'anno fiscale. Guidance FY2027 +3-6% ricavi/EPS. Alcune fonti citano un picco intraday fino a +22% (miglior giornata di sempre secondo CNBC/FactSet), poi parzialmente rientrato in chiusura (+15,59%, -6,87% dal massimo di seduta) - movimento ampio ma con segni di esaurimento parziale.",
+    "invalidation": "Sotto area 205 USD (sotto il minimo di seduta odierna, con margine). Size ridotta.",
+    "date": "2026-10-02",
+    "dataDay": "Chiusura giovedi' 01/10/2026 (snapshot 1/10 20:05 UTC, fresco)"
+  },
+  "valuePick": {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "priceRef": 138.08,
+    "changePctOnPickDay": 0.57,
+    "verdict": "pick ad alto rischio, non trap pulito: il business accelera (RPO/backlog 638 mld USD, +363% a/a, incluso impegno quinquennale da 300 mld USD con OpenAI) ma il rischio e' finanziario/di bilancio, non di domanda - FCF FY2026 negativo per 23,7 mld USD nonostante operating cash flow +54% a 32,0 mld USD; downgrade creditizio S&P da BBB a BBB-, un gradino sopra junk. -57,2% dai massimi 52w (massimo storico 345,72 USD), nuovo minimo 52w recente ~121,50 USD. Rischio concreto (credito, FCF), non solo percezione: size molto contenuta.",
+    "thesis": "Tensione reale tra forte visibilita' sui ricavi futuri (backlog) e stress di bilancio presente dovuto alla capital intensity del piano data center AI. Scommessa ad alto rischio/alto potenziale, non value classico sicuro.",
+    "invalidation": "Sotto area 121,50 USD (minimo 52 settimane recente).",
+    "date": "2026-10-02",
+    "dataDay": "Chiusura giovedi' 01/10/2026 (snapshot 1/10 20:05 UTC, fresco)"
+  },
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
+    "changePct": 1.93,
+    "tema": "Petrolio sostenuto da tensioni geopolitiche in Medio Oriente ancora irrisolte (Brent oltre 103,86 USD/barile, +37,90 USD sull'anno); XLE +39,1% da inizio anno, miglior settore USA 2026. Stessi costi energetici elevati citati anche come fattore del calo diffuso delle borse europee della stessa giornata.",
+    "date": "2026-10-02"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-09-27",
+    "stance": "'Selettivamente costruttiva, ma vigile sui rendimenti' - nessuna revisione in questo run feriale (la revisione spetta al run weekly di sabato 3/10). Confermato oggi: shutdown federale USA scongiurato, finanziamento coperto fino all'11/12/2026. Wall Street ha chiuso in rialzo moderato giovedi' 1/10 (S&P500 +0,19% a 7.666,45, Nasdaq +0,04% a 26.871,60, Dow +0,04% a 50.926,56) nel primo giorno del quarto trimestre, sostenuta dal ritiro dei rendimenti Treasury dai massimi pluriennali. Europa in calo diffuso e piu' marcato (FTSE100 -2,13%, CAC40 -2,18%, DAX -1,46%, FTSEMIB -0,78%) su costi energetici elevati, inflazione e tensioni Medio Oriente. Accenture +15,59% (fino a +22% intraday, miglior giorno di sempre) su trimestrale record. Oracle -57% dai massimi 52w nonostante backlog record, su rischio di bilancio/downgrade creditizio legato alla capital intensity del piano data center AI - tema da monitorare per l'intero comparto AI/cloud. Energia (XLE +1,93%, +39,1% YTD) ancora il miglior settore USA del 2026 su petrolio sostenuto dalle tensioni in Medio Oriente. Crypto big cap in rialzo (BTC +1,43%, ETH +1,22%), HYPE unico in calo (-1,46%) ma ancora il piu' vicino al proprio ATH.",
+    "favor": ["Mega-cap USA di qualita' e comparto tecnologico/AI/semiconduttori", "BTC/ETH come core crypto (mantenere, non aggiungere size aggressiva)", "Oro/argento come copertura tattica", "Liquidita'/pazienza in vista dell'aggiornamento weekly di sabato 3/10 e dei Payrolls dello stesso giorno"],
+    "avoid": ["Duration lunga sui bond (es. TLT)", "Posizioni direzionali aggressive prima dei Payrolls di sabato 3/10", "Inseguire a freddo rally estremi senza tesi propria (es. Accenture dopo il +15-22% di oggi)", "Nomi mega-cap AI/cloud con rischio di bilancio concreto senza size ridotta (es. Oracle)", "Dati di singole quotazioni incoerenti tra loro senza verifica (es. Stellantis NYSE vs Europa oggi)"],
+    "keyDrivers": ["Accenture +15,59% (fino a +22% intraday) su trimestrale Q4 FY2026 record ed EPS/ricavi sopra attese", "Oracle -57% dai massimi 52w, downgrade creditizio S&P a BBB- su FCF negativo (-23,7 mld USD) nonostante backlog RPO +363% a/a a 638 mld USD (incluso 300 mld USD OpenAI)", "Wall Street in rialzo moderato 1/10 su rendimenti Treasury in ritirata; shutdown USA scongiurato fino all'11/12", "Europa in calo piu' marcato degli USA (FTSE100 -2,13%, CAC40 -2,18%) su energia/inflazione/Medio Oriente", "Corteva -83,82% nel dataset: effetto tecnico dello spin-off Vylor Inc. (VYLR) completato 1/10, non un crollo", "Energia (XLE +1,93%, +39,1% YTD) miglior settore USA 2026 su Brent oltre 103,86 USD/barile", "Prossimo aggiornamento weekly sabato 3/10 con Nonfarm Payrolls dello stesso giorno"],
+    "note": "Prossimo aggiornamento weekly: sabato 3/10, con il report occupazione USA dello stesso giorno."
+  },
+  "watchHistory": [
+    { "date": "2026-09-29", "note": "Viavi IN LINEA, Coinbase INVALIDATA. Nuovi pick: Persimmon (momentum) e CoStar (value).", "momentum": "PSN.L", "value": "CSGP" },
+    { "date": "2026-09-30", "note": "Persimmon e CoStar non verificabili (snapshot fermo). Nuovi pick: Amplifon (momentum); Wingstop scartato come value trap.", "momentum": "AMP.MI", "value": "WING (scartato - value trap)" },
+    { "date": "2026-10-01", "note": "Amplifon IN LINEA. Persimmon TENUTA DEBOLE. CoStar IN LINEA (margine risicato). Nuovi pick: United Therapeutics (momentum, doppio catalizzatore FDA/legale) e Fincantieri (value/contrarian genuino).", "momentum": "UTHR", "value": "FCT.MI" },
+    { "date": "2026-10-02", "note": "United Therapeutics IN LINEA (+5,44%, rafforzato). Fincantieri IN LINEA (+2,70%). Nuovi pick: Accenture (momentum, trimestrale record +15,59%/+22% intraday) e Oracle (value/contrarian ad alto rischio, backlog record ma downgrade creditizio e FCF negativo).", "momentum": "ACN", "value": "ORCL" }
+  ]
+}
