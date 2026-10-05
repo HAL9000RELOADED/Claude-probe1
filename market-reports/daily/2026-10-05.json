@@ -1,0 +1,46 @@
+{
+  "lastRunDate": "2026-10-05",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "IFX.DE",
+    "name": "Infineon Technologies AG",
+    "priceRef": 64.64,
+    "changePctOnPickDay": 8.78,
+    "group": "DAX40",
+    "thesis": "Rally semiconduttori dopo trimestrale Micron sopra attese (AI/memoria); ricavi AI di Infineon piu' che raddoppiati a/a (conferenza 1/10); collaborazione con Eaton su SiC per data center AI 800 VDC; nuovo stabilimento in Thailandia; upgrade Oddo BHF a Outperform, Jefferies Buy. Chiusura vicina al massimo di seduta (-0,29%). +106,7% dai minimi 52w, rischio inseguimento.",
+    "invalidation": "Chiusura sotto 60 EUR. Size ridotta.",
+    "date": "2026-10-05",
+    "dataDay": "Chiusura venerdi' 02/10/2026 (snapshot generato 4/10 20:06 UTC)"
+  },
+  "valuePick": null,
+  "valueDiscarded": [
+    {"symbol": "FICO", "reason": "Value trap strutturale: FHFA porta VantageScore 4.0 sulla stessa griglia prezzi di FICO, Rocket Mortgage default VantageScore da Q4, downgrade BofA a Neutral; caduta ~-26/27% il 29/9, -64,9% dai massimi 52w."},
+    {"symbol": "LEN", "reason": "Domanda in deterioramento: ordini sotto guidance (-9% a/a), EPS 1,19 vs 2,29 USD, incentivi ~12%, guidance consegne tagliata, mutui ~7%."}
+  ],
+  "etfSpotlight": {
+    "symbol": "EIMI.MI",
+    "name": "iShares Core MSCI Emerging Markets IMI UCITS ETF",
+    "changePct": 1.56,
+    "tema": "Rialzo diffuso su ETF azionari globali con rally dei semiconduttori come filo comune (lettura verosimile, non verificata con fonte specifica sull'ETF). XLE solo +0,19% venerdi'.",
+    "date": "2026-10-05"
+  },
+  "verifyYesterday": {
+    "ACN": "INVALIDATO: 198,90 USD (-6,31%) sotto invalidazione 205 USD",
+    "ORCL": "IN LINEA: 142,30 USD (+3,06%)"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-04",
+    "stance": "Risk-on selettivo su AI/semiconduttori; escalation Iran passata da rischio latente a preparativi concreti (Camp David, terza portaerei, attacchi a petroliere a Hormuz). Nessuna decisione Fed in settimana (verbali 7/10, FOMC 27-28/10). Nessuna revisione in questo run feriale; prossima weekly sabato 10/10.",
+    "favor": ["AI/semiconduttori USA ed Europa", "BTC/ETH come core crypto senza size aggressiva", "Oro/argento come copertura tattica", "Pazienza prima dei verbali Fed del 7/10"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Storage/HDD (WDC, STX, SanDisk)", "Inseguire rally maturi senza tesi propria", "Piattaforme trading/CFD UK dopo profit warning (IG Group)", "Scommettere su rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Rischio Iran/Hormuz concreto", "Rally semiconduttori post-Micron", "Nessuna decisione Fed in settimana", "Storage in calo (Toshiba)", "Crypto big cap stabili-positive"],
+    "note": "Stance invariata rispetto alla weekly del 4/10."
+  },
+  "watchHistory": [
+    { "date": "2026-09-30", "note": "Pick: Amplifon (momentum); Wingstop scartato come value trap.", "momentum": "AMP.MI", "value": "WING (scartato)" },
+    { "date": "2026-10-01", "note": "Pick: United Therapeutics (momentum) e Fincantieri (value).", "momentum": "UTHR", "value": "FCT.MI" },
+    { "date": "2026-10-02", "note": "UTHR e FCT.MI in linea. Pick: Accenture (momentum) e Oracle (value ad alto rischio).", "momentum": "ACN", "value": "ORCL" },
+    { "date": "2026-10-05", "note": "ACN INVALIDATO (-6,31%), ORCL in linea (+3,06%). Pick: Infineon (momentum); nessun value pick (FICO e Lennar scartati).", "momentum": "IFX.DE", "value": "nessuno (FICO, LEN scartati)" }
+  ]
+}
