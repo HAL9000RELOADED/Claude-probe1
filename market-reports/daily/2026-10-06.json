@@ -1,0 +1,47 @@
+{
+  "lastRunDate": "2026-10-06",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "NUE",
+    "name": "Nucor Corporation",
+    "priceRef": 251.52,
+    "changePctOnPickDay": 4.63,
+    "group": "SP500",
+    "thesis": "Rally del settore acciaio USA (STLD ~+5%, CLF +7,95%); Nucor prezzi medi piu' alti e volumi stabili attesi per Steel Mills nel Q3, rialzo prezzi tubolari (2/10), upgrade Wall Street Zen a Strong Buy (4/10). Chiusura vicina al massimo di seduta. +91% dai minimi 52w, movimento di settore senza catalizzatore societario univoco, rendimenti lunghi al 5,3% come rischio.",
+    "invalidation": "Chiusura sotto 238 USD. Size ridotta.",
+    "date": "2026-10-06",
+    "dataDay": "Chiusura lunedi' 05/10/2026 (snapshot generato 5/10 20:05 UTC)"
+  },
+  "valuePick": null,
+  "valueDiscarded": [
+    {"symbol": "DOCS", "reason": "Rallentamento strutturale: guidance FY27 sotto attese (664-676 mln vs ~699 mln), domanda pharma ad debole, costi AI sui margini, CFO uscito ad aprile; -61,3% dai massimi."},
+    {"symbol": "LEN", "reason": "In caduta (-6,73%) vicino ai minimi 52w, domanda in deterioramento, mutui ~7%."},
+    {"symbol": "FICO", "reason": "Possibile value trap strutturale (VantageScore/potere di prezzo), valutazione invariata rispetto al 5/10."}
+  ],
+  "etfSpotlight": {
+    "symbol": "VFEM.MI",
+    "name": "Vanguard FTSE Emerging Markets UCITS ETF",
+    "changePct": 2.61,
+    "tema": "Rally emergenti trainato da Asia tech: KOSPI +3,68%, Taiwan; TSMC ~15,6%, Samsung ~7,7%, SK Hynix ~6,1% del paniere EEM; chip AI/Nvidia ai massimi.",
+    "date": "2026-10-06"
+  },
+  "verifyYesterday": {
+    "IFX.DE": "IN RITRACCIAMENTO: 63,47 EUR (-1,81%), sopra invalidazione 60 EUR",
+    "ORCL": "IN LINEA: 142,55 USD (+0,18%)"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-04",
+    "stance": "Risk-on selettivo su AI/semiconduttori; escalation Iran/Hormuz da rischio latente a preparativi concreti. Nessuna decisione Fed in settimana (verbali 7/10, FOMC 27-28/10). Nessuna revisione in questo run feriale; prossima weekly sabato 10/10.",
+    "favor": ["AI/semiconduttori USA ed Europa", "BTC/ETH come core crypto senza size aggressiva", "Oro/argento come copertura tattica", "Pazienza prima dei verbali Fed del 7/10"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Storage/HDD (WDC, STX, SanDisk)", "Inseguire rally maturi senza tesi propria", "Piattaforme trading/CFD UK dopo profit warning (IG Group)", "Scommettere su rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Rischio Iran/Hormuz concreto", "Rally semiconduttori e Nasdaq/Nvidia ai massimi", "Rendimenti lunghi USA ai massimi a 52 settimane (10y 5,3%)", "Verbali Fed 7/10"],
+    "note": "Stance invariata rispetto alla weekly del 4/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-01", "note": "Pick: United Therapeutics (momentum) e Fincantieri (value).", "momentum": "UTHR", "value": "FCT.MI" },
+    { "date": "2026-10-02", "note": "UTHR e FCT.MI in linea. Pick: Accenture (momentum) e Oracle (value ad alto rischio).", "momentum": "ACN", "value": "ORCL" },
+    { "date": "2026-10-05", "note": "ACN INVALIDATO (-6,31%), ORCL in linea (+3,06%). Pick: Infineon (momentum); nessun value pick.", "momentum": "IFX.DE", "value": "nessuno (FICO, LEN scartati)" },
+    { "date": "2026-10-06", "note": "IFX.DE -1,81% sopra invalidazione, ORCL +0,18%. Pick: Nucor (momentum); nessun value pick (DOCS, LEN, FICO scartati).", "momentum": "NUE", "value": "nessuno (DOCS, LEN, FICO scartati)" }
+  ]
+}
