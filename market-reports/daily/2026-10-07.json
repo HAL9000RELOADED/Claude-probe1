@@ -1,0 +1,53 @@
+{
+  "lastRunDate": "2026-10-07",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "CIEN",
+    "name": "Ciena Corporation",
+    "priceRef": 443.97,
+    "changePctOnPickDay": 13.93,
+    "group": "SP500",
+    "thesis": "Networking ottico per data center AI. Q3 fiscale: ricavi 1,671 mld $ (+37% a/a), EPS adjusted 2,11$ (+215% a/a), guidance FY2026 alzata a 6,37-6,47 mld $, backlog 7,7 mld $ (~80% convertibile in 12 mesi), TAM visto a 50 mld $ entro 2029. Spinta aggiuntiva di oggi: bozza amministrazione Trump per vietare import transceiver ottici cinesi. Chiusura a -0,5% dal massimo di seduta. Rischio alto: titolo +347% in 12 mesi, rally gia' molto maturo nonostante fondamentali reali.",
+    "invalidation": "Chiusura sotto 392 USD (minimo di oggi). Size molto contenuta.",
+    "date": "2026-10-07",
+    "dataDay": "Chiusura martedi' 06/10/2026 (snapshot generato 6/10 20:06 UTC)"
+  },
+  "valuePick": {
+    "symbol": "INTU",
+    "name": "Intuit Inc.",
+    "priceRef": 289.81,
+    "changePctOnPickDay": 1.8,
+    "group": "SP500",
+    "thesis": "-57,95% dai massimi 52w (+14,6% dai minimi, non ai minimi assoluti). Selloff per timore di disruption AI su TurboTax/QuickBooks; guidance TurboTax FY26 tagliata a maggio, -17% personale (~3.000 posti). Segnali di fiducia: ~6 mld $ FCF annuo, buyback ampliato, blocco vendite management da marzo, partnership Anthropic (Feb 2026) per agenti AI nei prodotti. Target analista citato da fonte aggregata ~553$ (+42%), non verificato indipendentemente. Rischio reale: la disruption AI potrebbe essere strutturale anche per QuickBooks, non solo eccesso di pessimismo.",
+    "invalidation": "Chiusura sotto 250 USD (rottura minimi 52 settimane). Size contenuta.",
+    "date": "2026-10-07",
+    "dataDay": "Chiusura martedi' 06/10/2026 (snapshot generato 6/10 20:06 UTC)"
+  },
+  "valueDiscarded": [],
+  "etfSpotlight": {
+    "symbol": "XLU",
+    "name": "State Street Utilities Select Sector SPDR Fund",
+    "changePct": 2.96,
+    "tema": "Rally power/nucleare per domanda elettrica data center AI: accordo pluriennale Constellation-Meta sul nucleare, ordini esecutivi Trump per espandere capacita' nucleare USA 100GW->400GW entro 2050. XLU mescola utility difensive tradizionali con i nomi 'AI power play' piu' ciclici (CEG, VST, TLN, NRG) che hanno guidato il balzo di oggi.",
+    "date": "2026-10-07"
+  },
+  "verifyYesterday": {
+    "NUE": "IN LINEA: 251,10 USD (-0,12% giornaliero, -0,17% dal pick), ben sopra invalidazione 238 USD",
+    "valuePick": "nessun pick value attivo il 06/10 (DOCS, LEN, FICO scartati)"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-04",
+    "stance": "Risk-on selettivo su AI/semiconduttori; escalation Iran/Hormuz da rischio latente a preparativi concreti. Nessuna decisione Fed in settimana (verbali 7/10, FOMC 27-28/10). Nessuna revisione in questo run feriale; prossima weekly sabato 10/10.",
+    "favor": ["AI/semiconduttori USA ed Europa", "BTC/ETH come core crypto senza size aggressiva", "Oro/argento come copertura tattica", "Pazienza prima dei verbali Fed del 7/10"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Storage/HDD (WDC, STX, SanDisk)", "Inseguire rally maturi senza tesi propria", "Piattaforme trading/CFD UK dopo profit warning (IG Group)", "Scommettere su rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Rischio Iran/Hormuz concreto", "Rally semiconduttori e Nasdaq/Nvidia ai massimi", "Rendimenti lunghi USA ai massimi a 52 settimane (10y 5,3%)", "Verbali Fed 7/10"],
+    "note": "Stance invariata rispetto alla weekly del 4/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-02", "note": "UTHR e FCT.MI in linea. Pick: Accenture (momentum) e Oracle (value ad alto rischio).", "momentum": "ACN", "value": "ORCL" },
+    { "date": "2026-10-05", "note": "ACN INVALIDATO (-6,31%), ORCL in linea (+3,06%). Pick: Infineon (momentum); nessun value pick.", "momentum": "IFX.DE", "value": "nessuno (FICO, LEN scartati)" },
+    { "date": "2026-10-06", "note": "IFX.DE -1,81% sopra invalidazione, ORCL +0,18%. Pick: Nucor (momentum); nessun value pick (DOCS, LEN, FICO scartati).", "momentum": "NUE", "value": "nessuno (DOCS, LEN, FICO scartati)" },
+    { "date": "2026-10-07", "note": "NUE in linea (-0,17% dal pick, ben sopra invalidazione). Pick: Ciena (momentum, alto rischio da rally maturo) e Intuit (value/contrarian).", "momentum": "CIEN", "value": "INTU" }
+  ]
+}
