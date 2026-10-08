@@ -1,13 +1,14 @@
 # Sincronizza un progetto locale e ne esegue il (ri)deploy Docker su un NAS,
 # seguendo la convenzione gia' in uso per gli altri progetti Docker li' presenti:
-# ogni progetto vive in /Volume1/public/Docker/<ProjectName>/ con un proprio
-# redeploy.sh che richiama docker-compose (down/build/up). Il redeploy.sh deve
-# gia' esistere dentro LocalPath insieme a Dockerfile/docker-compose.yml/sorgenti.
+# ogni progetto vive in /Volume1/public/Docker/<ProjectName>/ con un redeploy.sh
+# che richiama docker compose (down/build/up). Il redeploy.sh NON va piu' creato
+# a mano per ogni progetto: se LocalPath non ne contiene uno, viene copiato quello
+# generico (nas-redeploy.sh, accanto a questo script). Un redeploy.sh presente in
+# LocalPath ha invece la precedenza (override per progetti con esigenze speciali).
 #
 # Accesso NAS: SSH su porta non-standard con un account/chiave dedicati.
-# docker/docker-compose potrebbero non essere in PATH di default sul NAS - i
-# redeploy.sh esistenti fanno gia' l'export PATH necessario se serve, quindi non
-# serve rifarlo qui.
+# docker/docker-compose potrebbero non essere in PATH di default sul NAS - ci
+# pensa redeploy.sh (anche quello generico) a estendere il PATH.
 #
 # Uso per uso proprio dell'assistente (adatta i parametri di default sotto
 # all'host/account/porta del proprio NAS):
@@ -20,7 +21,8 @@ param(
     [string]$SshUser = "claude",
     [string]$SshHost = "Blackhole",
     [int]$SshPort = 9224,
-    [string]$RemoteBase = "/Volume1/public/Docker"
+    [string]$RemoteBase = "/Volume1/public/Docker",
+    [string]$GenericRedeploy = (Join-Path $PSScriptRoot "nas-redeploy.sh")
 )
 
 if (-not (Test-Path $LocalPath)) {
@@ -31,8 +33,9 @@ if (-not (Test-Path $SshKey)) {
     Write-Host "Chiave SSH non trovata: $SshKey" -ForegroundColor Red
     exit 1
 }
-if (-not (Test-Path (Join-Path $LocalPath "redeploy.sh"))) {
-    Write-Host "Manca redeploy.sh in $LocalPath - crealo prima (vedi redeploy.sh di un progetto esistente come riferimento)." -ForegroundColor Red
+$useGenericRedeploy = -not (Test-Path (Join-Path $LocalPath "redeploy.sh"))
+if ($useGenericRedeploy -and -not (Test-Path $GenericRedeploy)) {
+    Write-Host "Manca redeploy.sh in $LocalPath e non trovo quello generico: $GenericRedeploy" -ForegroundColor Red
     exit 1
 }
 
@@ -65,6 +68,7 @@ $ExcludeNames = @(".git", ".claude", ".env", "__pycache__", ".pytest_cache", ".D
 ## cache), senza dover mantenere un secondo elenco di esclusione qui.
 $isGitRepo = Test-Path (Join-Path $LocalPath ".git")
 $stagingDir = $null
+$genericDir = $null
 
 if ($isGitRepo -and -not (Get-Command git -ErrorAction SilentlyContinue)) {
     Write-Host "git non e' installato - ricado sull'esclusione per nome (solo primo livello, non protegge dati annidati ignorati)." -ForegroundColor Yellow
@@ -143,7 +147,18 @@ try {
         Write-Host "LocalPath e' vuoto (o contiene solo elementi esclusi): $LocalPath" -ForegroundColor Red
         exit 1
     }
-    $paths = $items | ForEach-Object { $_.FullName }
+    $paths = @($items | ForEach-Object { $_.FullName })
+    if ($useGenericRedeploy) {
+        # Copia del redeploy.sh generico in una cartella temporanea col nome
+        # finale, convertita a LF (un checkout Windows con autocrlf lo
+        # renderebbe CRLF e `sh` sul NAS fallirebbe con "\r: not found").
+        $genericDir = Join-Path $env:TEMP ("nas-redeploy-" + [guid]::NewGuid().ToString("N"))
+        New-Item -ItemType Directory -Path $genericDir | Out-Null
+        $content = [System.IO.File]::ReadAllText($GenericRedeploy) -replace "`r`n", "`n"
+        [System.IO.File]::WriteAllText((Join-Path $genericDir "redeploy.sh"), $content, (New-Object System.Text.UTF8Encoding($false)))
+        $paths += (Join-Path $genericDir "redeploy.sh")
+        Write-Host "Nessun redeploy.sh nel progetto - uso quello generico ($GenericRedeploy)." -ForegroundColor DarkGray
+    }
     if (-not $isGitRepo) {
         Write-Host "Esclusi dalla sincronizzazione (solo primo livello, se presenti): $($ExcludeNames -join ', ')" -ForegroundColor DarkGray
     }
@@ -152,8 +167,10 @@ try {
     & scp -P $SshPort -i $SshKey -r @paths "${SshUser}@${SshHost}:${remoteDir}/"
     if ($LASTEXITCODE -ne 0) { Write-Host "scp fallito" -ForegroundColor Red; exit 1 }
 } finally {
-    if ($stagingDir -and (Test-Path $stagingDir)) {
-        Remove-Item -Recurse -Force $stagingDir -ErrorAction SilentlyContinue
+    foreach ($tmp in @($stagingDir, $genericDir)) {
+        if ($tmp -and (Test-Path $tmp)) {
+            Remove-Item -Recurse -Force $tmp -ErrorAction SilentlyContinue
+        }
     }
 }
 

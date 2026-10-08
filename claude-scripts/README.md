@@ -33,6 +33,21 @@ viene aperta una volta sola e mai richiusa/riaperta ad ogni update, perche' un
 Arduino Uno si resetta ad ogni apertura porta (toggle DTR) e richiudere/riaprire
 continuamente farebbe perdere i frame al display.
 
+### `nas-docker-redeploy.ps1` + `nas-redeploy.sh`
+Sincronizza un progetto locale sul NAS (`/Volume1/public/Docker/<Progetto>/`) e ne
+esegue il redeploy Docker:
+
+```
+powershell -File nas-docker-redeploy.ps1 -ProjectName my-service -LocalPath "C:\percorso\docker"
+```
+
+`nas-redeploy.sh` e' il `redeploy.sh` **generico**, valido per tutti i container:
+se il progetto non ha un suo `redeploy.sh`, lo script PowerShell lo copia
+automaticamente (convertito a LF). Fa `down` -> `build` -> `up -d`, trova da solo
+`docker compose`/`docker-compose` e aggiunge al PATH i percorsi tipici del NAS.
+Opzioni via variabili d'ambiente: `COMPOSE_FILE`, `NO_BUILD=1`, `PULL=1`, `PRUNE=1`.
+Un `redeploy.sh` presente nel progetto ha la precedenza (override per casi speciali).
+
 ## Note per l'uso su una nuova macchina
 
 - I percorsi usano `%USERPROFILE%` / `$env:USERPROFILE`, quindi funzionano su
