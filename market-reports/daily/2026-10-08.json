@@ -1,0 +1,53 @@
+{
+  "lastRunDate": "2026-10-08",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "MU",
+    "name": "Micron Technology, Inc.",
+    "priceRef": 1088.00,
+    "changePctOnPickDay": 4.06,
+    "group": "SP500",
+    "thesis": "Memoria HBM per AI. Uno dei 3 produttori al mondo su scala; produzione HBM 2026 gia' interamente venduta tramite contratti pluriennali secondo fonti aggregate. Fiscal Q3 2026: ricavi ~41,5 mld $ (oltre attese di 5+ mld $), guidance trimestre successivo ~50 mld $, margine lordo 84,9% (numeri da fonti aggregate, non verificati su bilancio ufficiale). In controtendenza netta su una seduta diffusamente negativa (SP500 -0,75%, SP400 -1,46%). Rischio alto: +505,8% dai minimi 52w, business ciclico, concorrenza SK Hynix/Samsung, posizioni corte di Michael Burry riportate dalle fonti.",
+    "invalidation": "Chiusura sotto 1.011 USD (minimo di oggi). Size molto contenuta.",
+    "date": "2026-10-08",
+    "dataDay": "Chiusura mercoledi' 07/10/2026 (snapshot generato 7/10 20:06 UTC)"
+  },
+  "valuePick": {
+    "symbol": "STLAM.MI",
+    "name": "Stellantis N.V.",
+    "priceRef": 4.124,
+    "changePctOnPickDay": 1.35,
+    "group": "FTSEMIB",
+    "thesis": "-60,7% dai massimi 52w (+8,2% dai minimi, non ai minimi assoluti). 2025: perdita netta ~22,3 mld EUR da svalutazione EV di 25,4 mld EUR. Turnaround CEO Filosa: piano FaSTLAne 2030 (maggio 2026), focus Jeep/Ram USA, modelli piu' accessibili. Q1 2026: utile operativo adjusted quasi triplicato (aiutato da rimborsi dazi USA), EPS 0,14EUR sopra attese, FCF industriale ancora negativo (-1,9 mld EUR, in miglioramento da -3 mld EUR) con obiettivo di FCF positivo nel 2027. Scartati come value trap: Fiserv (FISV, terzo guidance cut in un anno, pattern strutturale) e Trade Desk (TTD, crescita crollata 19%->3% sotto pressione Amazon, Morningstar vede erosione quota fino al 2034). Rischio reale: FCF ancora negativo, esposizione dazi USA-Canada-Messico, concorrenza cinese low-cost.",
+    "invalidation": "Chiusura sotto 3,80 EUR a Milano (rottura minimi 52 settimane). Size contenuta.",
+    "date": "2026-10-08",
+    "dataDay": "Chiusura mercoledi' 07/10/2026 (snapshot generato 7/10 20:06 UTC)"
+  },
+  "valueDiscarded": ["FISV (value trap: terzo guidance cut in un anno)", "TTD (value trap: erosione strutturale quota di mercato per pressione Amazon)"],
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": -2.92,
+    "tema": "Ritracciamento dell'argento dopo il record di ~121$/oz di fine gennaio 2026 (quasi dimezzato, ~60-61$/oz a inizio ottobre secondo fonti). Accentuato dal tono ancora hawkish dei verbali Fed del meeting 15-16 settembre (primo rialzo dal 2023, al 3,75-4,00%), nonostante dati piu' deboli abbiano ridotto le probabilita' di un ulteriore rialzo a fine ottobre al ~20%. Movimento estesosi a tutte le materie prime: oro GLD -1,66%, materiali XLB -1,51%.",
+    "date": "2026-10-08"
+  },
+  "verifyYesterday": {
+    "CIEN": "IN LINEA: 446,46 USD (+0,63% giornaliero, +0,56% dal pick), ben sopra invalidazione 392 USD",
+    "INTU": "IN LINEA: 297,24 USD (+2,56% giornaliero e dal pick), lontano dall'invalidazione 250 USD"
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-04",
+    "stance": "Risk-on selettivo su AI/semiconduttori; escalation Iran/Hormuz da rischio latente a preparativi concreti. Nessuna decisione Fed in settimana (verbali pubblicati 7/10, confermano tono hawkish dal meeting 15-16/9 che ha gia' alzato i tassi al 3,75-4,00%; prossimo FOMC 27-28/10, probabilita' di un ulteriore rialzo scese a ~20% dopo dati deboli). Nessuna revisione in questo run feriale; prossima weekly sabato 10/10.",
+    "favor": ["AI/semiconduttori USA ed Europa", "BTC/ETH come core crypto senza size aggressiva", "Oro/argento come copertura tattica", "Pazienza prima del FOMC del 27-28/10"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Storage/HDD (WDC, STX, SanDisk)", "Inseguire rally maturi o deal-arbitrage senza tesi propria", "Piattaforme trading/CFD UK dopo profit warning (IG Group)", "Scommettere su rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Rischio Iran/Hormuz concreto", "Verbali Fed pubblicati 7/10: tono hawkish dal meeting che ha gia' alzato i tassi al 3,75-4,00%, ma dati post-meeting piu' deboli", "Pullback ampio su mid-cap USA ed Europa dopo il rally di martedi'", "Prossimo FOMC 27-28 ottobre"],
+    "note": "Stance invariata rispetto alla weekly del 4/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-05", "note": "ACN INVALIDATO (-6,31%), ORCL in linea (+3,06%). Pick: Infineon (momentum); nessun value pick.", "momentum": "IFX.DE", "value": "nessuno (FICO, LEN scartati)" },
+    { "date": "2026-10-06", "note": "IFX.DE -1,81% sopra invalidazione, ORCL +0,18%. Pick: Nucor (momentum); nessun value pick (DOCS, LEN, FICO scartati).", "momentum": "NUE", "value": "nessuno (DOCS, LEN, FICO scartati)" },
+    { "date": "2026-10-07", "note": "NUE in linea (-0,17% dal pick, ben sopra invalidazione). Pick: Ciena (momentum, alto rischio da rally maturo) e Intuit (value/contrarian).", "momentum": "CIEN", "value": "INTU" },
+    { "date": "2026-10-08", "note": "CIEN in linea (+0,56% dal pick), INTU in linea (+2,56% dal pick), entrambi lontani dall'invalidazione. Pick: Micron (momentum, HBM/AI, alto rischio da rally maturo) e Stellantis (value/contrarian, turnaround con esecuzione misurabile). Scartati come value trap: Fiserv e Trade Desk.", "momentum": "MU", "value": "STLAM.MI" }
+  ]
+}
