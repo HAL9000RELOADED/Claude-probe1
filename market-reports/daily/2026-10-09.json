@@ -1,0 +1,53 @@
+{
+  "lastRunDate": "2026-10-09",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "PBF",
+    "name": "PBF Energy Inc.",
+    "priceRef": 89.34,
+    "changePctOnPickDay": 6.76,
+    "group": "SP400_MIDCAP",
+    "thesis": "Raffinazione petrolifera. Driver principalmente settoriale/macro: tensione Iran/Stretto di Hormuz (fine settembre: Brent +7,8%, WTI +10% in una settimana), OPEC+ invariato a inizio ottobre. Fondamentali Q2 2026: ricavi 11,68 mld $ (+56% a/a), utile netto 915 milioni $ (vs perdita 5,4 milioni $ anno prima). Prossima trimestrale 29/10, quindi mossa di oggi non earnings-driven. In controtendenza vs indici cap-pesati (SPY -0,42%, QQQ -1,34%).",
+    "invalidation": "Chiusura sotto 84,83 USD (minimo di oggi). Rischio alto: titolo gia' ai massimi delle 52 settimane dopo rally del +248,7% dai minimi; BMO Capital (1/10) target 80$ Market Perform, sotto il prezzo attuale. Size molto contenuta.",
+    "date": "2026-10-09",
+    "dataDay": "Chiusura giovedi' 08/10/2026 (snapshot generato 8/10 20:06 UTC)"
+  },
+  "valuePick": {
+    "symbol": "CSGP",
+    "name": "CoStar Group, Inc.",
+    "priceRef": 29.805,
+    "changePctOnPickDay": 7.99,
+    "group": "SP500",
+    "thesis": "-62,4% dai massimi 52w (+15,1% dai minimi, non ai minimi assoluti). -53% da inizio 2026 per preoccupazione sulla spesa in Homes.com (competizione con Zillow). Q2 2026: EPS 0,32$ batte 0,29$ stimati, EBITDA adjusted raddoppiato a 184 mln $, ma guidance Q3 abbassata (EPS 0,31-0,34$, ricavi 935-945 mln $ sotto consensus). Segnali di non-trap: CEO Andrew Florance ha acquistato oltre 2,5 mln $ di azioni; accordo per acquisire Zonda (dati real estate nuove costruzioni) per 800 mln $ in contanti; consensus analisti Moderate Buy, target medio 51,50$ (ma dispersione ampia, es. Baird 34$). Rischio: l'investimento in Homes.com potrebbe pesare sui margini piu' del previsto; il taglio guidance di luglio potrebbe essere il primo di una serie (pattern Fiserv). Prossima trimestrale 26/10 come test chiave.",
+    "invalidation": "Chiusura sotto 27,58 USD (minimo di oggi, vicino al minimo 52 settimane). Size contenuta.",
+    "date": "2026-10-09",
+    "dataDay": "Chiusura giovedi' 08/10/2026 (snapshot generato 8/10 20:06 UTC)"
+  },
+  "valueDiscarded": [],
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "Energy Select Sector SPDR Fund",
+    "changePct": 2.94,
+    "tema": "Rotazione verso l'energia sostenuta dal greggio: fine settembre 2026 Brent +7,8%/WTI +10% in una settimana dopo ripresa attacchi nello Stretto di Hormuz; OPEC+ invariato a inizio ottobre con capacita' limitata di influenzare il mercato secondo Rystad Energy. Si riflette su CVX +3,15%, APA +3,80%, PBF +6,76%.",
+    "date": "2026-10-09"
+  },
+  "verifyYesterday": {
+    "MU": "SOTTO PRESSIONE: 1.035,84 USD (-4,79% dal pick), cuscinetto ridotto a ~2,4% dall'invalidazione 1.011 USD. Calo attribuito a contagio settoriale AI-infra (Oracle debt jitters), non notizia societaria specifica.",
+    "STLAM.MI": "IN LINEA: 4,0015 EUR (-2,98% dal pick), cuscinetto ancora ampio (~5,3%) dall'invalidazione 3,80 EUR."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-04",
+    "stance": "Risk-on selettivo su AI/semiconduttori; escalation Iran/Hormuz da rischio latente a preparativi concreti. Nessuna revisione in questo run feriale; prossima weekly sabato 10/10.",
+    "favor": ["AI/semiconduttori USA ed Europa", "BTC/ETH come core crypto senza size aggressiva", "Oro/argento come copertura tattica", "Pazienza prima del FOMC del 27-28/10"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Storage/HDD (WDC, STX, SanDisk)", "Inseguire rally maturi o deal-arbitrage senza tesi propria", "Piattaforme trading/CFD UK dopo profit warning (IG Group)", "Scommettere su rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Rischio Iran/Hormuz concreto, greggio in forte rialzo da fine settembre", "Tema debito/capex AI di Oracle torna a pesare su ORCL e nomi AI-infra adiacenti (COHR, GLW, CEG, AVGO, INTC)", "Prossimo FOMC 27-28 ottobre"],
+    "note": "Stance invariata rispetto alla weekly del 4/10. Prossimo aggiornamento sabato 10/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-06", "note": "IFX.DE -1,81% sopra invalidazione, ORCL +0,18%. Pick: Nucor (momentum); nessun value pick.", "momentum": "NUE", "value": "nessuno" },
+    { "date": "2026-10-07", "note": "NUE in linea. Pick: Ciena (momentum) e Intuit (value/contrarian).", "momentum": "CIEN", "value": "INTU" },
+    { "date": "2026-10-08", "note": "CIEN e INTU in linea. Pick: Micron (momentum, HBM/AI) e Stellantis (value/contrarian, turnaround).", "momentum": "MU", "value": "STLAM.MI" },
+    { "date": "2026-10-09", "note": "MU sotto pressione (-4,79%, cuscinetto ridotto a ~2,4%) per contagio settoriale AI-infra; STLAM.MI in linea (-2,98%, cuscinetto ampio). Pick: PBF Energy (momentum, settore energia su tensioni Iran/Hormuz, rally gia' molto estesO) e CoStar Group (value/contrarian, turnaround Homes.com con insider buying e acquisizione Zonda).", "momentum": "PBF", "value": "CSGP" }
+  ]
+}
