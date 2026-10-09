@@ -1,0 +1,55 @@
+# redeploy.conf  -  configurazione opzionale per redeploy.sh
+# Copiare in ./redeploy.conf accanto a redeploy.sh e decommentare SOLO
+# cio' che serve. E' un file sh "sourced": usare sintassi POSIX, niente spazi
+# attorno a '='. Tutte le righe qui sono commentate (= tutti i default attivi).
+
+# --- Compose file ------------------------------------------------------------
+# Percorso del compose file. Se vuoto, autodetect nell'ordine:
+#   docker-compose.yml/.yaml, compose.yml/.yaml e le stesse sotto docker/.
+# Impostarlo quando esistono piu' compose file (es. ./docker-compose.yml E
+# docker/docker-compose.yml) e l'autodetect non riesce a disambiguare.
+#COMPOSE_FILE=docker/docker-compose.yml
+
+# --- Profili compose ---------------------------------------------------------
+# Profili da attivare, separati da spazio. Vuoto = nessun profilo.
+# I servizi gated da questi profili verranno deployati e health-checkati.
+#PROFILES="cycle worker"
+
+# --- Modalita' build-only ----------------------------------------------------
+# 0/1. Default auto: 1 se TUTTI i servizi sono profile-gated e PROFILES e'
+# vuoto (il progetto si usa solo con 'run --rm'); altrimenti 0.
+# Forzabile anche da riga di comando con --build-only.
+#BUILD_ONLY=0
+
+# --- down prima di up --------------------------------------------------------
+# 0/1 (default 0). Mettere 1 (o passare --down) quando cambiano reti/subnet
+# e serve ricreare la rete di progetto.
+#DOWN_FIRST=0
+
+# --- pull immagini -----------------------------------------------------------
+# 0/1 (default 1). Se 1 e c'e' almeno un servizio image-only, fa
+# 'docker-compose pull --ignore-buildable' prima del build.
+#PULL=1
+
+# --- log finali --------------------------------------------------------------
+# Righe di log mostrate alla fine (default 30). --no-logs le disabilita.
+#LOG_TAIL=30
+
+# --- health check ------------------------------------------------------------
+# Budget in secondi dell'health check: fa polling dello stato dei container
+# ogni 3s fino a questo limite (default 45). Esce con OK appena tutti sono sani
+# e sono passati almeno 15s dall'inizio dell'health check (non dall'up, che sul NAS puo' durare decine di secondi), per intercettare i crash-loop. 0 (o il
+# flag --no-health) disabilita del tutto l'health check.
+#HEALTH_WAIT=45
+
+# --- creazione bind dir ------------------------------------------------------
+# 0/1 (default 1). Se 1 crea con 'mkdir -p' le sorgenti bind mancanti che
+# stanno DENTRO la cartella progetto e il cui basename non contiene '.'
+# (cosi' le crea l'utente, non root via docker). Le altre mancanze (file come
+# .env/config.json, o dir di altri progetti) generano solo un WARNING.
+#MKDIR_BINDS=1
+
+# --- directory extra da creare ----------------------------------------------
+# Dir aggiuntive da 'mkdir -p', separate da spazio. Accetta percorsi relativi
+# (alla cartella progetto) e assoluti.
+#EXTRA_DIRS="data/logs /Volume1/public/Docker/bonds-trading-bot/state"
