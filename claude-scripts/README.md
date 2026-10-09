@@ -33,6 +33,19 @@ viene aperta una volta sola e mai richiusa/riaperta ad ogni update, perche' un
 Arduino Uno si resetta ad ogni apertura porta (toggle DTR) e richiudere/riaprire
 continuamente farebbe perdere i frame al display.
 
+### `nas-docker-redeploy.ps1` + `nas-redeploy/`
+Deploy di un progetto Docker Compose sul NAS: copia la cartella locale (solo file
+tracciati da git, se e' un repo) e lancia `redeploy.sh` via SSH. Se il progetto non ha
+un suo `redeploy.sh`, carica il template generico `nas-redeploy/redeploy.sh`
+(`-UseTemplate` per forzarlo, `-RedeployArgs "--dry-run"` per passare flag).
+
+`nas-redeploy/redeploy.sh` e' un unico script POSIX sh da copiare **invariato** in ogni
+progetto compose: autodetect del compose file, pull/build prima di toccare il container
+(build fallita = vecchio container intatto), `up -d`, health check in polling
+(crash-loop/unhealthy = exit 1), `--dry-run`. Lo specifico del progetto va in
+`redeploy.conf` e negli hook `redeploy.pre.sh` / `redeploy.post-build.sh` /
+`redeploy.post.sh`. Dettagli ed esempi di migrazione in `nas-redeploy/README.md`.
+
 ## Note per l'uso su una nuova macchina
 
 - I percorsi usano `%USERPROFILE%` / `$env:USERPROFILE`, quindi funzionano su

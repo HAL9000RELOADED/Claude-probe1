@@ -1,8 +1,8 @@
 # Sincronizza un progetto locale e ne esegue il (ri)deploy Docker su un NAS,
 # seguendo la convenzione gia' in uso per gli altri progetti Docker li' presenti:
 # ogni progetto vive in /Volume1/public/Docker/<ProjectName>/ con un proprio
-# redeploy.sh che richiama docker-compose (down/build/up). Il redeploy.sh deve
-# gia' esistere dentro LocalPath insieme a Dockerfile/docker-compose.yml/sorgenti.
+# redeploy.sh che richiama docker-compose (build/up). Se LocalPath non contiene
+# un redeploy.sh viene usato il template generico nas-redeploy\redeploy.sh.
 #
 # Accesso NAS: SSH su porta non-standard con un account/chiave dedicati.
 # docker/docker-compose potrebbero non essere in PATH di default sul NAS - i
@@ -20,7 +20,9 @@ param(
     [string]$SshUser = "claude",
     [string]$SshHost = "Blackhole",
     [int]$SshPort = 9224,
-    [string]$RemoteBase = "/Volume1/public/Docker"
+    [string]$RemoteBase = "/Volume1/public/Docker",
+    [switch]$UseTemplate,   # forza il redeploy.sh generico anche se LocalPath ne ha uno suo
+    [string]$RedeployArgs = ""   # es. "--dry-run" oppure "--down"
 )
 
 if (-not (Test-Path $LocalPath)) {
@@ -31,8 +33,14 @@ if (-not (Test-Path $SshKey)) {
     Write-Host "Chiave SSH non trovata: $SshKey" -ForegroundColor Red
     exit 1
 }
-if (-not (Test-Path (Join-Path $LocalPath "redeploy.sh"))) {
-    Write-Host "Manca redeploy.sh in $LocalPath - crealo prima (vedi redeploy.sh di un progetto esistente come riferimento)." -ForegroundColor Red
+## redeploy.sh generico (nas-redeploy\redeploy.sh, accanto a questo script):
+## identico per tutti i progetti, la parte specifica sta in redeploy.conf /
+## redeploy.{pre,post-build,post}.sh del progetto. Se LocalPath non ha un suo
+## redeploy.sh (o si passa -UseTemplate) viene caricato il template.
+$TemplateRedeploy = Join-Path $PSScriptRoot "nas-redeploy\redeploy.sh"
+$useTemplate = $UseTemplate -or -not (Test-Path (Join-Path $LocalPath "redeploy.sh"))
+if ($useTemplate -and -not (Test-Path $TemplateRedeploy)) {
+    Write-Host "Manca redeploy.sh in $LocalPath e il template $TemplateRedeploy non esiste." -ForegroundColor Red
     exit 1
 }
 
@@ -157,8 +165,14 @@ try {
     }
 }
 
-Write-Host "Eseguo redeploy.sh su $ProjectName (docker-compose down/build/up)..." -ForegroundColor Cyan
-& ssh -p $SshPort -i $SshKey "$SshUser@$SshHost" "sh '$remoteDir/redeploy.sh'"
+if ($useTemplate) {
+    Write-Host "Carico il redeploy.sh generico (template) in $remoteDir/ ..." -ForegroundColor Cyan
+    & scp -P $SshPort -i $SshKey $TemplateRedeploy "${SshUser}@${SshHost}:${remoteDir}/redeploy.sh"
+    if ($LASTEXITCODE -ne 0) { Write-Host "scp del template fallito" -ForegroundColor Red; exit 1 }
+}
+
+Write-Host "Eseguo redeploy.sh su $ProjectName $RedeployArgs ..." -ForegroundColor Cyan
+& ssh -p $SshPort -i $SshKey "$SshUser@$SshHost" "sh '$remoteDir/redeploy.sh' $RedeployArgs"
 if ($LASTEXITCODE -ne 0) { Write-Host "redeploy.sh ha restituito un errore" -ForegroundColor Red; exit 1 }
 
 Write-Host "Redeploy completato per $ProjectName." -ForegroundColor Green
