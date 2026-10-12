@@ -1,0 +1,52 @@
+{
+  "lastRunDate": "2026-10-12",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "HUM",
+    "name": "Humana Inc.",
+    "priceRef": 431.87,
+    "changePctOnPickDay": 11.56,
+    "group": "SP500",
+    "thesis": "Assicurazione sanitaria / Medicare Advantage. Crescita iscritti Medicare Advantage sopra le attese a inizio ottobre; upgrade a Overweight da Cantor Fitzgerald e Barclays (target Barclays 515$ da 407$), citando il contratto H5216 e le stelle CMS di ottobre come catalizzatori. Nessuna notizia societaria specifica trovata per la singola seduta di venerdi' 9/10: plausibile prosecuzione dello stesso tema di inizio ottobre, non confermata giorno per giorno. -5,4% dai massimi 52w (vicino ai massimi dell'anno), +164,8% dai minimi.",
+    "invalidation": "Chiusura sotto 428,45 USD (minimo di venerdi' 9/10). Rischio: settore esposto a revisioni regolatorie dei tassi di rimborso Medicare Advantage; rally gia' molto estesO, buone notizie probabilmente in parte nel prezzo. Size contenuta.",
+    "date": "2026-10-12",
+    "dataDay": "Chiusura venerdi' 09/10/2026 (snapshot generato 11/10 20:06 UTC, nessun trading nel weekend)"
+  },
+  "valuePick": {
+    "symbol": "CNH",
+    "name": "CNH Industrial N.V.",
+    "priceRef": 11.39,
+    "changePctOnPickDay": -6.1,
+    "group": "SP400_MIDCAP",
+    "thesis": "-21,2% dai massimi 52w (+26,6% dai minimi, non ai minimi assoluti). Calo di venerdi' 9/10 probabilmente settoriale: stesso giorno in calo anche ADM (-3,1%), Bunge (-4,72%), Corteva (-3,71%), nessuna notizia CNH-specifica trovata. Impatto tariffario reale e gia' guidato dal management: dazi 2026 tagliano margini Agricoltura di ~170bps e Costruzioni di ~470bps (run-rate 2027 ~150/450bps), margine EBIT adjusted Agricoltura sceso a 5,2% da 8,1% a/a nel Q2, vendite Sud America -27%. Segnali di non-trap: guidance EPS adjusted FY26 alzata ad agosto (0,41-0,46$) dopo Q2 sopra le attese; accordo con Bourgault Industries (seeding tech) citato come catalizzatore di rinnovato interesse a fine agosto. Analisti misti: MarketBeat consensus Hold, target medio 12,77$; Stockanalysis.com orientamento Buy, target ~13,77$ - margine di rialzo modesto in ogni caso.",
+    "invalidation": "Chiusura sotto 11,38 USD (minimo di venerdi' 9/10, cuscinetto molto ridotto dal prezzo attuale). Size necessariamente piccola. Rischio principale: la pressione tariffaria sui margini dura piu' del previsto (run-rate 2027 ancora significativo).",
+    "date": "2026-10-12",
+    "dataDay": "Chiusura venerdi' 09/10/2026 (snapshot generato 11/10 20:06 UTC, nessun trading nel weekend)"
+  },
+  "valueDiscarded": [],
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": 2.49,
+    "tema": "Rimbalzo tattico dopo un 2026 estremo per l'argento: massimo storico vicino a 121$/oncia a fine gennaio 2026, poi quasi dimezzato a ~61$/oncia a inizio ottobre. Il rialzo di venerdi' si muove in correlazione con l'oro (GLD +1,57%) su domanda di beni rifugio legata a Iran/Hormuz, nessuna notizia specifica sull'argento trovata per la singola seduta.",
+    "date": "2026-10-12"
+  },
+  "verifyYesterday": {
+    "note": "Nessuna seduta di trading tra il pick di venerdi' 9/10 e oggi (weekend): PBF Energy e CoStar Group non ancora verificabili con prezzi piu' recenti. Primo riscontro reale atteso dopo la chiusura di oggi, lunedi' 12/10."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-11",
+    "stance": "Stagflazione latente confermata l'11/10: nessuna revisione in questo run feriale. Prossima weekly sabato 17/10.",
+    "favor": ["Oro/argento come copertura tattica", "Pazienza sull'azionario ampio fino al CPI di mercoledi' 14/10", "Trimestrali bancarie USA da seguire senza posizionarsi in anticipo", "BTC/ETH come core crypto senza size aggressiva"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Telecom USA/EU large cap dopo il selloff di venerdi'", "Esposizione aggressiva al petrolio/trasporti legati a Hormuz", "Scommettere su una rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Fed in ciclo di rialzi, verbali falco del 7/10", "CPI USA di settembre mercoledi' 14/10", "Trimestrali bancarie USA martedi'-giovedi'", "Iran/Hormuz in stallo diplomatico, nessun segnale di sviluppo nel weekend"],
+    "note": "Stance invariata rispetto alla weekly dell'11/10. Prossimo aggiornamento sabato 17/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-07", "note": "NUE in linea. Pick: Ciena (momentum) e Intuit (value/contrarian).", "momentum": "CIEN", "value": "INTU" },
+    { "date": "2026-10-08", "note": "CIEN e INTU in linea. Pick: Micron (momentum, HBM/AI) e Stellantis (value/contrarian, turnaround).", "momentum": "MU", "value": "STLAM.MI" },
+    { "date": "2026-10-09", "note": "MU sotto pressione (-4,79%, cuscinetto ridotto a ~2,4%) per contagio settoriale AI-infra; STLAM.MI in linea (-2,98%, cuscinetto ampio). Pick: PBF Energy (momentum, settore energia) e CoStar Group (value/contrarian, turnaround Homes.com).", "momentum": "PBF", "value": "CSGP" },
+    { "date": "2026-10-12", "note": "Weekend senza trading: PBF e CSGP non ancora verificabili con prezzi piu' recenti. Pick: Humana (momentum, Medicare Advantage/upgrade analisti) e CNH Industrial (value/contrarian, calo probabilmente settoriale su un impatto tariffario gia' guidato).", "momentum": "HUM", "value": "CNH" }
+  ]
+}
