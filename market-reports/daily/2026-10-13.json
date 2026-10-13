@@ -1,0 +1,54 @@
+{
+  "lastRunDate": "2026-10-13",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "FICO",
+    "name": "Fair Isaac Corporation",
+    "priceRef": 739.74,
+    "changePctOnPickDay": 10.81,
+    "group": "SP500",
+    "thesis": "Analytics del credito/punteggi FICO. -60,2% dai massimi 52w (+26,2% dai minimi). Reduce da un 2025-2026 difficile per la 'controversia sui prezzi dei mutui' (scrutinio regolatorio/competitivo su VantageScore e GSE), nonostante ricavi +27% e utile netto +33% nei nove mesi fiscali chiusi a giugno 2026. Storia di balzi a doppia cifra su catalizzatori specifici (+13% su beat trimestrale, +20% ott-2025 su licenza diretta). Lunedì range intraday 666,16-741,75$ (11,35%), chiusura vicino al massimo di giornata: segnale di acquisti convinti. Nessuna notizia societaria specifica datata 12/10 trovata per questo balzo preciso: catalizzatore non confermato.",
+    "invalidation": "Chiusura sotto 666,16 USD (minimo della seduta di lunedi' 12/10). Rischio: catalizzatore esatto non verificato, pattern storico di balzi seguiti da ritracciamenti; rischio regolatorio sul pricing dei mutui resta strutturale. Size contenuta.",
+    "date": "2026-10-13",
+    "dataDay": "Chiusura lunedi' 12/10/2026 (snapshot generato 12/10 20:05 UTC)"
+  },
+  "valuePick": {
+    "symbol": "FISV",
+    "name": "Fiserv, Inc.",
+    "priceRef": 46.05,
+    "changePctOnPickDay": 0.92,
+    "group": "SP500",
+    "thesis": "-64,2% dai massimi 52w, solo +5,0% dai minimi (cuscinetto sottile) ma non in caduta libera oggi (+0,92%). Gia' -65% nel 2025 in un crollo storico. Nell'agosto 2026 il nuovo CEO Takis Georgakopoulos ha tagliato la guidance FY26 (ricavi organici -1%/0%, EPS adjusted 7,20-7,40$) per deterioramento macro in Argentina, tempistiche clienti piu' lente, maggiore spesa tech/cybersecurity. Ricavi adjusted -4% a 4,96 mld$. Segnale positivo: Clover ex-Argentina ed ex one-off avrebbe crescita sottostante +13% (vs +2% riportato). Revisione di portafoglio 'dispassionate' lanciata dal nuovo CEO, segno di ristrutturazione comunicata apertamente, non di sorpresa negativa nascosta. Nessuna conferma di ottobre 2026 su come procede la revisione o su un consensus analisti aggiornato: turnaround aperto, non un caso chiaro in un senso o nell'altro.",
+    "invalidation": "Chiusura sotto 45,345 USD (minimo della seduta di lunedi' 12/10, molto vicino al prezzo attuale). Size necessariamente piccola data la scarsa distanza dai minimi 52w (+5%) e il rischio di un'ulteriore delusione sulla guidance.",
+    "date": "2026-10-13",
+    "dataDay": "Chiusura lunedi' 12/10/2026 (snapshot generato 12/10 20:05 UTC)"
+  },
+  "valueDiscarded": [
+    { "symbol": "CAR", "name": "Avis Budget Group, Inc.", "reason": "Segnalato dal dataset come sceso molto (-87,6% dai massimi) ma la storia e' un violento short squeeze tecnico (SRS/Pentwater, ~100 $ a ~850 $ e ritorno), causa legale in corso contro Pentwater, trimestrali 26-27/10 con volatilita' implicita ~12%. Non e' un caso di valore genuino: guidato da meccanica tecnica/contenzioso, non da fondamentali verificabili. Scartato, non proposto come pick." }
+  ],
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "Energy Select Sector SPDR Fund",
+    "changePct": 1.44,
+    "tema": "Rialzo diffuso su tutto il paniere energia USA (ExxonMobil +1,89%, ConocoPhillips +2,58%, APA +2,11%, Kinder Morgan +2,08%, Williams +2,08%, Occidental +1,72%, Chevron +1,43%), non concentrato su un singolo nome. Prezzo puntuale del petrolio non verificabile da fonti affidabili per lunedi' 12/10 (risultati di ricerca contraddittori/non datati), quindi non riportato per evitare di inventare un numero. Lettura piu' plausibile: premio di rischio geopolitico Iran/Stretto di Hormuz, coerente con la strategia settimanale attiva.",
+    "date": "2026-10-13"
+  },
+  "verifyYesterday": {
+    "note": "HUM chiusura lunedi' 433,45$ (+0,37%), sopra invalidazione 428,45$: consolidamento dopo il +11,56% di venerdi', nessun nuovo allungo. CNH chiusura lunedi' 11,665$ (+2,41%), sopra invalidazione 11,38$: rimbalzo netto, primo segnale a favore della lettura 'calo settoriale non aziendale' di domenica/lunedi'."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-11",
+    "stance": "Stagflazione latente confermata l'11/10: nessuna revisione in questo run feriale. Prossima weekly sabato 17/10.",
+    "favor": ["Oro/argento come copertura tattica", "Pazienza sull'azionario ampio fino al CPI di mercoledi' 14/10", "Trimestrali bancarie USA da seguire senza anticipare", "BTC/ETH come core senza size aggressiva"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Telecom USA/EU large cap dopo il selloff", "Esposizione aggressiva al petrolio/trasporti legati a Hormuz", "Scommettere su una rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Fed in ciclo di rialzi, verbali falco del 7/10", "CPI USA di settembre mercoledi' 14/10", "Trimestrali bancarie USA: JPM/C/GS martedi' 13/10, BAC/MS mercoledi' 14/10, USB/SCHW giovedi' 15/10", "Iran/Hormuz in stallo diplomatico"],
+    "note": "Stance invariata rispetto alla weekly dell'11/10. Prossimo aggiornamento sabato 17/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-08", "note": "CIEN e INTU in linea. Pick: Micron (momentum, HBM/AI) e Stellantis (value/contrarian, turnaround).", "momentum": "MU", "value": "STLAM.MI" },
+    { "date": "2026-10-09", "note": "MU sotto pressione per contagio settoriale AI-infra; STLAM.MI in linea. Pick: PBF Energy (momentum) e CoStar Group (value/contrarian).", "momentum": "PBF", "value": "CSGP" },
+    { "date": "2026-10-12", "note": "Weekend senza trading: PBF e CSGP non ancora verificabili. Pick: Humana (momentum, Medicare Advantage) e CNH Industrial (value/contrarian, calo probabilmente settoriale).", "momentum": "HUM", "value": "CNH" },
+    { "date": "2026-10-13", "note": "HUM +0,37% lunedi' (sopra invalidazione, consolidamento). CNH +2,41% lunedi' (sopra invalidazione, rimbalzo netto). Pick: Fair Isaac/FICO (momentum, +10,81%, catalizzatore specifico non confermato) e Fiserv/FISV (value/contrarian, guidance FY26 tagliata ad agosto, Clover ex-Argentina +13%). Scartato come value trap: Avis Budget/CAR (short squeeze tecnico, non fondamentali).", "momentum": "FICO", "value": "FISV" }
+  ]
+}
