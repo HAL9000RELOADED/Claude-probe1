@@ -1,0 +1,52 @@
+{
+  "lastRunDate": "2026-10-14",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "GIVN.SW",
+    "name": "Givaudan SA",
+    "priceRef": 3817.0,
+    "changePctOnPickDay": 9.43,
+    "group": "SMI",
+    "thesis": "Leader mondiale fragranze/aromi. Chiusura esattamente sul massimo di seduta e sui massimi 52 settimane (+48,8% dai minimi), in controtendenza su un mercato USA piatto. Semestrale di luglio 2026 aveva deluso (utile netto -24,6%). Catalizzatore non confermato con fonte datata 13/10/2026: ipotesi piu' solida e' la pubblicazione delle vendite dei nove mesi 2026 (nel 2025 pubblicate esattamente il 13 ottobre, con crescita organica +5,7% trainata da fragranze fini +18,7%), ma non trovato il comunicato 2026 stesso.",
+    "invalidation": "Chiusura sotto 3.662 CHF (minimo della seduta di martedi' 13/10). Rischio: titolo gia' ai massimi 52w dopo balzo del 9%, poco margine per nuove sorprese; catalizzatore non confermato nel dettaglio. Size contenuta.",
+    "date": "2026-10-14",
+    "dataDay": "Chiusura martedi' 13/10/2026 (snapshot generato 13/10 20:06 UTC)"
+  },
+  "valuePick": {
+    "symbol": "CELH",
+    "name": "Celsius Holdings, Inc.",
+    "priceRef": 27.93,
+    "changePctOnPickDay": -1.62,
+    "group": "SP400_MIDCAP",
+    "thesis": "-58,2% dai massimi 52w, +18,6% dai minimi (cuscinetto piu' ampio della media), calo contenuto oggi (-1,62%), non in caduta libera. Crollo storico ~65% nel 2025. Nel 2026 integrazione Alani Nu/Rockstar: ricavi Q1 2026 ~782,6 mln$ (+138% YoY), Alani Nu ~368 mln$ del trimestre. PepsiCo quota ~11% dal settembre 2025, distributore primario USA/Canada e category captain energy drink. Rischi comunicati apertamente dal management: margini lordi target 'bassa fascia 50%' condizionato a materie prime, pressione costi alluminio/trasporto, rischio cannibalizzazione Celsius/Alani Nu, razionalizzazione SKU. Target price analisti (Deutsche Bank, Seeking Alpha) 65-73$ citati ma datati/contrastanti, non consensus aggiornato verificato.",
+    "invalidation": "Chiusura sotto 27,62 USD (minimo della seduta di martedi' 13/10, molto vicino al prezzo attuale). Size necessariamente piccola.",
+    "date": "2026-10-14",
+    "dataDay": "Chiusura martedi' 13/10/2026 (snapshot generato 13/10 20:06 UTC)"
+  },
+  "valueDiscarded": [],
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "Energy Select Sector SPDR Fund",
+    "changePct": 1.76,
+    "tema": "Secondo giorno consecutivo di rialzo marcato per l'energia USA (ieri +1,44%, oggi +1,76%), ETF ora quasi sui massimi 52 settimane (vsHigh52w -0,11%). Prezzo puntuale del petrolio non verificato per martedi' 13/10 da fonte affidabile, quindi non riportato per evitare di inventare un numero. Lettura piu' plausibile: premio di rischio geopolitico Iran/Stretto di Hormuz persistente (Brent sopra 100$ da settembre, Goldman avverte di possibile rialzo fino a 120$), coerente con la strategia settimanale attiva.",
+    "date": "2026-10-14"
+  },
+  "verifyYesterday": {
+    "note": "FICO chiusura martedi' 722,42$ (-2,38%), sopra invalidazione 666,16$ ma con ritracciamento marcato (-5,44% dal massimo di giornata 764,00$): parte del balzo di lunedi' restituita. FISV chiusura martedi' 46,66$ (+1,32%), sopra invalidazione 45,345$, in linea con la tesi di turnaround. Nota aggiuntiva di trasparenza: HUM (pick del 12/10) ha chiuso martedi' 420,03$ (-3,11%), SOTTO l'invalidazione di 428,45$ fissata in quel report - invalidazione tecnica effettiva."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-11",
+    "stance": "Stagflazione latente confermata l'11/10: nessuna revisione in questo run feriale. Oggi 14/10 esce il CPI di settembre, dato chiave per la decisione Fed del 28/10. Prossima weekly sabato 17/10.",
+    "favor": ["Oro/argento come copertura tattica", "Pazienza sull'azionario ampio fino al CPI di oggi mercoledi' 14/10", "Trimestrali bancarie USA da seguire senza posizionarsi in anticipo", "BTC/ETH come core crypto senza size aggressiva"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Telecom USA/EU large cap dopo il selloff", "Esposizione aggressiva al petrolio/trasporti legati a Hormuz", "Scommettere su una rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Fed in ciclo di rialzi, verbali falco del 7/10", "CPI USA di settembre mercoledi' 14/10 (oggi, non ancora pubblicato al momento di questo report)", "Trimestrali bancarie USA: JPM/C/GS martedi' 13/10, BAC/MS mercoledi' 14/10, USB/SCHW giovedi' 15/10", "Iran/Hormuz in stallo diplomatico"],
+    "note": "Stance invariata rispetto alla weekly dell'11/10. Prossimo aggiornamento sabato 17/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-09", "note": "MU sotto pressione per contagio settoriale AI-infra; STLAM.MI in linea. Pick: PBF Energy (momentum) e CoStar Group (value/contrarian).", "momentum": "PBF", "value": "CSGP" },
+    { "date": "2026-10-12", "note": "Weekend senza trading: PBF e CSGP non ancora verificabili. Pick: Humana (momentum, Medicare Advantage) e CNH Industrial (value/contrarian, calo probabilmente settoriale).", "momentum": "HUM", "value": "CNH" },
+    { "date": "2026-10-13", "note": "HUM +0,37% lunedi' (sopra invalidazione, consolidamento). CNH +2,41% lunedi' (sopra invalidazione, rimbalzo netto). Pick: Fair Isaac/FICO (momentum, +10,81%, catalizzatore specifico non confermato) e Fiserv/FISV (value/contrarian, guidance FY26 tagliata ad agosto, Clover ex-Argentina +13%). Scartato come value trap: Avis Budget/CAR (short squeeze tecnico, non fondamentali).", "momentum": "FICO", "value": "FISV" },
+    { "date": "2026-10-14", "note": "FICO -2,38% martedi' (sopra invalidazione ma ritracciamento marcato dal massimo di giornata). FISV +1,32% martedi' (sopra invalidazione, in linea). HUM (pick del 12/10) chiuso SOTTO invalidazione (420,03$ vs 428,45$): invalidazione tecnica effettiva. Pick: Givaudan/GIVN.SW (momentum, +9,43%, probabile pubblicazione vendite 9 mesi 2026 non confermata) e Celsius Holdings/CELH (value/contrarian, integrazione Alani Nu/Rockstar, rischi comunicati apertamente dal management).", "momentum": "GIVN.SW", "value": "CELH" }
+  ]
+}
