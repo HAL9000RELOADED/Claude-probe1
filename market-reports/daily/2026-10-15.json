@@ -1,0 +1,60 @@
+{
+  "lastRunDate": "2026-10-15",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group Incorporated",
+    "priceRef": 395.755,
+    "changePctOnPickDay": 4.76,
+    "group": "SP500",
+    "thesis": "Rialzo in controtendenza su un mercato USA ampiamente negativo (S&P 500 -1,07%, S&P 400 -1,04%) il giorno del CPI caldo. Terzo trimestre 2026 pubblicato martedi' 13/10: ricavi 112,7 mld$, utili operativi 6,6 mld$, guidance utile netto adjusted FY26 alzata ad almeno 20,50$/azione. Rialzo di mercoledi' probabile continuazione a scoppio ritardato di quella reazione, amplificata dalla rotazione verso la sanita' come difensivo (XLV +2,51%). Resta -14,3% dai massimi 52w dopo un 2025 difficile (guidance tagliata piu' volte).",
+    "invalidation": "Chiusura sotto 382,40 USD (minimo della seduta di mercoledi' 14/10). Rischio: storia recente di sorprese negative su medical cost ratio e guidance, incertezza regolatoria Medicare Advantage/ACA. Size contenuta.",
+    "date": "2026-10-15",
+    "dataDay": "Chiusura mercoledi' 14/10/2026 (snapshot generato 14/10 20:05 UTC)"
+  },
+  "valuePick": {
+    "symbol": "ALB",
+    "name": "Albemarle Corporation",
+    "priceRef": 97.99,
+    "changePctOnPickDay": 0.35,
+    "group": "SP500",
+    "thesis": "-55,7% dai massimi 52w, +11,3% dai minimi, leggero rialzo anche nella seduta negativa di mercoledi': non in caduta libera. Crollo 2024-2025 per eccesso di offerta globale di litio (soprattutto cinese). Svolta concreta nel Q2 2026: EPS adjusted 3,75$ vs 0,11$ anno prima, sopra attese, grazie a recupero prezzi litio e volumi; guidance 2026 alzata dal management. Bilancio solido citato da alcune fonti (~2,7 mld$ liquidita', leva netta/EBITDA ~1x). Segnali misti sulla durata del recupero: UBS vede eccesso di offerta prolungato fino a fine 2026, Wood Mackenzie lo vede fino al 2027 - fonti in parte datate (inizio 2026). RBC ha tagliato leggermente il target (157$ da 166$) ma resta positivo, ben sopra il prezzo attuale.",
+    "invalidation": "Chiusura sotto 96,58 USD (minimo della seduta di mercoledi' 14/10). Rischio: incertezza sulla durata del recupero dei prezzi del litio. Size contenuta.",
+    "date": "2026-10-15",
+    "dataDay": "Chiusura mercoledi' 14/10/2026 (snapshot generato 14/10 20:05 UTC)"
+  },
+  "valueDiscarded": [
+    {
+      "symbol": "NKE",
+      "name": "NIKE, Inc.",
+      "date": "2026-10-15",
+      "reason": "-49,9% dai massimi 52w, variazione quasi nulla (-0,06%) oggi, sembrava interessante ma fondamentali in deterioramento accelerato: vendite Grande Cina scese progressivamente dal -10% al -17% e fino a -26% in trimestri successivi (fonti 2026), CEO Elliott Hill ha ammesso che la svolta 'non c'e' ancora', ~1.400 posizioni tagliate nel reparto operativo globale. Identikit di value trap: scartato, non consigliato."
+    }
+  ],
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": -6.11,
+    "tema": "Variazione piu' marcata tra gli ETF del dataset mercoledi' (in entrambe le direzioni). Crollo confermato da piu' fonti (~6% nella giornata), legato al CPI caldo di settembre: inflazione sopra attese ha spinto al rialzo le probabilita' di un nuovo rialzo Fed e i rendimenti Treasury, penalizzando i metalli preziosi non remunerativi. Oro con calo piu' contenuto (GLD -1,49%). Movimento guidato dai tassi, non da un cambio nei fondamentali di offerta/domanda fisica; arriva anche dopo un forte rally precedente del metallo, quindi parzialmente presa di beneficio.",
+    "date": "2026-10-15"
+  },
+  "verifyYesterday": {
+    "note": "GIVN.SW chiusura mercoledi' 3.825 CHF (+0,21%), sopra invalidazione 3.662 CHF, in consolidamento dopo il balzo di martedi' (+9,43%): tiene i guadagni. CELH chiusura mercoledi' 27,17$ (-2,72%), SOTTO l'invalidazione di 27,62$ fissata ieri (minimo della seduta di martedi'): invalidazione tecnica effettiva, idea non riuscita nell'orizzonte di un giorno."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-11",
+    "stance": "Stagflazione latente confermata l'11/10, nessuna revisione in questo run feriale. Il CPI di settembre pubblicato mercoledi' 14/10 e' arrivato caldo (3,7% headline vs 3,6% atteso, core 2,6% vs 2,5% atteso), spingendo le probabilita' di un rialzo Fed il 28/10 dal 22,1% al 41,5%: rafforza la componente 'Fed falco' della stance. Prossima weekly sabato 17/10.",
+    "favor": ["Oro/argento come copertura tattica (oggi in forte calo guidato dai tassi dopo il CPI caldo, da monitorare)", "Pazienza sull'azionario ampio, specie dopo la volatilita' indotta dal CPI", "Trimestrali bancarie USA da seguire senza posizionarsi in anticipo", "BTC/ETH come core crypto senza size aggressiva"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Telecom USA/EU large cap dopo il selloff", "Esposizione aggressiva al petrolio/trasporti legati a Hormuz", "Scommettere su una rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Fed in ciclo di rialzi, verbali falco del 7/10", "CPI USA di settembre: arrivato caldo mercoledi' 14/10 (3,7%/2,6%), probabilita' rialzo 28/10 salite al 41,5%", "Trimestrali bancarie USA: JPM/C/GS martedi' 13/10, BAC/MS mercoledi' 14/10, USB/SCHW giovedi' 15/10", "Iran/Hormuz in stallo diplomatico", "Rotazione settoriale USA mercoledi': tech/semis in forte calo, difensivi (salute, beni di consumo) in rialzo; oro/argento in calo guidato dai tassi"],
+    "note": "Stance invariata nella direzione, ma il CPI caldo di mercoledi' ne rafforza la componente sui tassi Fed. Prossimo aggiornamento sabato 17/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-09", "note": "MU sotto pressione per contagio settoriale AI-infra; STLAM.MI in linea. Pick: PBF Energy (momentum) e CoStar Group (value/contrarian).", "momentum": "PBF", "value": "CSGP" },
+    { "date": "2026-10-12", "note": "Weekend senza trading: PBF e CSGP non ancora verificabili. Pick: Humana (momentum, Medicare Advantage) e CNH Industrial (value/contrarian, calo probabilmente settoriale).", "momentum": "HUM", "value": "CNH" },
+    { "date": "2026-10-13", "note": "HUM +0,37% lunedi' (sopra invalidazione, consolidamento). CNH +2,41% lunedi' (sopra invalidazione, rimbalzo netto). Pick: Fair Isaac/FICO (momentum, +10,81%, catalizzatore specifico non confermato) e Fiserv/FISV (value/contrarian, guidance FY26 tagliata ad agosto, Clover ex-Argentina +13%). Scartato come value trap: Avis Budget/CAR (short squeeze tecnico, non fondamentali).", "momentum": "FICO", "value": "FISV" },
+    { "date": "2026-10-14", "note": "FICO -2,38% martedi' (sopra invalidazione ma ritracciamento marcato dal massimo di giornata). FISV +1,32% martedi' (sopra invalidazione, in linea). HUM (pick del 12/10) chiuso SOTTO invalidazione (420,03$ vs 428,45$): invalidazione tecnica effettiva. Pick: Givaudan/GIVN.SW (momentum, +9,43%, probabile pubblicazione vendite 9 mesi 2026 non confermata) e Celsius Holdings/CELH (value/contrarian, integrazione Alani Nu/Rockstar, rischi comunicati apertamente dal management).", "momentum": "GIVN.SW", "value": "CELH" },
+    { "date": "2026-10-15", "note": "GIVN.SW +0,21% mercoledi' (sopra invalidazione, consolida dopo il balzo di martedi'). CELH -2,72% mercoledi' (SOTTO invalidazione 27,62$: invalidazione tecnica effettiva). CPI USA di settembre caldo (3,7%/2,6%) scatena rotazione da tech a difensivi e calo di oro/argento guidato dai tassi. Pick: UnitedHealth/UNH (momentum, +4,76%, Q3 2026 forte e guidance alzata, rotazione verso difensivi) e Albemarle/ALB (value/contrarian, recupero concreto degli utili sul litio dopo il crollo 2024-2025). Scartato come value trap: Nike/NKE (deterioramento accelerato vendite Cina, -10%->-17%->-26%).", "momentum": "UNH", "value": "ALB" }
+  ]
+}
