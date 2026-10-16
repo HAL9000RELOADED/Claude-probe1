@@ -1,0 +1,52 @@
+{
+  "lastRunDate": "2026-10-16",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "TRU",
+    "name": "TransUnion",
+    "priceRef": 74.105,
+    "changePctOnPickDay": 10.70,
+    "group": "SP400_MIDCAP",
+    "thesis": "Rialzo tra i piu' marcati del dataset azionario giovedi' 15/10, ben sopra la media del mercato (S&P400 +1,53%) in una giornata comunque positiva. Chiusura quasi sui massimi (range 67,50-74,17$, a 0,09% dal massimo). Equifax +7,26% stesso giorno: movimento parallelo nel comparto credit bureau, driver probabilmente settoriale/legato ad aspettative sui tassi, ma nessuna notizia specifica datata con certezza al 15-16/10/2026 trovata via ricerca web. Prossima trimestrale TransUnion attesa fine ottobre, quindi non e' una trimestrale a spiegare il movimento.",
+    "invalidation": "Chiusura sotto 67,50 USD (minimo della seduta di giovedi' 15/10). Rischio: nessun catalizzatore aziendale confermato, possibile recupero tecnico di comparto senza seguito. Size contenuta.",
+    "date": "2026-10-16",
+    "dataDay": "Chiusura giovedi' 15/10/2026 (snapshot generato 15/10 20:07 UTC)"
+  },
+  "valuePick": {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "priceRef": 134.445,
+    "changePctOnPickDay": 2.98,
+    "group": "SP500",
+    "thesis": "-58,3% dai massimi 52w, +17,4% dai minimi, rialzo in linea col mercato oggi: non in caduta libera nella seduta odierna nonostante il crollo severo degli ultimi mesi. Crollo guidato da preoccupazioni su capex AI (~55,7 mld$), deficit free cash flow (~23,7 mld$), debito (~167 mld$, 43 mld$ di nuovo debito nell'anno fiscale), downgrade S&P a BBB-. Rischio di concentrazione: circa meta' del backlog RPO (638 mld$) legato a OpenAI, permessi respinti per Project Jupiter. A differenza di Nike, qui il problema e' di bilancio/finanziamento della crescita non di crollo della domanda: backlog RPO enorme, target price analisti nel complesso ben sopra il prezzo attuale (Wedbush 275$, Citi 196$, BofA ~200$, consensus MarketBeat ~265$, JPMorgan piu' cauto a 185$ Neutral) - fonti con date in parte incerte, da verificare. Rischio strutturale reale (debito, concentrazione cliente), idea piu' speculativa del solito.",
+    "invalidation": "Chiusura sotto 128,00 USD (minimo della seduta di giovedi' 15/10). Rischio: debito elevato e concentrazione su singolo cliente (OpenAI) sono rischi strutturali reali, non temporanei. Size contenuta, detenzione breve.",
+    "date": "2026-10-16",
+    "dataDay": "Chiusura giovedi' 15/10/2026 (snapshot generato 15/10 20:07 UTC)"
+  },
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": 3.39,
+    "tema": "Variazione piu' marcata tra gli ETF del dataset giovedi' (in entrambe le direzioni). Rimbalzo dopo il crollo di mercoledi' (-6,11%) legato all'aumento delle aspettative sui tassi Fed post-CPI caldo. Oro (GLD +1,78%) e bond lunghi (TLT +1,37%, rendimenti in calo) salgono insieme oggi, suggerendo un'attenuazione della pressione sui tassi nella seduta di giovedi'. Nessuna notizia specifica datata con certezza al 15-16/10/2026 trovata: letta come probabile mean-reversion tecnica dopo un calo ampio in una sola seduta, non come nuovo catalizzatore fondamentale.",
+    "date": "2026-10-16"
+  },
+  "verifyYesterday": {
+    "note": "ALB chiusura giovedi' 98,21$ (+0,24%), sopra invalidazione 96,58$ su base di chiusura, ma minimo intraday 94,99$ sotto quel livello (wick, recuperato in chiusura): margine di sicurezza ridotto, da monitorare. UNH non verificabile: assente dal dataset di giovedi' (una delle 41 azioni in errore) e nessuna fonte web con data certa al 15/10/2026 trovata; segnalato come gap di dati invece di stimare un numero."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-11",
+    "stance": "Stagflazione latente confermata l'11/10, nessuna revisione in questo run feriale. Giovedi' 15/10 giornata di recupero diffuso su azionario USA/Europa dopo il CPI caldo di mercoledi', con oro/argento/bond lunghi tutti in rialzo insieme (rendimenti in calo). Prossima weekly sabato 17/10.",
+    "favor": ["Oro/argento come copertura tattica (oggi in rimbalzo dopo il calo guidato dai tassi di mercoledi', ancora volatili in vista del FOMC 28/10)", "Pazienza sull'azionario ampio, specie dopo la volatilita' indotta dal CPI", "Trimestrali bancarie USA da seguire senza posizionarsi in anticipo", "BTC/ETH come core crypto senza size aggressiva"],
+    "avoid": ["Duration lunga sui bond (TLT)", "Telecom USA/EU large cap dopo il selloff", "Esposizione aggressiva al petrolio/trasporti legati a Hormuz", "Scommettere su una rapida de-escalation Hormuz/Iran"],
+    "keyDrivers": ["Fed in ciclo di rialzi, verbali falco del 7/10", "CPI USA di settembre arrivato caldo mercoledi' 14/10 (3,7%/2,6%), probabilita' rialzo 28/10 salite al 41,5%", "Trimestrali bancarie USA in corso questa settimana", "Iran/Hormuz in stallo diplomatico", "Giovedi' 15/10: recupero diffuso azionario, oro/argento/bond lunghi tutti in rialzo (rendimenti in calo), rotazione verso credit-data (TRU/EFX), semiconduttori/power ancora debole"],
+    "note": "Stance invariata nella direzione. Prossimo aggiornamento sabato 17/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-12", "note": "Weekend senza trading: PBF e CSGP non ancora verificabili. Pick: Humana (momentum, Medicare Advantage) e CNH Industrial (value/contrarian, calo probabilmente settoriale).", "momentum": "HUM", "value": "CNH" },
+    { "date": "2026-10-13", "note": "HUM +0,37% lunedi' (sopra invalidazione, consolidamento). CNH +2,41% lunedi' (sopra invalidazione, rimbalzo netto). Pick: Fair Isaac/FICO (momentum, +10,81%, catalizzatore specifico non confermato) e Fiserv/FISV (value/contrarian, guidance FY26 tagliata ad agosto, Clover ex-Argentina +13%). Scartato come value trap: Avis Budget/CAR (short squeeze tecnico, non fondamentali).", "momentum": "FICO", "value": "FISV" },
+    { "date": "2026-10-14", "note": "FICO -2,38% martedi' (sopra invalidazione ma ritracciamento marcato dal massimo di giornata). FISV +1,32% martedi' (sopra invalidazione, in linea). HUM (pick del 12/10) chiuso SOTTO invalidazione (420,03$ vs 428,45$): invalidazione tecnica effettiva. Pick: Givaudan/GIVN.SW (momentum, +9,43%, probabile pubblicazione vendite 9 mesi 2026 non confermata) e Celsius Holdings/CELH (value/contrarian, integrazione Alani Nu/Rockstar, rischi comunicati apertamente dal management).", "momentum": "GIVN.SW", "value": "CELH" },
+    { "date": "2026-10-15", "note": "GIVN.SW +0,21% mercoledi' (sopra invalidazione, consolida dopo il balzo di martedi'). CELH -2,72% mercoledi' (SOTTO invalidazione 27,62$: invalidazione tecnica effettiva). CPI USA di settembre caldo (3,7%/2,6%) scatena rotazione da tech a difensivi e calo di oro/argento guidato dai tassi. Pick: UnitedHealth/UNH (momentum, +4,76%, Q3 2026 forte e guidance alzata, rotazione verso difensivi) e Albemarle/ALB (value/contrarian, recupero concreto degli utili sul litio dopo il crollo 2024-2025). Scartato come value trap: Nike/NKE (deterioramento accelerato vendite Cina, -10%->-17%->-26%).", "momentum": "UNH", "value": "ALB" },
+    { "date": "2026-10-16", "note": "ALB +0,24% giovedi' (sopra invalidazione in chiusura, ma minimo intraday 94,99$ sotto i 96,58$: wick recuperato, margine ridotto). UNH non verificabile (assente dal dataset, gap di dati). Giovedi' giornata di recupero diffuso dopo il CPI caldo, oro/argento/bond lunghi tutti in rialzo insieme. Pick: TransUnion/TRU (momentum, +10,70%, rally di comparto con Equifax +7,26%, nessun catalizzatore specifico confermato) e Oracle/ORCL (value/contrarian, crollo da capex/debito AI ma backlog RPO enorme e target price analisti ben sopra il prezzo attuale, idea piu' speculativa del solito).", "momentum": "TRU", "value": "ORCL" }
+  ]
+}
