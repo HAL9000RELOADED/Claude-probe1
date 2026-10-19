@@ -1,0 +1,51 @@
+{
+  "lastRunDate": "2026-10-19",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "MTDR",
+    "name": "Matador Resources Company",
+    "priceRef": 57.52,
+    "changePctOnPickDay": 6.97,
+    "group": "SP400_MIDCAP",
+    "thesis": "Rialzo piu' marcato di tutto il dataset azionario venerdi' 16/10, chiusura quasi sui massimi (range 54,27-57,56$, a 0,07% dal massimo). Driver principale macro/di comparto: Brent +3,7% sul rischio forniture Medio Oriente, intero paniere E&P USA su insieme (Antero, Ovintiv, Murphy, Range). Storia aziendale solida da ricerca web: trimestrali superiori alle attese (Q2 2026 EPS adj 2,61$ vs 2,05$ consensus), M&A attivo (acquisizione Paloma Permian e acreage Woodford da Ridge Runner, luglio 2026), sentiment analisti positivo (12 Buy, 3 Hold, 0 Sell secondo una fonte). Prossima trimestrale attesa 20 o 26 ottobre secondo fonti diverse, non confermata.",
+    "invalidation": "Chiusura sotto 54,27 USD (minimo della seduta di venerdi' 16/10). Rischio: debito salito in modo significativo nel 2026 (~3,4->~4,2 mld$) per finanziare M&A, una fonte (Barchart) segnala possibile problema di valutazione dopo la serie di trimestrali positive; rally legato a premio di rischio geopolitico sul petrolio, reversibile. Size contenuta.",
+    "date": "2026-10-19",
+    "dataDay": "Chiusura venerdi' 16/10/2026 (snapshot generato 18/10 20:05 UTC, nessuna seduta nel weekend)"
+  },
+  "valuePick": {
+    "symbol": "FLUT",
+    "name": "Flutter Entertainment plc",
+    "priceRef": 75.60,
+    "changePctOnPickDay": -0.76,
+    "group": "EUROSTOXX50",
+    "thesis": "-70,4% dai massimi 52w ma solo +4,2% sopra il minimo (molto vicino al minimo 52w), calo contenuto oggi (non in caduta verticale), volume nella norma. Da ricerca web: guidance 2026 ben sotto le attese (crescita utile core guidata al 4%), investimento voluto in FanDuel Predicts (perdite adj EBITDA 200-300 mln$ nel 2026), ritardo di una settimana della stagione NFL 2026/2027 costato ~75 mln$ di ricavi e ~50 mln$ EBITDA adj stimati. Nuovo minimo 52w ad agosto dopo trimestrale sotto attese (EPS 0,49$ vs 0,54$ consensus), debolezza persistente nel segmento US sports betting. Fonte non verificata indipendentemente: cambio CEO, Peter Jackson uscito fine settembre, Dan Taylor dal 1 ottobre. NON sembra value trap: problema di investimento/guidance a breve termine su un business leader di mercato (FanDuel), non crollo della domanda; consensus analisti ancora 'Moderate Buy' secondo la fonte piu' recente trovata nonostante il calo.",
+    "invalidation": "Chiusura sotto 73,83 USD (minimo della seduta di venerdi' 16/10, molto vicino al minimo delle 52 settimane). Rischio: se il mercato continua a punire gli investimenti in crescita invece di premiarli, il titolo potrebbe restare debole per diversi trimestri; fonti su cambio CEO e target price non tutte datate con certezza a ottobre 2026. Size contenuta.",
+    "date": "2026-10-19",
+    "dataDay": "Chiusura venerdi' 16/10/2026 (snapshot generato 18/10 20:05 UTC, nessuna seduta nel weekend)"
+  },
+  "etfSpotlight": {
+    "symbol": "XLK",
+    "name": "Technology Select Sector SPDR ETF",
+    "changePct": -3.02,
+    "tema": "Variazione piu' marcata tra gli ETF del dataset venerdi' (in entrambe le direzioni). Il comparto tech USA ha guidato il crollo del Nasdaq (-2,15%, peggior settimana da giugno) venerdi', semiconduttori in testa (iShares Semiconductor ETF -4,14%; AMD -5,95%, Broadcom -4,52%, Intel e Micron pesantemente in rosso secondo le fonti). Driver: timori sul finanziamento della spesa in infrastrutture AI. Controparte: XLE (energia) +2,52% spinto da Brent +3,7% sul rischio forniture Medio Oriente. Rotazione settoriale netta: solo 10% dei titoli tech in rialzo contro 90% di energia/utility secondo le fonti.",
+    "date": "2026-10-19"
+  },
+  "verifyYesterday": {
+    "note": "TRU chiusura venerdi' 16/10 a 74,08$ (-0,05%, quasi invariato), minimo giornata 72,68$, ben sopra invalidazione 67,50$: idea in piedi con margine ampio. ORCL chiusura venerdi' a 128,23$ (-4,64%), appena sopra invalidazione 128,00$ (+0,18%), ma minimo intraday 127,36$ ha violato il livello durante la seduta (wick, poi richiuso sopra): margine di sicurezza quasi azzerato, da trattare con cautela o come invalidazione di fatto per chi segue regole strette sul wick."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-18",
+    "stance": "Stagflazione latente confermata nell'aggiornamento di domenica 18/10, nessuna revisione in questo run feriale. Venerdi' 16/10 (ultima seduta, nessuna nel weekend) rotazione violenta da tech/AI (Nasdaq -2,15%, semiconduttori -4,14%) verso energia (Brent +3,7%, XLE +2,52%) sullo sfondo del rischio Medio Oriente/Hormuz e di rinnovati timori sul finanziamento della spesa AI. Europa positiva su tutte le piazze principali mentre Wall Street cedeva sul tech. Prossima weekly sabato 24/10, punto focale macro della settimana: PMI flash S&P Global venerdi' 23/10.",
+    "favor": ["Energia USA (E&P) - rally venerdi' guidato dal rischio geopolitico sulle forniture, coerente con la stance", "Azionario europeo rispetto a quello USA nel breve - divergenza netta venerdi' confermata anche oggi", "Pazienza sulle trimestrali Netflix/Tesla (martedi' 20/10) e IBM/Texas Instruments (mercoledi' 21/10) - mosse storiche ampie", "BTC/ETH come core crypto senza size aggressiva - clima di risk-off diffuso anche sulle crypto nelle ultime 24h"],
+    "avoid": ["Duration lunga sui bond (TLT) - rischio Fed in aumento dopo il CPI caldo", "Inseguire il rimbalzo di tech/semiconduttori USA colpiti venerdi' - sell-off di piu' sedute consecutive secondo le fonti, nessun segnale di stabilizzazione", "Trattare oro/argento come coperture automatiche sull'escalation Hormuz - deboli anche venerdi' nonostante il contesto geopolitico", "Scommettere sulla direzione di Hormuz/Iran in un senso o nell'altro - conflitto aperto da febbraio, rischio strutturale"],
+    "keyDrivers": ["CPI USA di settembre caldo, probabilita' di rialzo Fed al FOMC del 27-28/10 salita a forchetta 25-44% secondo le fonti, hold resta lo scenario base", "Iran/Hormuz: conflitto USA-Israele/Iran aperto dal 28/2/2026, attacco triplo a tanker il 13/10, rischio strutturale non episodio isolato", "Venerdi' 16/10: rotazione da tech/AI (Nasdaq -2,15%, peggior settimana da giugno, semiconduttori -4,14%) a energia (Brent +3,7%, XLE +2,52%); Europa positiva ovunque, USA debole sul tech", "Settimana entrante: Netflix/Tesla martedi' 20/10, IBM/Texas Instruments mercoledi' 21/10, PMI flash S&P Global venerdi' 23/10 (punto focale); FOMC 27-28/10 e trimestrali mega-cap tech 28/10 nella settimana successiva"],
+    "note": "Prossimo aggiornamento weekly: sabato 24/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-14", "note": "FICO -2,38% martedi' (sopra invalidazione ma ritracciamento marcato). FISV +1,32% martedi' (sopra invalidazione, in linea). HUM (pick del 12/10) chiuso SOTTO invalidazione: invalidazione tecnica effettiva. Pick: Givaudan/GIVN.SW (momentum) e Celsius Holdings/CELH (value/contrarian).", "momentum": "GIVN.SW", "value": "CELH" },
+    { "date": "2026-10-15", "note": "GIVN.SW +0,21% mercoledi' (sopra invalidazione). CELH -2,72% mercoledi' (SOTTO invalidazione 27,62$: invalidazione tecnica effettiva). CPI USA di settembre caldo scatena rotazione da tech a difensivi. Pick: UnitedHealth/UNH (momentum) e Albemarle/ALB (value/contrarian). Scartato come value trap: Nike/NKE.", "momentum": "UNH", "value": "ALB" },
+    { "date": "2026-10-16", "note": "ALB +0,24% giovedi' (sopra invalidazione in chiusura, ma wick sotto). UNH non verificabile (assente dal dataset). Giovedi' recupero diffuso dopo il CPI caldo. Pick: TransUnion/TRU (momentum, rally di comparto con Equifax) e Oracle/ORCL (value/contrarian, crollo da capex/debito AI ma backlog RPO enorme).", "momentum": "TRU", "value": "ORCL" },
+    { "date": "2026-10-19", "note": "TRU +margine ampio venerdi' (-0,05%, sopra invalidazione 67,50$). ORCL -4,64% venerdi', chiusura appena sopra invalidazione 128,00$ ma wick intraday sotto (127,36$): margine quasi azzerato. Venerdi' rotazione violenta tech->energia (Nasdaq -2,15%, Brent +3,7%). Pick: Matador Resources/MTDR (momentum, rally energia USA + storia aziendale di M&A/trimestrali forti) e Flutter Entertainment/FLUT (value/contrarian, vicino al minimo 52w per guidance/investimenti voluti in FanDuel Predicts, non crollo della domanda).", "momentum": "MTDR", "value": "FLUT" }
+  ]
+}
