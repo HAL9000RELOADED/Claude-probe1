@@ -1,0 +1,50 @@
+{
+  "lastRunDate": "2026-10-20",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "CLF",
+    "name": "Cleveland-Cliffs Inc.",
+    "priceRef": 14.11,
+    "changePctOnPickDay": 16.42,
+    "group": "SP400_MIDCAP",
+    "thesis": "Maggior rialzo di tutto il dataset azionario lunedi' 19/10 (+16,42%, range 12,94-14,58$, volumi enormi >84 mln azioni). Catalizzatore verificato: trimestrale Q3 2026 superiore alle attese (EPS adj 0,28$ vs 0,21$ consensus FactSet, EBITDA adj 612 mln$, piu' del doppio del trimestre precedente), guidance Q4 ~715 mln$ EBITDA adj e target 2027 sopra 4 mld$. Framework DOE per investimento 1 mld$ a Middletown Works (meta' finanziato dal DOE). Upgrade/rialzi target dopo la trimestrale: Wells Fargo Overweight target 14$, GLJ Research 17,48$ Buy, Barclays Underweight ma target alzato a 11$ da 10$.",
+    "invalidation": "Chiusura sotto 12,94 USD (minimo della seduta di lunedi' 19/10). Rischio: titolo ora sopra la media dei target analisti raccolta pre-trimestrale (11,96$ a fine agosto, da aggiornare), consensus ancora Hold/alcuni Sell, leva finanziaria citata come vincolo sul multiplo, pressione import acciaio, disputa aperta con il governo canadese su Stelco/acciaio galvanizzato. Size contenuta vista la volatilita' elevata e il rialzo gia' ampio.",
+    "date": "2026-10-20",
+    "dataDay": "Chiusura lunedi' 19/10/2026 (snapshot generato 19/10 20:07 UTC)"
+  },
+  "valuePick": {
+    "symbol": "AVAV",
+    "name": "AeroVironment, Inc.",
+    "priceRef": 117.90,
+    "changePctOnPickDay": -3.19,
+    "group": "SP400_MIDCAP",
+    "thesis": "-71,1% dai massimi 52w ma solo +1,3% sopra il minimo (molto vicino al minimo 52w), calo contenuto oggi (-3,19%, non in caduta verticale), volume nella norma. Scartati prima come probabili value trap: Stellantis (consensus 'Reduce' a fine settembre, 7 Sell/10 Hold/2 Strong Buy, target medio tagliato a 7,45$ da 10,01$, dealer inventory >140 giorni vs ~60 storici) e Mosaic (guidance 2026 fosfato ritirata, capex tagliato, 442 mln$ oneri chiusura impianti Brasile - deterioramento strutturale). Su AeroVironment invece: crollo da problemi di esecuzione puntuali (trimestrale fiscale marzo 2026 sotto attese, EPS adj 0,64$ vs ~0,72$ consensus, guidance FY2026 tagliata a EPS adj 2,75-3,10$ da 3,40-3,55$, impairment 151,3 mln$ per stop-work order su programma Space Force SCAR, indagine studio legale azionario), NON da calo della domanda: 2,1 mld$ nuovi ordini e book-to-bill 1,6x nei primi 9 mesi (anche da acquisizione BlueHalo), la maggior parte degli analisti ha mantenuto Buy limitandosi a tagliare i target. Settore difesa/drone coerente con lo scenario geopolitico della weekly (Hormuz, riarmo Europa).",
+    "invalidation": "Chiusura sotto 117,05 USD (minimo della seduta di lunedi' 19/10, pochissimo sopra il minimo delle 52 settimane). Rischio: informazioni trovate si fermano a marzo 2026, nessuna conferma piu' recente sullo stato del contratto Space Force o dell'indagine legale; storia recente di sorprese negative sugli utili. Size contenuta.",
+    "date": "2026-10-20",
+    "dataDay": "Chiusura lunedi' 19/10/2026 (snapshot generato 19/10 20:07 UTC)"
+  },
+  "etfSpotlight": {
+    "symbol": "XLU",
+    "name": "Utilities Select Sector SPDR ETF",
+    "changePct": -1.97,
+    "tema": "Variazione piu' marcata tra gli ETF del dataset lunedi' 19/10 (in entrambe le direzioni). Utilities e obbligazionario lungo (TLT -0,74% stessa seduta) hanno ceduto insieme, schema coerente con un episodio simile osservato a fine aprile 2026 (XLU a guidare i ribassi settoriali S&P 500 su rendimenti in rialzo/incertezza Fed). Contesto attuale: probabilita' di rialzo Fed al FOMC 27-28/10 ancora in una forchetta 25-44% dopo il CPI caldo di settembre, tipicamente negativo per settori bond-proxy ad alto dividendo. NRG Energy (-4,18%, range di giornata 8,3%) tra i nomi che hanno pesato di piu' sul comparto. Nota di trasparenza: nessun articolo datato con certezza al 19-20/10/2026 trovato che confermi questo driver esatto per XLU/NRG - lettura basata su inferenza da schema storico + movimento concomitante di TLT, non su una notizia verificata punto per punto.",
+    "date": "2026-10-20"
+  },
+  "verifyYesterday": {
+    "note": "MTDR chiusura lunedi' 19/10 a 57,37$ (-0,26%, quasi invariato), ben sopra invalidazione 54,27$: idea in piedi con margine ampio, giornata di consolidamento dopo il balzo di venerdi'. FLUT chiusura lunedi' a 77,30$ (+2,25%, in salita dai 75,60$ del pick di venerdi'), ben sopra invalidazione 73,83$: primo segnale positivo, ma nessun cambio di giudizio dopo una sola seduta (titolo ancora a -69,7% dai massimi 52w)."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-18",
+    "stance": "Stagflazione latente, nessuna revisione in questo run feriale (ultimo aggiornamento weekly domenica 18/10). Lunedi' 19/10 rimbalzo di Wall Street sul tech (QQQ +1,21%) ma ampiezza debole (media S&P500/S&P400 nel dataset piatta o negativa), guidato da titoli memoria/AI (WDC, SNDK, RMBS) e da Amazon (+5%, causa non confermata); Cleveland-Cliffs +16,42% su trimestrale forte. Europa debole su quasi tutte le piazze lunedi' (FTSEMIB -1,14%, DAX -0,84%, CAC -1,09%, FTSE100 -0,88%, IBEX -1,30%) - inversione di un solo giorno rispetto alla divergenza Europa>USA di venerdi', da non trattare come cambio di trend. Utilities (XLU -1,97%) e TLT (-0,74%) deboli insieme sul rischio Fed ancora elevato per il FOMC del 27-28/10. Crypto tutte in rialzo nelle ultime 24h (BTC +1,28% fino a TAO +4,11%), inversione netta rispetto al risk-off di venerdi'-domenica. Prossima weekly sabato 24/10, punto focale macro della settimana: PMI flash S&P Global venerdi' 23/10; oggi (20/10) e domani (21/10) trimestrali Netflix/Tesla e IBM/Texas Instruments.",
+    "favor": ["Energia USA (E&P) - rally di venerdi' guidato dal rischio geopolitico sulle forniture, coerente con la stance", "Azionario europeo rispetto a quello USA nel breve - contraddetto da una singola seduta lunedi' (Europa debole, USA in recupero sul tech), da monitorare ma non ancora un cambio di stance", "Pazienza sulle trimestrali Netflix/Tesla (martedi' 20/10, oggi) e IBM/Texas Instruments (mercoledi' 21/10) - mosse storiche ampie", "BTC/ETH come core crypto senza size aggressiva - tutte le major in rialzo lunedi' dopo il risk-off del weekend"],
+    "avoid": ["Duration lunga sui bond (TLT) - rischio Fed in aumento dopo il CPI caldo, confermato dal calo di TLT e XLU lunedi'", "Inseguire Cleveland-Cliffs dopo il +16% o il rimbalzo del tech USA senza una tesi propria", "Trattare Stellantis o Mosaic come value play sulla sola base del forte calo dai massimi - segnali di deterioramento strutturale su entrambi", "Scommettere sulla direzione di Hormuz/Iran in un senso o nell'altro - conflitto aperto da febbraio, rischio strutturale"],
+    "keyDrivers": ["CPI USA di settembre caldo, probabilita' di rialzo Fed al FOMC del 27-28/10 in una forchetta 25-44% secondo le fonti, hold resta lo scenario base", "Iran/Hormuz: conflitto USA-Israele/Iran aperto dal 28/2/2026, rischio strutturale non episodio isolato", "Lunedi' 19/10: rimbalzo Wall Street sul tech ma ampiezza debole, rally memoria/AI (WDC, SNDK, RMBS, CLF su trimestrale); Europa debole su quasi tutte le piazze, inversione di un giorno rispetto a venerdi'", "Settimana in corso: Netflix/Tesla martedi' 20/10 (oggi), IBM/Texas Instruments mercoledi' 21/10, PMI flash S&P Global venerdi' 23/10 (punto focale); FOMC 27-28/10 e trimestrali mega-cap tech 28/10 nella settimana successiva"],
+    "note": "Prossimo aggiornamento weekly: sabato 24/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-16", "note": "ALB +0,24% giovedi' (sopra invalidazione in chiusura, ma wick sotto). UNH non verificabile (assente dal dataset). Giovedi' recupero diffuso dopo il CPI caldo. Pick: TransUnion/TRU (momentum, rally di comparto con Equifax) e Oracle/ORCL (value/contrarian, crollo da capex/debito AI ma backlog RPO enorme).", "momentum": "TRU", "value": "ORCL" },
+    { "date": "2026-10-19", "note": "TRU +margine ampio venerdi' (-0,05%, sopra invalidazione 67,50$). ORCL -4,64% venerdi', chiusura appena sopra invalidazione 128,00$ ma wick intraday sotto (127,36$): margine quasi azzerato. Venerdi' rotazione violenta tech->energia (Nasdaq -2,15%, Brent +3,7%). Pick: Matador Resources/MTDR (momentum, rally energia USA + storia aziendale di M&A/trimestrali forti) e Flutter Entertainment/FLUT (value/contrarian, vicino al minimo 52w per guidance/investimenti voluti in FanDuel Predicts, non crollo della domanda).", "momentum": "MTDR", "value": "FLUT" },
+    { "date": "2026-10-20", "note": "MTDR -0,26% lunedi' (quasi invariato, ben sopra invalidazione 54,27$). FLUT +2,25% lunedi' (sopra invalidazione 73,83$, primo segnale positivo). Lunedi' rimbalzo tech USA ad ampiezza debole, rally memoria/AI, Europa debole su quasi tutte le piazze (inversione di un giorno). Pick: Cleveland-Cliffs/CLF (momentum, trimestrale Q3 2026 forte + upgrade analisti) e AeroVironment/AVAV (value/contrarian, crollo da problemi di esecuzione puntuali non da calo della domanda difesa/drone; scartati Stellantis e Mosaic come probabili value trap).", "momentum": "CLF", "value": "AVAV" }
+  ]
+}
