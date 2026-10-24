@@ -46,6 +46,37 @@ progetto compose: autodetect del compose file, pull/build prima di toccare il co
 `redeploy.conf` e negli hook `redeploy.pre.sh` / `redeploy.post-build.sh` /
 `redeploy.post.sh`. Dettagli ed esempi di migrazione in `nas-redeploy/README.md`.
 
+### `worktree-audit.ps1` + `worktree-audit-gui.ps1` + `Avvia_WorktreeAudit.bat`
+Riordino dei worktree git creati dalle sessioni Claude Code (`.claude\worktrees\` di un
+repo). Per ogni ramo dice quanti commit non sono ancora in `main`, se il suo worktree ha
+file non committati (anche ignorati da git), quali cartelle in `.claude\worktrees` sono
+orfane e a quale sessione Claude appartiene ogni worktree (titolo letto dai transcript in
+`%USERPROFILE%\.claude\projects` e dai job in `%USERPROFILE%\.claude\jobs`).
+
+```
+powershell -File worktree-audit.ps1                          # solo controllo
+powershell -File worktree-audit.ps1 -Apply                   # riordina
+powershell -File worktree-audit.ps1 -Repo C:\percorso\repo -Main master
+```
+
+Senza parametri e' in **sola lettura** (default repo: `%USERPROFILE%\claude\AV`). Con
+`-Apply`:
+- fa il merge `--no-ff` in `main` dei rami con worktree pulito; se il conflitto riguarda
+  solo `.gitignore` tiene le righe di entrambe le parti, qualsiasi altro conflitto viene
+  annullato (`merge --abort`) e segnalato;
+- rimuove i worktree gia' mergiati e senza file (ricontrolla subito prima di rimuoverli,
+  nel caso una sessione aperta abbia scritto nel frattempo);
+- cancella le cartelle orfane solo se vuote;
+- stampa le sessioni da avvisare che il loro lavoro e' in `main`.
+
+Non committa mai file non tracciati e non cancella rami: quelli restano da decidere a mano.
+Una cartella che e' la directory di lavoro di una sessione aperta non si puo' cancellare
+finche' la sessione non viene chiusa: lo script la segnala e basta rilanciarlo dopo.
+
+`Avvia_WorktreeAudit.bat` (doppio clic) apre `worktree-audit-gui.ps1`, una finestra con
+campo repo/ramo, pulsanti **Controlla** e **Applica...** (con conferma) e output colorato;
+sotto usa lo stesso `worktree-audit.ps1`, che deve stare nella stessa cartella.
+
 ## Note per l'uso su una nuova macchina
 
 - I percorsi usano `%USERPROFILE%` / `$env:USERPROFILE`, quindi funzionano su
