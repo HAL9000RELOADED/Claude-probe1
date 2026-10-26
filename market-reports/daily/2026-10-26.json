@@ -1,0 +1,52 @@
+{
+  "lastRunDate": "2026-10-26",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "SLB",
+    "name": "SLB N.V. (Schlumberger)",
+    "priceRef": 53.06,
+    "changePctOnPickDay": 7.08,
+    "group": "SP500",
+    "thesis": "Beat Q3 2026 confermato da risultati pubblicati venerdi' 23/10: ricavi 9,45 mld$ (+5% t/t, +6% a/a) contro consensus ~9,27 mld$, EPS adjusted 0,64$ vs consensus 0,62$, FCF 828 mln$, dividendo confermato 0,295$/azione. Rialzo anche in giornata di forza diffusa sul comparto energia (XLE +2,60%, APA, ConocoPhillips, Chevron, Weatherford tutti al rialzo), in un contesto macro di tensioni Iran/Stretto di Hormuz (contesto, non fatto puntuale confermato per il 23/10). Rischio: EPS GAAP sceso sia t/t (-6%) che a/a (-2%), beat solo sull'adjusted. Nessun P/E aggiornato affidabile trovato da fonte terza.",
+    "invalidation": "Chiusura sotto 49,00 USD (poco sotto il minimo della seduta di venerdi' 23/10, 49,48$). Rischio: titolo a -12,2% dai massimi 52w, esposizione implicita al rischio geopolitico Iran/Hormuz trattato come strutturale dalla weekly strategy. Size contenuta.",
+    "date": "2026-10-26",
+    "dataDay": "Chiusura venerdi' 23/10/2026 (snapshot generato 25/10 03:51 UTC, nessuna seduta nel weekend)"
+  },
+  "valuePick": {
+    "symbol": "PODD",
+    "name": "Insulet Corporation",
+    "priceRef": 149.01,
+    "changePctOnPickDay": 0.6,
+    "group": "SP500",
+    "thesis": "Q2 2026 (5/8) ha battuto le stime: ricavi 801,7 mln$ (+23,5%, sopra guidance 20-22%), EPS adjusted 1,66$ vs consensus ~1,45$, Omnipod internazionale +35,5%. Titolo sceso perche' la societa' ha abbassato la guidance FY2026 sulla crescita Omnipod USA (20-22% a 17-19%) per expansion piu' lenta nel mercato diabete tipo 2, non per perdita di clienti nel core tipo 1; CEO ha confermato opportunita' di lungo periodo invariata. Costo di garanzia una tantum di 25 mln$ (29 centesimi EPS) per correzioni volontarie dei dispositivi di marzo/maggio 2026 - tema operativo reale, non minimizzato. Su GLP-1, analisi di gennaio 2026 indica dati clinici con GLP-1 spesso complementari alla terapia con microinfusore, non sostitutivi: paura di cannibalizzazione totale probabilmente eccessiva ma non priva di fondamento.",
+    "invalidation": "Chiusura sotto 144,00 USD (poco sotto il minimo della seduta di venerdi' 23/10, 145,00$). Rischio: se la decelerazione di crescita USA si estendesse oltre il segmento tipo 2, o emergessero nuovi problemi di qualita' dopo le due correzioni volontarie del 2026, la tesi si fragilizza. Size contenuta.",
+    "date": "2026-10-26",
+    "dataDay": "Chiusura venerdi' 23/10/2026 (snapshot generato 25/10 03:51 UTC, nessuna seduta nel weekend)"
+  },
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
+    "changePct": 2.6,
+    "tema": "Variazione piu' marcata tra gli ETF del dataset venerdi' 23/10 (-0,56% dai massimi 52w, quindi vicino ai massimi). Rialzo diffuso su tutto il comparto energia (SLB +7,08% su beat Q3 confermato, APA +4,98%, ConocoPhillips +3,55%, Chevron +2,88%, Weatherford +6,98%), in un contesto macro di petrolio sostenuto dalle tensioni geopolitiche Iran/Stretto di Hormuz trattate come rischio strutturale dalla weekly strategy - nessuna cifra di prezzo del petrolio datata con certezza al 23/10 trovata, trattato come contesto di sfondo non come fatto puntuale.",
+    "date": "2026-10-26"
+  },
+  "verifyYesterday": {
+    "note": "ROP +0,44% venerdi' a 438,14$, minimo di giornata 433,54$ comodamente sopra invalidazione 405,00$: pick in piedi senza ambiguita'. FISV -1,89% venerdi' a 49,86$, minimo di giornata 48,84$ sopra invalidazione 48,00$ ma con margine ridotto (<2%): pick tecnicamente in piedi ma da monitorare con attenzione, ha restituito parte del rialzo di giovedi'."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-25",
+    "stance": "Cautela selettiva/stagflazione latente confermata nella direzione (aggiornamento di domenica 25/10, nessuna revisione in questo run feriale). FOMC 27-28/10 confermato come riunione reale (Fed in blackout dal 24/10), probabilita' di rialzo in una forchetta incerta 13-25%, hold scenario base. Settimana record di trimestrali: 77 componenti S&P 500, 26 mega-cap sopra 100 mld$. Rischio Iran/Hormuz trattato come strutturale, episodio piu' recente individuato datato 18/9. Midterm USA del 3/11 appena fuori da questa finestra, Democratici in vantaggio nei sondaggi sulla Camera. Venerdi' 23/10: energia (XLE, SLB, APA, ConocoPhillips, Chevron, Weatherford) e cybersecurity (CrowdStrike +8,25%, Palo Alto Networks +7,22% - catalizzatore specifico del 23/10 non confermato nelle ricerche di oggi, a differenza del beat Q3 di SLB) tra i maggiori rialzi; Kering -16,57% e Safran -10,00% tra i maggiori ribassi su trimestrali deluse. Crypto piatta nelle ultime 24h dopo il calo diffuso di giovedi'/venerdi' scorsi.",
+    "favor": ["Energia USA (E&P/servizi) - confermato oggi da beat Q3 SLB e forza diffusa del comparto (XLE +2,60%)", "Cybersecurity/software enterprise USA (CrowdStrike, Palo Alto Networks) - tema favorito dalla weekly ma catalizzatore specifico del 23/10 non confermato nelle ricerche di oggi, da verificare caso per caso", "Azionario europeo rispetto a quello USA nel breve - ma attenzione a Kering/Safran, due cali specifici su trimestrali deluse non legati al tema macro generale", "BTC/ETH come core crypto senza size aggressiva - quadro piatto nelle ultime 24h, nessun segnale direzionale forte"],
+    "avoid": ["Posizioni direzionali ampie su Microsoft/Alphabet/Meta/Apple/Amazon in vista delle trimestrali - nessun calendario per-societa' verificabile con certezza", "Comprare oro/argento pensando a uno sconto - correzione in corso da gennaio 2026, nessun bottom tecnico confermato", "Inseguire il rimbalzo dei semiconduttori colpiti la settimana scorsa sull'automatismo 'sono scesi troppo'", "Crown Castle (CCI) sull'automatismo 'ha riportato trimestrale' - balzo di venerdi' senza causa specifica confermata nelle ricerche di oggi", "Kering e Safran come value play dopo il crollo di venerdi' - trimestrali deluse specifiche, nessuna tesi di overreaction verificabile trovata"],
+    "note": "Prossimo aggiornamento weekly: sabato 31/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-19", "note": "Pick: Matador Resources/MTDR (momentum) e Flutter Entertainment/FLUT (value/contrarian).", "momentum": "MTDR", "value": "FLUT" },
+    { "date": "2026-10-20", "note": "Pick: Cleveland-Cliffs/CLF (momentum) e AeroVironment/AVAV (value/contrarian).", "momentum": "CLF", "value": "AVAV" },
+    { "date": "2026-10-21", "note": "Pick: Equifax/EFX (momentum) e MP Materials/MP (value/contrarian).", "momentum": "EFX", "value": "MP" },
+    { "date": "2026-10-22", "note": "Pick: Super Micro Computer/SMCI (momentum) e Netflix/NFLX (value/contrarian).", "momentum": "SMCI", "value": "NFLX" },
+    { "date": "2026-10-23", "note": "NFLX +3,09% giovedi', pick in piedi. SMCI: anomalia dati, non verificabile. Pick: Roper Technologies/ROP (momentum) e Fiserv/FISV (value/contrarian).", "momentum": "ROP", "value": "FISV" },
+    { "date": "2026-10-26", "note": "ROP +0,44% venerdi' (sopra invalidazione 405,00$, minimo 433,54$ comodamente sopra): pick in piedi senza ambiguita'. FISV -1,89% venerdi' (sopra invalidazione 48,00$ ma minimo 48,84$ con margine ridotto <2%): pick tecnicamente in piedi, da monitorare. Venerdi' 23/10: beat Q3 confermato SLB (+7,08%) in giornata di forza energia (XLE +2,60%), Kering -16,57% e Safran -10,00% su trimestrali deluse, Crown Castle +9,06% senza causa specifica confermata. Pick: SLB (momentum, beat Q3 2026 confermato) e Insulet/PODD (value/contrarian, guidance Omnipod USA abbassata per rallentamento nel segmento diabete tipo 2, non per perdita clienti core; GLP-1 probabilmente complementare non sostitutivo).", "momentum": "SLB", "value": "PODD" }
+  ]
+}
