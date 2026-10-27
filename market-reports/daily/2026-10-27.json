@@ -1,0 +1,52 @@
+{
+  "lastRunDate": "2026-10-27",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "TTMI",
+    "name": "TTM Technologies, Inc.",
+    "priceRef": 80.11,
+    "changePctOnPickDay": 8.42,
+    "group": "SP400_MIDCAP",
+    "thesis": "Beat Q3 2026 confermato da 8-K SEC (fonte primaria): ricavi GAAP 1,2 mld$ (da 752,7 mln$ un anno prima), utile operativo GAAP 162,3 mln$ (da 71,9 mln$), utile netto GAAP 84,8 mln$/0,79$ EPS diluito (da 53,1 mln$/0,50$), EBITDA adjusted 242,3 mln$ al 20,1% dei ricavi (da 16,1%). Cifre di EPS adjusted/guidance da fonti secondarie erano incoerenti tra loro, non usate. Titolo a -64,2% dai massimi 52w (alta volatilita' storica), +44,5% sopra il minimo. Nessuna verifica di prezzo possibile il giorno della pubblicazione per blocco della pipeline dati (dataset fermo a venerdi' 23/10).",
+    "invalidation": "Chiusura sotto 73,00 USD (poco sotto il minimo della seduta di venerdi' 23/10, 73,56$). Size contenuta.",
+    "date": "2026-10-27",
+    "dataDay": "Chiusura venerdi' 23/10/2026 (dataset DATI non aggiornato da lunedi' 26/10 03:45 UTC, pipeline probabilmente bloccata)"
+  },
+  "valuePick": {
+    "symbol": "STRL",
+    "name": "Sterling Infrastructure, Inc.",
+    "priceRef": 627.83,
+    "changePctOnPickDay": -4.70,
+    "group": "SP400_MIDCAP",
+    "thesis": "Guidance alzata (non tagliata) alla trimestrale piu' recente, ma titolo corretto perche' i ricavi incrementali hanno margini piu' sottili (margine operativo E-Infrastructure sceso da 27,0% a 23,3%, lavori elettrici a margine piu' basso nel mix). Titolo gia' salito ~95% da inizio anno prima della trimestrale: valutazione ricca, reazione interpretabile come 'sell the news' su qualita' del beat, non come segnale di domanda in calo. -64,7% dai massimi 52w (massimo 1.005,68$ del 4/6/2026), +26,2% sopra il minimo. ATTENZIONE: le fonti non datano con certezza l'episodio rispetto alla variazione -4,70% di venerdi' 23/10 nel dataset; riportano anche un calo distinto del 9,45% in sessione non datata con precisione, non riconciliato con certezza.",
+    "invalidation": "Chiusura sotto 560,00 USD (~10% sotto il riferimento). Rischio: se il mix a margine piu' basso fosse strutturale, o emergesse un rallentamento della domanda data center/infrastrutture, la tesi si fragilizza. Size contenuta.",
+    "date": "2026-10-27",
+    "dataDay": "Chiusura venerdi' 23/10/2026 (dataset DATI non aggiornato da lunedi' 26/10 03:45 UTC, pipeline probabilmente bloccata)",
+    "discardedAlternatives": "CoStar Group (CSGP) e Wingstop (WING) valutati e scartati come probabili value trap: CSGP ha guidance Q3 2026 tagliata sotto consensus legata alla spesa su Homes.com; WING ha vendite comparabili domestiche in peggioramento accelerato (-5,8% Q4 2025 a -7,5% Q2 2026) piu' leva aggiuntiva da buyback finanziati a debito."
+  },
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
+    "changePct": 2.60,
+    "tema": "Dato invariato da ieri (dataset DATI non aggiornato, stessa chiusura di venerdi' 23/10). Rialzo diffuso sul comparto energia (SLB, APA, ConocoPhillips, Chevron, Weatherford), petrolio sostenuto dalle tensioni Iran/Stretto di Hormuz trattate come rischio strutturale.",
+    "date": "2026-10-27"
+  },
+  "verifyYesterday": {
+    "note": "Non verificabile con dati di prezzo precisi: dataset DATI fermo a venerdi' 23/10 (nessuna chiusura di lunedi' 26/10 catturata), e ricerche web su SLB/PODD non hanno restituito quotazioni live datate con certezza. Wall Street nel complesso ha chiuso lunedi' 26/10 in rialzo (S&P500 +0,70%, Nasdaq +0,82%, Dow +0,29%), contesto plausibilmente favorevole a entrambi i pick ma non confermato con numeri precisi. Invalidazioni (SLB 49,00$, PODD 144,00$) erano distanti dai riferimenti di venerdi' (53,06$ e 149,01$)."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-25",
+    "stance": "Cautela selettiva/stagflazione latente confermata nella direzione. FOMC 27-28/10 confermato come riunione reale, probabilita' di rialzo aggiornata oggi (27/10) a 16-23% secondo CME FedWatch (da una forchetta 64-70% una settimana prima), in linea con la stima 13-25% gia' indicata nella strategia settimanale; payroll di settembre deboli (29.000 posti vs consensus 90.000, disoccupazione 4,2%) citati come fattore di raffreddamento delle aspettative di rialzo. Hold resta lo scenario base. Settimana record di trimestrali: 77 componenti S&P 500, 26 mega-cap sopra 100 mld$. Wall Street ha chiuso lunedi' 26/10 in rialzo (S&P500 +0,70% a ~7.677, Nasdaq +0,82%, Dow +0,29% a 52.364), rimbalzo tech innescato dal deposito IPO di Anthropic; il piano AI da 95 mld$ di Meta citato come contrappeso cauto. CrowdStrike e Palo Alto Networks confermato NON riportano trimestrali in ottobre 2026 (rispettivamente fine nov/inizio dic e 1/9 scorso): il rialzo di entrambe venerdi' 23/10 resta un movimento di settore/sentiment non spiegato con certezza. Rischio Iran/Hormuz trattato come strutturale, nessun nuovo episodio datato nell'ultima settimana. Dataset DATI (pipeline NAS->GitHub) bloccato da lunedi' 26/10 03:45 UTC: nessuna nuova sessione di mercato catturata, va verificato se persiste.",
+    "favor": ["Size ridotta e selettivita' su tutto il book in vista di FOMC (27-28/10) e settimana record di trimestrali (77 nomi S&P 500, 26 mega-cap)", "Energia USA (E&P/servizi) - confermato da SLB e dall'ETF XLE venerdi' 23/10 (dato non aggiornato da allora)", "Cybersecurity/software enterprise USA (CrowdStrike, Palo Alto Networks) - rialzo di venerdi' confermato come NON legato a trimestrali (nessuna delle due riporta in ottobre): tema da trattare con cautela, catalizzatore specifico ignoto", "BTC/ETH come core crypto senza size aggressiva - calo moderato e diffuso nelle ultime 24h, nessun segnale direzionale forte"],
+    "avoid": ["Posizioni direzionali ampie su Microsoft/Alphabet/Meta/Apple/Amazon in vista delle trimestrali - nessun calendario per-societa' verificabile con certezza", "Comprare oro/argento pensando a uno sconto - correzione in corso da gennaio 2026, nessun bottom tecnico confermato", "Inseguire il rimbalzo dei semiconduttori colpiti duramente nelle settimane scorse", "Kering e Safran come value play dopo il crollo del 23/10 - trimestrali deluse specifiche, nessuna tesi di overreaction verificabile", "CoStar Group (CSGP) e Wingstop (WING) come value/contrarian - verificati oggi e scartati come probabili value trap (guidance tagliata/vendite comparabili in peggioramento accelerato)"],
+    "note": "Prossimo aggiornamento weekly: sabato 31/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-21", "note": "Pick: Equifax/EFX (momentum) e MP Materials/MP (value/contrarian).", "momentum": "EFX", "value": "MP" },
+    { "date": "2026-10-22", "note": "Pick: Super Micro Computer/SMCI (momentum) e Netflix/NFLX (value/contrarian).", "momentum": "SMCI", "value": "NFLX" },
+    { "date": "2026-10-23", "note": "NFLX +3,09% giovedi', pick in piedi. Pick: Roper Technologies/ROP (momentum) e Fiserv/FISV (value/contrarian).", "momentum": "ROP", "value": "FISV" },
+    { "date": "2026-10-26", "note": "ROP e FISV entrambi sopra invalidazione venerdi' 23/10 (ROP +0,44%, FISV -1,89% ma margine ridotto). Pick: SLB (momentum, beat Q3 confermato) e Insulet/PODD (value/contrarian, guidance Omnipod rallentata ma non per perdita clienti core).", "momentum": "SLB", "value": "PODD" },
+    { "date": "2026-10-27", "note": "SLB/PODD non verificabili oggi: pipeline dati DATI bloccata da lunedi' 26/10 03:45 UTC (oltre 23h), nessuna nuova sessione catturata. Wall Street ha chiuso lunedi' 26/10 in rialzo (S&P500 +0,70%) su news IPO Anthropic. Pick (da stessa chiusura stale di venerdi' 23/10, con verifica fondamentale fresca via ricerca): TTM Technologies/TTMI (momentum, beat Q3 confermato da 8-K SEC) e Sterling Infrastructure/STRL (value/contrarian, guidance alzata ma correzione su mix di margine dopo forte rally). CoStar Group/CSGP e Wingstop/WING valutati e scartati come probabili value trap.", "momentum": "TTMI", "value": "STRL" }
+  ]
+}
