@@ -1,0 +1,53 @@
+{
+  "lastRunDate": "2026-10-28",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "RRC",
+    "name": "Range Resources Corporation",
+    "priceRef": 53.56,
+    "changePctOnPickDay": 17.66,
+    "group": "SP400_MIDCAP",
+    "thesis": "Merger arbitrage, non momentum classico: EQT Corporation ha annunciato il 26/10/2026 l'acquisizione di Range Resources in operazione all-stock (0,987 azioni EQT per azione RRC), enterprise value combinato >50 mld$, premio implicito ~21%, closing atteso Q1 2027. Confermato da filing SEC 8-K/425. Valore implicito del concambio = 0,987 x prezzo EQT (54,85$ lunedi') = 54,14$; RRC chiude a 53,56$, spread di arbitraggio ~1,1% (normale). Upside ulteriore limitato (capped) salvo controfferta. Settore energia USA, coerente con la weekly strategy attiva. Alternativa scartata: Lumentum (LITE, +8,19%), rialzo di settore senza causa societaria specifica trovata.",
+    "invalidation": "Ampliamento marcato e persistente dello spread di arbitraggio (es. RRC sotto ~48-49$ con EQT stabile) o notizia di blocco regolatorio/rottura del deal. Size molto contenuta: rendimento potenziale residuo piccolo (~1%).",
+    "date": "2026-10-28",
+    "dataDay": "Chiusura lunedi' 26/10/2026 (dataset DATI non aggiornato dopo martedi' 27/10 03:45 UTC)"
+  },
+  "valuePick": {
+    "status": "scartato_oggi",
+    "symbolExamined": "FICO",
+    "name": "Fair Isaac Corporation",
+    "changePctOnExamDay": -13.15,
+    "reasonRejected": "Tre minacce indipendenti nella stessa direzione (erosione del quasi-monopolio sul credit scoring USA): FHFA che muove attivamente contro il pricing power di FICO (congelamento prezzo wholesale + unificazione griglie Fannie/Freddie a fine settembre 2026 pro-VantageScore), concorrente VantageScore che guadagna terreno, causa antitrust Sherman Act Sez.2 in discovery + indagine Procuratore Generale Florida da luglio 2026. Tre downgrade di analisti lo stesso giorno (Wells Fargo, UBS, BMO). Un solo controargomento trovato (GuruFocus 'sottovalutato' post-crollo) non basta a controbilanciare. Valutato come value trap plausibile, non proposto come idea contrarian.",
+    "date": "2026-10-28",
+    "dataDay": "Chiusura lunedi' 26/10/2026 (dataset DATI non aggiornato dopo martedi' 27/10 03:45 UTC)",
+    "discardedAlternatives": "Planet Fitness (PLNT, -54% dal massimo, guidance tagliata/adesioni in calo) e Duolingo (DUOL, -56,5% dal massimo, declassamenti/stime al ribasso) scartati come probabili value trap. PODD (pick del 26/10) resta aperto a 149,26$, invalidazione 144$."
+  },
+  "etfSpotlight": {
+    "symbol": "XLK",
+    "name": "State Street Technology Select Sector SPDR ETF",
+    "changePct": 1.69,
+    "tema": "Rimbalzo semiconduttori e optical-networking (miglior settore S&P500 lunedi' 26/10, Nvidia +2,2%; componenti LITE, COHR, CSCO, ADI, AMD, AVGO tutti positivi); Microsoft sottoperformante. Tema rafforzato martedi' 27/10 da Oracle +5% su espansione cloud (TPU Google + accordo Nvidia). Fear & Greed Index restava in zona 'paura' nonostante il rally.",
+    "date": "2026-10-28"
+  },
+  "verifyYesterday": {
+    "TTMI": "85,50$ (+6,73% lun), sopra inval. 73$: ok",
+    "SLB": "53,08$ vs rif. 53,06$, ok",
+    "PODD": "149,26$ vs rif. 149,01$, ok",
+    "STRL": "rif. di ieri errato (627,83$ vs dataset 360,72$): pick ritirato",
+    "correction": "Il deposito IPO di Anthropic risale a giugno 2026, non e' il motivo del rialzo generale di lunedi' (causa non identificata per il mercato nel complesso); per il singolo titolo piu' forte della giornata (RRC) la causa e' invece confermata con certezza (M&A EQT)."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-25",
+    "stance": "Cautela selettiva/stagflazione latente confermata. FOMC 27-28/10 confermato come riunione reale, decisione attesa oggi pomeriggio ora USA (non ancora uscita al momento della scrittura); consenso fortemente orientato a hold (~88-90% CME FedWatch 27/10). Settimana record di trimestrali: Alphabet e Microsoft riportano stasera (28/10) insieme ad Amphenol e KLA; Amazon/Intel domani (29/10). Nota di cautela non verificata: alcune fonti (CNBC) citano Kevin Warsh come presidente Fed attuale invece di Powell, da verificare su fonte ufficiale. RRC (Range Resources) oggetto di acquisizione all-stock da parte di EQT, tema energia USA confermato attivo. FICO -13% su pressione regolatoria FHFA + concorrenza VantageScore + fronte legale: esempio di ribasso strutturale, non un'opportunita'. XLK (+1,69%) guidato dal rimbalzo semiconduttori/optical, rafforzato il giorno dopo da Oracle. Dataset DATI fermo al 27/10 03:45 UTC, non aggiornato alla cadenza prevista di 3x/giorno: da monitorare se persiste.",
+    "favor": ["Size ridotta e selettivita' su tutto il book in vista di FOMC (decisione oggi pomeriggio) e trimestrali mega-cap (Alphabet/Microsoft stasera, Amazon/Intel domani)", "Energia USA (E&P/servizi) - confermato dal deal EQT-Range Resources", "Cybersecurity/software enterprise USA - da verificare caso per caso", "BTC/ETH come core crypto senza size aggressiva - quadro calmo e per lo piu' positivo nelle ultime 24h nel dataset"],
+    "avoid": ["Posizioni direzionali ampie su Microsoft/Alphabet/Meta/Apple/Amazon in vista delle trimestrali di stasera e di domani", "Fair Isaac (FICO), Planet Fitness (PLNT) e Duolingo (DUOL) come value/contrarian - esaminati oggi e scartati come probabili value trap", "Comprare oro/argento pensando a uno sconto - correzione in corso da gennaio 2026", "Inseguire il rimbalzo dei semiconduttori sull'automatismo 'sono scesi troppo', anche se XLK ha un buon giorno", "Scommesse grandi sull'esito FOMC di oggi, anche con consenso forte su hold"],
+    "note": "Prossimo aggiornamento weekly: sabato 31/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-23", "note": "Pick: Roper Technologies/ROP (momentum) e Fiserv/FISV (value/contrarian).", "momentum": "ROP", "value": "FISV" },
+    { "date": "2026-10-26", "note": "Pick: SLB (momentum, beat Q3 confermato) e Insulet/PODD (value/contrarian).", "momentum": "SLB", "value": "PODD" },
+    { "date": "2026-10-27", "note": "Pick: TTM Technologies/TTMI (momentum) e Sterling Infrastructure/STRL (value, riferimento prezzo poi risultato ERRATO - corretto il 28/10). CoStar/CSGP e Wingstop/WING scartati come probabili value trap.", "momentum": "TTMI", "value": "STRL" },
+    { "date": "2026-10-28", "note": "TTMI confermato (+6,7% da riferimento). SLB/PODD invariati e confermati. STRL: riferimento di ieri corretto da 627,83$ a ~360$, pick ritirato. Pick: Range Resources/RRC (momentum, merger arbitrage su acquisizione EQT, upside capped ~1%) e Fair Isaac/FICO esaminato e SCARTATO come probabile value trap (pressione regolatoria FHFA + concorrenza VantageScore + causa antitrust). PLNT e DUOL scartati come value trap. ETF in evidenza: XLK (+1,69%, rimbalzo semiconduttori/optical, driver confermato).", "momentum": "RRC", "value": "FICO (scartato)" }
+  ]
+}
