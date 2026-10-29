@@ -1,0 +1,56 @@
+{
+  "lastRunDate": "2026-10-29",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "BESI.AS",
+    "name": "BE Semiconductor Industries N.V.",
+    "priceRef": 90.60,
+    "changePctOnPickDay": 11.41,
+    "group": "AEX25",
+    "thesis": "Risultati Q3 2026 pubblicati il 22/10: fatturato 283,4 mln EUR (+113,6% YoY, +13,4% QoQ), utile netto +323,7% a 107,2 mln EUR, margine lordo 65,2%. Ordini 342,6 mln EUR, +96% YoY, battuti rispetto alla stima Reuters di 298 mln EUR (+15%), spinti dalla domanda data center AI per hybrid bonding. Buyback da 100 mln EUR avviato il 27/10. Guidance Q4 2026 flat QoQ (nessuna ulteriore accelerazione sequenziale attesa a breve). Titolo -50,4% dai massimi 52w, +35,7% sopra i minimi, chiusura quasi sul massimo di giornata (no spike rientrato).",
+    "invalidation": "Ritorno sotto l'area dei minimi di martedi' 27/10 (circa 85-86 EUR stimati dal dataset, verificare prezzo attuale) o notizie di rallentamento della domanda AI data center lato grandi foundry/clienti. Size contenuta, tema affollato e volatile.",
+    "date": "2026-10-29",
+    "dataDay": "Chiusura martedi' 27/10/2026 (dataset DATI fermo da allora, non copre mercoledi' 28/10 FOMC ne' oggi)"
+  },
+  "valuePick": {
+    "symbol": "KTOS",
+    "name": "Kratos Defense & Security Solutions, Inc.",
+    "priceRef": 50,
+    "changePctOnPickDay": 2.19,
+    "group": "SP400_MIDCAP",
+    "thesis": "Proposto con cautela e size minima, non alta convinzione. Massimo storico ~134$ a meta' gennaio 2026 su hype drone/difesa AI, da allora ritracciato pesantemente (fonti divergenti tra -37% e -63% secondo il periodo); fondamentali operativi restano in crescita (Unmanned Systems +30,9% organico Q1 2026; 5/10/2026 nuovi contratti >100 mln$ spazio/cyber; selezionata per Fase 1 Gauntlet del programma drone Pentagono). -69,2% dai massimi 52w ma +13,6% sopra i minimi, volume nella norma.",
+    "invalidation": "Rottura al ribasso dei minimi recenti con volume in aumento (segnale di deterioramento reale, non solo eccesso di pessimismo), o notizie di cancellazione/ritardo di contratti gia' annunciati. Rischio residuo: compressione del multiplo che continua anche dopo buone notizie specifiche (osservato piu' volte nelle fonti), problemi ricorrenti di supply chain segnalati dalla societa' stessa.",
+    "date": "2026-10-29",
+    "dataDay": "Chiusura martedi' 27/10/2026",
+    "rejectedAlternatives": "Oracle (ORCL, -54% dai massimi, storia nota di debito/capex AI e concentrazione clienti su OpenAI) considerato ma scartato per questa sezione: dati fondamentali aggiornati (P/E, rating analisti) non reperiti con certezza per questa data, rischio strutturale sul debito troppo rilevante per una tesi contrarian pulita."
+  },
+  "etfSpotlight": {
+    "symbol": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
+    "changePct": -2.05,
+    "tema": "Sell-the-news sulle trimestrali dei raffinatori USA: Valero ha riportato il 27/10 utile netto sestuplicato (6,8 mld$ da 1,1 mld$) e margini di raffinazione quasi triplicati (39,24$/barile da 13,14$), ma il comparto raffinazione e' crollato lo stesso giorno (VLO -9,24%, DINO -8,81%, PBF -8,59%, MPC -7,36%, PSX -7,03%) sul timore che il trimestre record sia un picco ciclico, non un nuovo livello sostenibile. XLE pesa sia upstream/E&P (piu' resiliente) sia raffinazione (colpita oggi).",
+    "date": "2026-10-29"
+  },
+  "verifyYesterday": {
+    "RRC": "56,38$ (+5,27% mar 27/10 su rif. 53,56$ di lun 26/10). Deal EQT confermato attivo (nessuna notizia di intoppo). Spread di arbitraggio invertito a premio ~1,5% sul concambio implicito, anomalia da monitorare.",
+    "FICO": "691,74$ (-2,31% mar 27/10), continua a scendere: tesi di scarto confermata.",
+    "SLB": "54,08$ (+1,88%), sopra invalidazione 49$: ok",
+    "PODD": "149,83$ (+0,38%), sopra invalidazione 144$: ok",
+    "TTMI": "86,78$ (+1,50% mar 27/10), sopra invalidazione 73$: ok",
+    "dataGap": "Il dataset DATI e' fermo alla chiusura di martedi' 27/10/2026 (generato quel giorno alle 21:00 UTC): non copre la seduta di mercoledi' 28/10 (giorno della decisione FOMC) ne' quella di oggi. Esito ufficiale del FOMC non reperito nelle ricerche web di oggi (solo preview pre-riunione trovate)."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-25",
+    "stance": "Cautela selettiva/stagflazione latente confermata (nessun aggiornamento weekly in questo run feriale). FOMC 27-28/10 atteso come evento chiave; esito non confermato dalle ricerche di oggi. Settimana record di trimestrali in corso. Dataset DATI fermo alla chiusura di martedi' 27/10, non aggiornato alla cadenza prevista di 3x/giorno per il secondo giorno consecutivo: problema di continuita' della pipeline NAS->GitHub da monitorare e segnalare di nuovo nell'aggiornamento weekly di sabato 31/10 se persiste.",
+    "favor": ["Size ridotta e selettivita' su tutto il book in vista di FOMC e trimestrali mega-cap", "Energia USA upstream/E&P (non raffinazione, colpita oggi da sell-the-news) - confermato dal deal EQT-Range Resources", "Cybersecurity/software enterprise USA - da verificare caso per caso", "BTC/ETH come core crypto senza size aggressiva"],
+    "avoid": ["Posizioni direzionali ampie su Microsoft/Alphabet/Meta/Apple/Amazon in vista delle trimestrali", "Fair Isaac (FICO) come value/contrarian - confermato in discesa anche il 27/10", "Raffinatori USA (VLO, PBF, DINO, MPC, PSX) sull'automatismo post-trimestrali record - rischio picco margini", "Comprare oro/argento pensando a uno sconto", "Grandi posizioni direzionali legate all'esito FOMC del 27-28/10, non confermato da fonti verificate"],
+    "note": "Prossimo aggiornamento weekly: sabato 31/10."
+  },
+  "watchHistory": [
+    { "date": "2026-10-26", "note": "Pick: SLB (momentum, beat Q3 confermato) e Insulet/PODD (value/contrarian).", "momentum": "SLB", "value": "PODD" },
+    { "date": "2026-10-27", "note": "Pick: TTM Technologies/TTMI (momentum) e Sterling Infrastructure/STRL (value, riferimento prezzo poi risultato errato - corretto il 28/10, pick ritirato).", "momentum": "TTMI", "value": "STRL (ritirato)" },
+    { "date": "2026-10-28", "note": "Pick: Range Resources/RRC (momentum, merger arbitrage EQT) e Fair Isaac/FICO esaminato e scartato come probabile value trap. ETF in evidenza: XLK.", "momentum": "RRC", "value": "FICO (scartato)" },
+    { "date": "2026-10-29", "note": "RRC confermato (+5,27% mar 27/10), spread di arbitraggio invertito a premio (anomalia da monitorare). FICO confermato in discesa, resta da evitare. Dataset fermo alla chiusura di martedi' 27/10 per il secondo giorno consecutivo, non copre FOMC del 28/10 ne' oggi. Pick: BE Semiconductor Industries/BESI.AS (momentum, Q3 e buyback confermati) e Kratos Defense/KTOS (value/contrarian, proposto con cautela e size minima). ETF in evidenza: XLE (-2,05%, sell-the-news sui raffinatori dopo trimestrali record).", "momentum": "BESI.AS", "value": "KTOS" }
+  ]
+}
