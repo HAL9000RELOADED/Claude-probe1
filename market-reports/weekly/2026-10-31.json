@@ -1,0 +1,36 @@
+{
+  "lastRunDate": "2026-10-31",
+  "lastRunType": "weekly",
+  "momentumPick": null,
+  "valuePick": null,
+  "etfSpotlight": null,
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-10-31",
+    "stance": "Cautela selettiva confermata nella direzione, con una revisione netta sulla view crypto rispetto alla settimana scorsa. Tre catalizzatori concentrati nella settimana entrante (2-8/11): Apple riporta lunedi' 2/11 (ultima dei 'Magnifici 5', prima call guidata dal nuovo CEO John Ternus, guidance precedente +9/11% YoY ricavi, rischio concentrato su guidance capex AI dato il pattern Alphabet/Amazon della settimana scorsa); midterm USA martedi' 3/11 (sondaggi NBC 50-42 e NYT/Siena 48-43 a favore dei Democratici per la Camera; base rate storico: volatilita'/correzione frequente nell'anno di midterm, ma rendimento a 12 mesi dal voto mai negativo dal 1938 secondo una fonte); shock Binance del 29-30/10 ancora in evoluzione (hack confermato ~6,3 mld$, ~3 mld$ congelati on-chain con coordinamento Tether/Circle, attribuito con alta confidenza a hacker nordcoreani del gruppo TraderTraitor via laptop DevOps compromesso, SAFU promette copertura totale delle perdite utente, prelievi/depositi sospesi, possibile ripristino martedi' secondo fonte singola non confermata, BTC minimo 76.443$ poi recupero parziale, oltre 1,57 mld$ di liquidazioni a leva). Il FOMC non e' piu' un rischio imminente: hold confermato al 3,75-4,00% il 28/10, voto 10-2 con Cook e Hammack dissenzienti a favore di un rialzo, nessuna indicazione chiara su dicembre, nessun nuovo meeting in calendario questa settimana. Mercati (sessione catturata dal dataset, giovedi' 29/10 USA): rotazione fuori da tech/comunicazioni (QQQ -1,42%) verso defensivi (XLV +2,40%, XLRE +2,21%, XLU +1,53%, XLF +1,44%) dopo le trimestrali deluse di Alphabet/Amazon sul capex; SPY -0,38%, DIA -0,37%, IWM +0,97% (small cap tengono), TLT +0,62% (flusso verso rifugio), GLD -1,32%, SLV -3,63% (correzione oro/argento in corso da inizio 2026). Europa in controtendenza netta rispetto a Wall Street nella stessa sessione: DAX40 +1,40%, SMI +1,09%, CAC40 +1,02%, IBEX35 +0,58%, FTSEMIB +0,24%, FTSE100 +0,21%, AEX25 +0,43%, OMX30 +0,44%, EUROSTOXX50 +0,23% (campione di 5 titoli) - tutte le principali piazze europee positive, segnale di relativa forza da monitorare. Singoli nomi equity con mosse enormi (ServiceNow -26,95%, Fortinet -20,09%, Crocs +25,54%, Gen Digital +15,81%) senza approfondimento dedicato in sede weekly. Crypto: calo diffuso su BTC (-2,22%, minimo 76.443$ coincidente con lo shock Binance), ETH (-3,14%), SOL (-2,57%), BNB (-3,76%), XRP (-3,44%), TAO (-4,06%), con l'eccezione anomala di HYPE (+18,34%, da verificare, possibile flusso speculativo 'anti-Binance' o bassa liquidita'); range24h molto ampio su BTC/ETH/BNB/TAO (7-17%) segno di spike di volatilita' intraday oltre al calo di chiusura. Dataset DATI migliorato rispetto allo stallo dei giorni scorsi: generato 2026-10-30T03:53 UTC (equity giovedi' 29/10 USA, crypto fino a venerdi' notte), ancora oltre 24h di eta' ma un netto passo avanti rispetto al blocco al 27/10 segnalato nei report precedenti.",
+    "favor": [
+      "Size ridotta e selettivita' su tutto il book: tre catalizzatori concentrati in pochi giorni (Apple lunedi', midterm martedi', coda shock Binance) senza che il FOMC sia piu' un rischio imminente",
+      "Equity europea rispetto a quella USA - tutte le principali piazze europee positive nella sessione catturata mentre Wall Street era in calo, segnale di relativa forza da monitorare",
+      "Settori defensivi USA che hanno guidato la rotazione di giovedi': sanita', immobiliare, utility, finanziari, coerente con l'uscita di capitali da tech/comunicazioni post-trimestrali Alphabet/Amazon",
+      "BTC/ETH come core crypto, ma solo dopo ulteriore stabilizzazione - attendere conferma del ripristino prelievi/depositi su Binance e della copertura SAFU prima di aumentare l'esposizione"
+    ],
+    "avoid": [
+      "Esposizione diretta o indiretta a Binance (BNB, token/prodotti collegati) - recupero dei fondi congelati probabilmente via legale, situazione ancora in evoluzione, nessuna conferma ufficiale sul ripristino dei prelievi",
+      "Inseguire il rialzo di Hyperliquid (HYPE +18,34%) sull'automatismo 'alternativa a Binance' - movimento anomalo nel pieno di un crollo crypto generalizzato, da verificare con approfondimento dedicato",
+      "Posizioni direzionali ampie su Apple in vista della trimestrale di lunedi' - stesso pattern di rischio capex AI visto su Alphabet/Amazon",
+      "Comprare oro/argento pensando a uno sconto dopo l'ennesimo calo (SLV -3,63% nella sessione catturata) - correzione in corso da inizio 2026, nessun bottom tecnico confermato",
+      "Scommesse direzionali nette sull'esito dei midterm di martedi' - quadro storico favorevole sui 12 mesi ma volatile nel breve, sondaggi non sono risultati"
+    ],
+    "keyDrivers": [
+      "Apple riporta lunedi' 2/11, ultima dei 'Magnifici 5', rischio concentrato su guidance capex AI",
+      "Midterm USA martedi' 3/11, sondaggi a favore dei Democratici per la Camera, base rate storico volatile nel breve ma favorevole a 12 mesi dal voto",
+      "Shock Binance 29-30/10 confermato (~6,3 mld$ hack, ~3 mld$ congelati, attribuito a hacker nordcoreani TraderTraitor), SAFU promette copertura totale, ancora in evoluzione",
+      "FOMC concluso 28/10: hold 3,75-4,00%, voto 10-2 con due dissenzienti pro-rialzo, nessun nuovo meeting questa settimana",
+      "Rotazione settoriale USA verso defensivi (sanita', immobiliare, utility, finanziari) fuori da tech/comunicazioni",
+      "Europa in controtendenza positiva rispetto a Wall Street nella sessione catturata dal dataset",
+      "Dataset DATI migliorato (generato 30/10 03:53 UTC) ma ancora oltre 24h di eta'"
+    ],
+    "note": "Prima formulazione sabato 19/09/2026, aggiornata ogni fine settimana. Versione di sabato 31/10/2026: stance confermata nella direzione, revisione netta della view crypto dopo lo shock Binance. Prossimo aggiornamento weekly: sabato 7/11."
+  },
+  "watchHistory": []
+}
