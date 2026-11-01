@@ -1,0 +1,38 @@
+{
+  "lastRunDate": "2026-11-01",
+  "lastRunType": "weekly",
+  "momentumPick": null,
+  "valuePick": null,
+  "etfSpotlight": null,
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-11-01",
+    "stance": "Cautela selettiva confermata e rafforzata da un nuovo fattore: il pattern 'guidance punita piu' del beat' si e' confermato anche su Intel (Q3 2026 sopra attese, ricavi 16,5 mld$ +21% YoY, EPS non-GAAP 0,52$ vs guidance 0,38$; ma guidance Q4 debole, ricavi 15,0-16,0 mld$, EPS non-GAAP 0,25$, PC in rallentamento atteso fino a meta' 2027 secondo il CFO David Zinsner) con INTC -28,58% nella sessione del 30/10, il maggior movimento della settimana nel dataset. Stesso giorno, forte sell-off cross-geografico su tech/semiconduttori: USA (QQQ -3,47%, XLK -4,89%, Coherent -11,34%, Qualcomm -11,12%, AMD -10,88%, Datadog -11,50%, Twilio -15,24%, Sandisk -13,47%, cause puntuali non confermate da fonti datate per questi ultimi) ed Europa (Infineon -6,39%, Siemens Energy -6,87%, STMicroelectronics -5,26/-5,27%, ASML -6,11%, ASM International -7,57%, Nokia -7,37%). In controtendenza, difensivi forti su entrambe le sponde: USA (XLV +0,45%, XLU +0,67%, XLRE +0,26%, XLE +1,91%), Europa (AstraZeneca +6,96%/+4,62%, Bayer +5,46%, Sanofi +4,71%, BT Group +6,71%, Repsol +4,49%). Indici europei vicini alla parita' (DAX40 -0,19%, CAC40 -0,05%, AEX25 +0,01%, SMI +0,01%, FTSE100 -0,46%, FTSEMIB -0,92%, IBEX35 -0,63%) nonostante il sell-off tech locale, segno di un paniere piu' diversificato. USA: SPY -1,77%, QQQ -3,47%, IWM -1,65%, DIA -1,07%, TLT +0,43% (flusso verso rifugio). Oro/argento in correzione marcata: GLD -3,47%, SLV -5,67%, ETC UCITS equivalenti in calo simile - nessun bottom tecnico confermato. Settimana entrante (2-8/11): Apple riporta lunedi' 2/11 (ultima dei 'Magnifici 5', prima call guidata da John Ternus/Kevan Parekh, nessuna guidance capex aggiornata reperita, stesso rischio guidance-vs-beat visto su Alphabet/Amazon/Intel); midterm USA martedi' 3/11 (Schwab: Democratici favoriti alla Camera, GOP avvantaggiato al Senato; Cook Political Report: guadagni Dem 9-19 seggi, 21 toss-up; BlackRock: anni midterm +7,5% medio vs +12,4% media generale, ma Deutsche Bank/Money.com: rialzo di breve in 21/23 cicli storici post-voto). Shock Binance (29-30/10) resta non aggiornabile: nessuna fonte datata trovata oggi sullo stato di prelievi/depositi o sul recupero fondi congelati (hack confermato ~6,3 mld$, ~3 mld$ congelati, SAFU promette copertura totale, dati della settimana scorsa, nessuna novita' confermata). BNB resta la crypto maggiore piu' debole (-1,73%); HYPE ha restituito parte del rialzo anomalo della settimana scorsa (-3,26% dopo +18,34%), coerente con eccesso speculativo in via di correzione. Range24h di BTC molto piu' contenuto (3,01% vs la finestra shock della settimana scorsa) - primo segnale di normalizzazione della volatilita' crypto, da confermare. FOMC concluso 28/10 (hold 3,75-4,00%, voto 10-2, due dissenzienti pro-rialzo, nessun nuovo meeting questa settimana): rischio tassi piu' basso. Dataset DATI migliorato ulteriormente: generato 31/10 03:45 UTC (chiusura di venerdi' 30/10), un giorno piu' recente della settimana scorsa.",
+    "favor": [
+      "Size ridotta e selettivita' su tutto il book: tre catalizzatori concentrati (Apple lunedi', midterm martedi', coda Binance) piu' un quarto fattore nuovo, la stagione earnings che punisce le guidance deboli (confermato ora anche su Intel)",
+      "Equity europea rispetto a quella USA - il paniere europeo ha assorbito un sell-off tech locale altrettanto marcato restando vicino alla parita', grazie a minore concentrazione sui pesi massimi tech",
+      "Settori defensivi su entrambe le sponde: sanita'/utility/immobiliare/energia USA, farmaceutico/difensivi Europa (AstraZeneca, Bayer, Sanofi)",
+      "BTC/ETH come core crypto con size ridotta - range24h piu' contenuto questa settimana, primo segnale di normalizzazione da confermare prima di aumentare l'esposizione"
+    ],
+    "avoid": [
+      "Esposizione diretta o indiretta a Binance (BNB, token/prodotti collegati) - nessun aggiornamento verificabile oggi su prelievi/depositi o recupero fondi congelati",
+      "Inseguire Hyperliquid (HYPE) sull'automatismo 'alternativa a Binance' - ha gia' restituito parte del rialzo anomalo della scorsa settimana",
+      "Posizioni direzionali ampie su singoli nomi tech/semiconduttori in vista di trimestrali - pattern 'guidance punita' confermato tre volte (Alphabet, Amazon, Intel)",
+      "Posizioni direzionali ampie su Apple in vista della trimestrale di lunedi', stesso motivo",
+      "Comprare oro/argento pensando a uno sconto dopo il calo marcato di venerdi' (GLD -3,47%, SLV -5,67%) - nessun bottom tecnico confermato",
+      "Scommesse direzionali nette sui midterm di martedi' - quadro storico a doppio binario, sondaggi non sono risultati"
+    ],
+    "keyDrivers": [
+      "Apple riporta lunedi' 2/11, ultima dei 'Magnifici 5', rischio guidance capex AI",
+      "Midterm USA martedi' 3/11, Dem favoriti alla Camera secondo i sondaggi, GOP avvantaggiato al Senato",
+      "Shock Binance 29-30/10 ancora non aggiornabile: nessuna fonte datata trovata oggi su prelievi/depositi/fondi congelati",
+      "Intel -28,58% il 30/10: guidance Q4 debole nonostante Q3 sopra attese, pattern 'guidance punita' confermato una terza volta dopo Alphabet/Amazon",
+      "Sell-off cross-geografico tech/semiconduttori (USA+Europa) il 30/10, controbilanciato da forza nei difensivi su entrambe le sponde",
+      "Correzione oro/argento marcata (GLD -3,47%, SLV -5,67%) il 30/10, nessun bottom confermato",
+      "FOMC concluso 28/10, nessun nuovo meeting questa settimana, rischio tassi piu' basso",
+      "Dataset DATI aggiornato a venerdi' 30/10, un giorno piu' recente della settimana scorsa"
+    ],
+    "note": "Prima formulazione sabato 19/09/2026, aggiornata ogni fine settimana. Versione di domenica 1/11/2026: stance di cautela selettiva confermata e rafforzata da un nuovo fattore (pattern guidance-punita estesosi a Intel). Prossimo aggiornamento weekly: sabato 7/11 o domenica 8/11."
+  },
+  "watchHistory": []
+}
