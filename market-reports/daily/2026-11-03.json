@@ -1,0 +1,64 @@
+{
+  "lastRunDate": "2026-11-03",
+  "lastRunType": "daily",
+  "momentumPick": {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals, Inc.",
+    "changePctOnPickDay": 13.33,
+    "group": "SP500",
+    "thesis": "Pick invariato da ieri (2026-11-02): dataset bulk fermo alla chiusura di venerdi' 30/10 per il terzo ciclo consecutivo, prezzo identico (927,89$). Beat netto su Q3 2026 riportato il 30/10 pre-market: EPS 20,07$ vs stima 16,48$, ricavi 5,1158 mld$ vs stima 4,63 mld$. A -0,8% dal massimo 52w. Nessun nuovo pick generato oggi per assenza di dati freschi.",
+    "invalidation": "Ritorno sotto l'area pre-balzo (~820$) con volume in aumento, o commenti analisti su componenti straordinarie nel beat EPS.",
+    "date": "2026-11-03",
+    "dataDay": "Dataset fermo alla chiusura di venerdi' 30/10/2026 (terzo ciclo invariato)",
+    "stale": true
+  },
+  "valuePick": {
+    "symbol": "AMKR",
+    "name": "Amkor Technology, Inc.",
+    "changePctOnPickDay": -4.15,
+    "group": "SP400_MIDCAP",
+    "thesis": "Pick invariato da ieri (2026-11-02): dataset bulk fermo alla chiusura di venerdi' 30/10, prezzo identico (39,50$). Q3 2026: ricavi stabili ~1,99 mld$, margine lordo 18,3%, EPS 0,76$ in crescita ma sotto stime. Letto come oversold da contagio settoriale (Intel), non deterioramento proprio. Nessun nuovo pick generato oggi per assenza di dati freschi.",
+    "invalidation": "Rottura dei minimi recenti con volume in aumento, o guidance Q4 reale nettamente peggiore di quella comunicata il 26/10.",
+    "date": "2026-11-03",
+    "dataDay": "Dataset fermo alla chiusura di venerdi' 30/10/2026 (terzo ciclo invariato)",
+    "stale": true
+  },
+  "etfSpotlight": {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "changePct": -5.67,
+    "tema": "Invariato da ieri, dataset fermo. Correzione sui metalli preziosi dopo il rally di inizio 2026. Nessuna nuova ricerca effettuata oggi.",
+    "date": "2026-11-03",
+    "stale": true
+  },
+  "verifyYesterday": {
+    "REGN": "Dataset fermo: stesso prezzo di ieri (927,89$, +13,33%), impossibile verificare un esito fresco.",
+    "AMKR": "Dataset fermo: stesso prezzo di ieri (39,50$, -4,15%), impossibile verificare un esito fresco."
+  },
+  "weeklyStrategy": {
+    "formulatedOn": "2026-09-19",
+    "updatedOn": "2026-11-01",
+    "stance": "Cautela selettiva (non aggiornata oggi, prossimo update weekly sabato 7 o domenica 8/11). Vedi artefatto weekly per il dettaglio completo.",
+    "favor": [
+      "Size ridotta e selettivita' su tutto il book",
+      "Equity europea rispetto a quella USA",
+      "Settori defensivi su entrambe le sponde",
+      "BTC/ETH come core crypto con size ridotta"
+    ],
+    "avoid": [
+      "Esposizione diretta o indiretta a Binance (BNB, token/prodotti collegati)",
+      "Inseguire Hyperliquid (HYPE) sull'automatismo 'alternativa a Binance'",
+      "Posizioni direzionali ampie su big tech in vista di/dopo trimestrali",
+      "Comprare oro/argento pensando a uno sconto",
+      "Scommesse direzionali nette sui midterm"
+    ],
+    "note": "Prossimo aggiornamento weekly: sabato 7/11 o domenica 8/11."
+  },
+  "watchHistory": [
+    { "date": "2026-10-28", "note": "Pick: Range Resources/RRC (momentum) e Fair Isaac/FICO esaminato e scartato. ETF: XLK.", "momentum": "RRC", "value": "FICO (scartato)" },
+    { "date": "2026-10-29", "note": "Pick: BE Semiconductor/BESI.AS (momentum) e Kratos Defense/KTOS (value, cautela). ETF: XLE.", "momentum": "BESI.AS", "value": "KTOS" },
+    { "date": "2026-10-30", "note": "Pick: MP Materials/MP (momentum) e Guidewire/GWRE (value, cautela). Xylem/XYL scartato come value trap.", "momentum": "MP", "value": "GWRE" },
+    { "date": "2026-11-02", "note": "Dataset tornato aggiornato (chiusura 30/10). Verifica: MP -4,97% (negativo), GWRE +1,57% (positivo). Pick: Regeneron/REGN (momentum) e Amkor/AMKR (value). Stellantis/STLA scartato come value trap. ETF: SLV -5,67%.", "momentum": "REGN", "value": "AMKR" },
+    { "date": "2026-11-03", "note": "Dataset bulk azionario/ETF fermo alla chiusura di venerdi' 30/10 per il terzo ciclo consecutivo (generatedAt avanzato ma prezzi identici). Nessun nuovo pick generato: REGN e AMKR carried over senza nuova verifica, esplicitamente segnalati come stale. Lato crypto aggiornato normalmente. Giornata con trimestrale Apple (beat EPS/ricavi, guidance sopra consensus, reazione titolo incerta nelle fonti) e midterm USA. Binance: nessuna conferma riapertura prelievi.", "momentum": "REGN (invariato)", "value": "AMKR (invariato)" }
+  ]
+}
